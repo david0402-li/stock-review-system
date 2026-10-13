@@ -3,7 +3,7 @@ name: Daily Build
 on:
   schedule:
     # 每交易日 16:30（北京时间）
-    - cron: '30 8 * * 1-5'
+    - cron: '40 8 * * 1-5'
   workflow_dispatch:  # 手动触发
 
 permissions:
