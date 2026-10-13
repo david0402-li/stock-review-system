@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A股复盘系统</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/dark.css">
+<link rel="stylesheet" href="/static/style.css">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/zh.js"></script>
+</head>
+<body>
+<div class="layout">
+<aside class="sidebar">
+<div class="logo">📊 复盘</div>
+<nav class="tabs">
+<button class="tab active" data-tab="overview">📈 市场概览</button>
+<button class="tab" data-tab="limit">🔥 涨停复盘 <span class="cnt" id="cntLimit">0</span></button>
+<button class="tab" data-tab="lhb">🐉 龙虎榜 <span class="cnt" id="cntLhb">0</span></button>
+            <button class="tab" data-tab="youzi">💰 游资席位</button>
+            <button class="tab" data-tab="youziTrace">📊 游资追踪</button>
+</nav>
+<div class="sidebar-foot"><div class="src" id="srcBadge">数据源：-</div></div>
+</aside>
+<main class="content">
+<header class="topbar">
+<div class="date-picker">
+<label>日期：</label>
+<input type="text" id="dateInput" placeholder="选择交易日" readonly>
+<button id="loadBtn">查询</button>
+<button id="refreshBtn" class="btn-ghost">强制刷新</button>
+                <button id="themeBtn" title="切换深浅主题">☀️ 亮色</button>
+<span id="loading" class="loading hidden">加载中...</span>
+</div>
+</header>
+
+<section class="panel active" id="panel-overview">
+            <!-- 情绪监控 -->
+            <div class="sentiment-panel" id="sentimentPanel">
+                <div class="sent-gauge">
+                    <div class="sent-score" id="sentScore">--</div>
+                    <div class="sent-level" id="sentLevel">加载中</div>
+                    <div class="sent-bar"><div class="sent-bar-fill" id="sentBarFill"></div></div>
+                    <div class="sent-hint">赚钱效应综合评分 (0-100)</div>
+                </div>
+                <div class="sent-grid" id="sentGrid"></div>
+            </div>
+
+            <!-- 板块资金流向 -->
+            <div class="sector-flow-panel" id="sectorFlowPanel">
+                <div class="sf-header">
+                    <h3>💰 板块资金流向</h3>
+                    <div class="sf-meta">主力净流入 · 今日 vs 5日 · 自动识别轮动方向</div>
+                </div>
+                <div class="sf-body">
+                    <div class="sf-col">
+                        <div class="sf-col-title up">🔴 净流入 Top6</div>
+                        <div class="sf-list" id="sfInflow"></div>
+                    </div>
+                    <div class="sf-col">
+                        <div class="sf-col-title down">🟢 净流出 Top6</div>
+                        <div class="sf-list" id="sfOutflow"></div>
+                    </div>
+                </div>
+                <div class="sf-rotation" id="sfRotation"></div>
+            </div>
+
+
+            <!-- 北向资金 -->
+            <div class="north-card" id="northFlowCard">
+                <div class="north-title">🌏 北向资金</div>
+                <div class="north-total" id="northTotal">--</div>
+                <div class="north-items" id="northItems"></div>
+            </div>
+
+            <div class="cards">
+<div class="card card-up"><div class="card-label">涨停数</div><div class="card-value" id="ztCount">-</div></div>
+<div class="card card-down"><div class="card-label">跌停数</div><div class="card-value" id="dtCount">-</div></div>
+<div class="card card-warn"><div class="card-label">炸板率</div><div class="card-value" id="breakRate">-</div></div>
+<div class="card card-up"><div class="card-label">上涨家数</div><div class="card-value" id="upCount">-</div></div>
+<div class="card card-down"><div class="card-label">下跌家数</div><div class="card-value" id="downCount">-</div></div>
+<div class="card card-info"><div class="card-label">昨日涨停今日均涨幅</div><div class="card-value" id="yesterdayPerf">-</div></div>
+<div class="card card-info"><div class="card-label">晋级率</div><div class="card-value" id="promoteRate">-</div></div>
+</div>
+<div class="charts">
+<div class="chart-box"><h3>涨停题材分布 Top15</h3><div id="themeChart" style="height:380px;"></div></div>
+<div class="chart-box"><h3>连板梯队</h3><div id="lianbanChart" style="height:380px;"></div></div>
+</div>
+</section>
+
+<section class="panel" id="panel-limit">
+<div class="panel-head panel-head-sticky">
+<h2>🔥 涨停复盘 <span class="badge" id="limitBadge">0</span></h2>
+<button class="btn-mini" data-reload="limit">↻ 刷新全部</button>
+</div>
+
+<div class="sub-block" id="block-lianban">
+    <div class="panel-head">
+        <h2>🧩 连板梯队（按题材分组） <span class="badge" id="lianbanBadge">0</span></h2>
+    </div>
+    <div class="lianban-board" id="lianbanBoard"></div>
+</div>
+
+<div class="sub-block" id="block-zt">
+<div class="panel-head">
+<h2>🔴 涨停个股明细 <span class="badge" id="ztBadge">0</span></h2>
+</div>
+<div class="table-wrap"><table id="ztTable"><thead><tr>
+<th>代码</th><th>名称</th><th>涨跌幅</th><th>连板</th>
+<th>所属行业</th><th>封板资金</th><th>换手率</th>
+<th>首次封板</th><th>炸板次数</th>
+</tr></thead><tbody></tbody></table></div>
+</div>
+
+<div class="sub-block" id="block-zb">
+<div class="panel-head">
+<h2>💥 炸板个股 <span class="badge" id="zbBadge">0</span></h2>
+</div>
+<div class="table-wrap"><table id="zbTable"><thead><tr>
+<th>代码</th><th>名称</th><th>涨跌幅</th>
+<th>所属行业</th><th>炸板次数</th><th>首次封板</th>
+</tr></thead><tbody></tbody></table></div>
+</div>
+
+<div class="sub-block" id="block-dt">
+<div class="panel-head">
+<h2>🟢 跌停个股 <span class="badge" id="dtBadge">0</span></h2>
+</div>
+<div class="table-wrap"><table id="dtTable"><thead><tr>
+<th>代码</th><th>名称</th><th>涨跌幅</th>
+<th>连跌</th><th>所属行业</th>
+</tr></thead><tbody></tbody></table></div>
+</div>
+</section>
+
+<section class="panel" id="panel-lhb">
+    <div class="lhb-header">
+        <h2>🐉 龙虎榜</h2>
+        <div class="lhb-meta">游资席位 · 按净买额 · 点击展开买卖前5 · 数据：本地数据库</div>
+    </div>
+
+    <div class="lhb-summary" id="lhbSummary">
+        <div class="lhb-sum-item">加载中...</div>
+    </div>
+
+    <div class="lhb-filters" id="lhbFilters">
+        <button class="lhb-filter active" data-filter="all">全部</button>
+        <button class="lhb-filter" data-filter="net-buy">净买</button>
+        <button class="lhb-filter" data-filter="net-sell">净卖</button>
+        <button class="lhb-filter" data-filter="institution">机构</button>
+        <button class="lhb-filter" data-filter="hotmoney">游资</button>
+    </div>
+
+    <div class="lhb-list" id="lhbList">
+        <div style="color:#666;padding:20px;">加载中...</div>
+    </div>
+</section>
+
+        <!-- ---- 面板：游资追踪 ---- -->
+        <section class="panel" id="panel-youziTrace">
+            <div class="yz-trace-header">
+                <h2>📊 游资追踪</h2>
+                <div class="yz-trace-meta">当日游资席位聚合 · 按买入额降序 · 点击股票可看K线</div>
+                <button class="btn-mini" id="yzTraceRefresh">↻ 重新聚合</button>
+            </div>
+            <div class="yz-trace-list" id="youziTraceList">
+                <div style="color:#666;padding:20px;">首次聚合可能需要 30-90 秒，请稍等...</div>
+            </div>
+        </section>
+
+<footer>数据源优先开盘啦，自动降级 AKShare / 东财 · 仅供研究，不构成投资建议</footer>
+
+        <!-- ---- 面板：游资席位 ---- -->
+        <section class="panel" id="panel-youzi">
+            <div class="youzi-header">
+                <h2>💰 游资席位对照表</h2>
+                <div class="youzi-meta">
+                    共 <span id="youziCount">0</span> 个游资 ·
+                    涵盖 <span id="yybCount">0</span> 个营业部 ·
+                    龙虎榜展开时按营业部名称子串匹配并自动标注
+                </div>
+            </div>
+            <div class="youzi-search">
+                <input type="text" id="youziSearch" placeholder="🔍 搜索游资名或营业部关键词...">
+            </div>
+            <div class="youzi-list" id="youziList">
+                <div style="color:#666;padding:20px;">加载中...</div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<!-- 个股详情 Modal -->
+<div class="modal-overlay hidden" id="stockModal">
+    <div class="modal">
+        <div class="modal-header">
+            <div class="modal-title">
+                <span class="stock-name" id="mStockName">-</span>
+                <span class="stock-code" id="mStockCode">-</span>
+            </div>
+            <div class="modal-price">
+                <span class="price" id="mPrice">-</span>
+                <span class="pct" id="mPct">-</span>
+            </div>
+            <button class="modal-close" id="mClose">✕</button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-left">
+                <div class="mini-tabs">
+                    <button class="mini-tab active" data-k="kline">日K</button>
+                    <button class="mini-tab" data-k="minute">分时</button>
+                </div>
+                <div id="mChart" style="height:400px;"></div>
+                <div class="bid-ask" id="mBidAsk"></div>
+            </div>
+            <div class="modal-right">
+                <div class="info-block">
+                    <h4>涨停原因</h4>
+                    <div id="mReason" class="reason-text">-</div>
+                </div>
+                <div class="info-block">
+                    <h4>涨停统计 <span class="small" id="mZtCount">0</span></h4>
+                    <div id="mZtHistory" class="zt-history"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 板块个股/趋势 Modal -->
+<div class="modal-overlay hidden" id="sectorModal">
+    <div class="modal" style="max-width:900px;">
+        <div class="modal-header">
+            <div class="modal-title">
+                <span class="stock-name" id="secModalTitle">-</span>
+            </div>
+            <div class="modal-tabs">
+                <button class="mini-tab active" data-sec-tab="stocks">成分股</button>
+                <button class="mini-tab" data-sec-tab="trend">历史趋势</button>
+            </div>
+            <button class="modal-close" id="secClose">✕</button>
+        </div>
+        <div class="modal-body-single">
+            <div id="secStocksPanel">
+                <div class="table-wrap"><table id="secStockTable">
+                    <thead><tr>
+                        <th>代码</th><th>名称</th><th>涨跌幅</th>
+                        <th>最新价</th><th>换手率</th><th>成交额</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table></div>
+            </div>
+            <div id="secTrendPanel" style="display:none;">
+                <div id="secTrendChart" style="height:400px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

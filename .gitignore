@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+cache/
+*.log
+flask.log
+fetch_breadth.log
+.DS_Store
+.vscode/
+.idea/
