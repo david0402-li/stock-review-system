@@ -1,16 +1,20 @@
-name: Daily Build and Deploy
+name: Daily Build
 
 on:
   schedule:
-    # 每个交易日 16:30（北京时间）运行
+    # 每交易日 16:30（北京时间）
     - cron: '30 8 * * 1-5'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:  # 手动触发
+
+permissions:
+  contents: write
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -20,41 +24,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Build static data
+      - name: Build static site
         run: python scripts/build_static.py
         env:
           TZ: Asia/Shanghai
 
-      - name: Upload data to R2
+      - name: Commit and push
         run: |
-          pip install boto3
-          python -c "
-          import os, boto3
-          from botocore.config import Config
-          s3 = boto3.client('s3',
-            endpoint_url=f'https://{os.environ[\"R2_ACCOUNT_ID\"]}.r2.cloudflarestorage.com',
-            aws_access_key_id=os.environ['R2_ACCESS_KEY_ID'],
-            aws_secret_access_key=os.environ['R2_SECRET_ACCESS_KEY'],
-            region_name='auto', config=Config(signature_version='s3v4'))
-          for f in os.listdir('public/data'):
-            s3.upload_file(f'public/data/{f}', 'stock-review-cache', f'data/{f}')
-          print('✅ R2 upload done')
-          "
-        env:
-          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
-          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: stock-review
-          directory: public
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Deploy Worker
-        run: |
-          npm install -g wrangler
-          cd scripts && wrangler deploy --token=${{ secrets.CLOUDFLARE_API_TOKEN }}
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/
+          if git diff --staged --quiet; then
+            echo "无变化，跳过"
+          else
+            git commit -m "build: 更新静态数据 $(date +'%Y-%m-%d %H:%M')"
+            git push
+            echo "✅ 已推送到 GitHub"
+          fi
