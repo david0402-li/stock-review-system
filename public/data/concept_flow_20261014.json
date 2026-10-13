@@ -1,0 +1,3235 @@
+{
+  "code": 0,
+  "data": {
+    "inflow": [
+      {
+        "sector": "共封装光学(CPO)",
+        "main_net": 9480000000.0,
+        "main_net_5d": 3272999999.9999995,
+        "pct_chg": 2.16,
+        "leader": "粤芯半导体",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "芯片概念",
+        "main_net": 7172000000.0,
+        "main_net_5d": 1119000000.0,
+        "pct_chg": 0.53,
+        "leader": "粤芯半导体",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "5G",
+        "main_net": 6903000000.0,
+        "main_net_5d": 5625000000.0,
+        "pct_chg": 1.23,
+        "leader": "迅捷兴",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "人民币贬值受益",
+        "main_net": 6214000000.0,
+        "main_net_5d": 3663000000.0000005,
+        "pct_chg": 0.12,
+        "leader": "则成电子",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "融资融券",
+        "main_net": 6059000000.0,
+        "main_net_5d": 14433000000.000002,
+        "pct_chg": 0.1,
+        "leader": "粤芯半导体",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "深股通",
+        "main_net": 5864000000.0,
+        "main_net_5d": 8462000000.0,
+        "pct_chg": 0.21,
+        "leader": "建新股份",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "华为概念",
+        "main_net": 5678000000.0,
+        "main_net_5d": 7545000000.0,
+        "pct_chg": 0.61,
+        "leader": "金百泽",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "2026中报预增",
+        "main_net": 5527000000.0,
+        "main_net_5d": 3996000000.0,
+        "pct_chg": 0.45,
+        "leader": "建新股份",
+        "signal": "持续流入"
+      }
+    ],
+    "outflow": [
+      {
+        "sector": "钠离子电池",
+        "main_net": -4621000000.0,
+        "main_net_5d": 860000000.0,
+        "pct_chg": -1.9,
+        "leader": "科翔股份",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "储能",
+        "main_net": -4379000000.0,
+        "main_net_5d": 2276000000.0,
+        "pct_chg": -0.15,
+        "leader": "华骐环保",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "同花顺漂亮100",
+        "main_net": -4215999999.9999995,
+        "main_net_5d": -149000000.0,
+        "pct_chg": -0.85,
+        "leader": "航发动力",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "动力电池回收",
+        "main_net": -3811999999.9999995,
+        "main_net_5d": 277000000.0,
+        "pct_chg": -1.47,
+        "leader": "粤宏远A",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "固态电池",
+        "main_net": -3740999999.9999995,
+        "main_net_5d": 1398000000.0,
+        "pct_chg": -1.25,
+        "leader": "泰金新能",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "锂电池概念",
+        "main_net": -3640999999.9999995,
+        "main_net_5d": 1560000000.0,
+        "pct_chg": -0.56,
+        "leader": "粤桂股份",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "宁德时代概念",
+        "main_net": -3065000000.0,
+        "main_net_5d": 1914999999.9999998,
+        "pct_chg": -0.67,
+        "leader": "满坤科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "智能医疗",
+        "main_net": -2128000000.0,
+        "main_net_5d": 703000000.0,
+        "pct_chg": -0.25,
+        "leader": "金百泽",
+        "signal": "由流入转流出"
+      }
+    ],
+    "all": [
+      {
+        "sector": "共封装光学(CPO)",
+        "main_net": 9480000000.0,
+        "main_net_5d": 3272999999.9999995,
+        "pct_chg": 2.16,
+        "leader": "粤芯半导体",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "芯片概念",
+        "main_net": 7172000000.0,
+        "main_net_5d": 1119000000.0,
+        "pct_chg": 0.53,
+        "leader": "粤芯半导体",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "5G",
+        "main_net": 6903000000.0,
+        "main_net_5d": 5625000000.0,
+        "pct_chg": 1.23,
+        "leader": "迅捷兴",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "人民币贬值受益",
+        "main_net": 6214000000.0,
+        "main_net_5d": 3663000000.0000005,
+        "pct_chg": 0.12,
+        "leader": "则成电子",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "融资融券",
+        "main_net": 6059000000.0,
+        "main_net_5d": 14433000000.000002,
+        "pct_chg": 0.1,
+        "leader": "粤芯半导体",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "深股通",
+        "main_net": 5864000000.0,
+        "main_net_5d": 8462000000.0,
+        "pct_chg": 0.21,
+        "leader": "建新股份",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "华为概念",
+        "main_net": 5678000000.0,
+        "main_net_5d": 7545000000.0,
+        "pct_chg": 0.61,
+        "leader": "金百泽",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "2026中报预增",
+        "main_net": 5527000000.0,
+        "main_net_5d": 3996000000.0,
+        "pct_chg": 0.45,
+        "leader": "建新股份",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "国企改革",
+        "main_net": 5321000000.0,
+        "main_net_5d": 2840000000.0,
+        "pct_chg": 0.48,
+        "leader": "国科军工",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "军工",
+        "main_net": 4780000000.0,
+        "main_net_5d": -470000000.0,
+        "pct_chg": 1.14,
+        "leader": "金百泽",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "数据中心(AIDC)",
+        "main_net": 4680000000.0,
+        "main_net_5d": 5705000000.0,
+        "pct_chg": 0.57,
+        "leader": "晶雪节能",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "汽车电子",
+        "main_net": 4261999999.9999995,
+        "main_net_5d": 2806000000.0,
+        "pct_chg": 0.9,
+        "leader": "迅捷兴",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "商业航天",
+        "main_net": 4072000000.0,
+        "main_net_5d": 793000000.0,
+        "pct_chg": 0.94,
+        "leader": "金百泽",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "央企国企改革",
+        "main_net": 3965999999.9999995,
+        "main_net_5d": 624000000.0,
+        "pct_chg": 0.44,
+        "leader": "航发科技",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "传感器",
+        "main_net": 3546000000.0,
+        "main_net_5d": 986999999.9999999,
+        "pct_chg": 0.47,
+        "leader": "粤芯半导体",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "PCB概念",
+        "main_net": 3479999999.9999995,
+        "main_net_5d": 5019000000.0,
+        "pct_chg": 1.92,
+        "leader": "迅捷兴",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "无人驾驶",
+        "main_net": 3460000000.0,
+        "main_net_5d": 1869000000.0000002,
+        "pct_chg": 0.47,
+        "leader": "光智科技",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "光纤概念",
+        "main_net": 3334000000.0000005,
+        "main_net_5d": 2335000000.0,
+        "pct_chg": 1.64,
+        "leader": "华脉科技",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "军民融合",
+        "main_net": 3276000000.0,
+        "main_net_5d": -871000000.0000001,
+        "pct_chg": 1.56,
+        "leader": "国科军工",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "中字头股票",
+        "main_net": 3129000000.0,
+        "main_net_5d": 816000000.0,
+        "pct_chg": 0.57,
+        "leader": "中航成飞",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "液冷服务器",
+        "main_net": 2916000000.0,
+        "main_net_5d": -734000000.0,
+        "pct_chg": 0.47,
+        "leader": "雪人集团",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "先进封装",
+        "main_net": 2869000000.0,
+        "main_net_5d": -48000000.0,
+        "pct_chg": 0.69,
+        "leader": "光智科技",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "一带一路",
+        "main_net": 2800000000.0,
+        "main_net_5d": 811000000.0,
+        "pct_chg": 0.49,
+        "leader": "江龙船艇",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "第三代半导体",
+        "main_net": 2676000000.0,
+        "main_net_5d": -958000000.0,
+        "pct_chg": 0.73,
+        "leader": "光智科技",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "粤港澳大湾区",
+        "main_net": 2662000000.0,
+        "main_net_5d": 3529000000.0,
+        "pct_chg": 0.67,
+        "leader": "粤芯半导体",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "F5G概念",
+        "main_net": 2552000000.0,
+        "main_net_5d": 1059000000.0,
+        "pct_chg": 2.29,
+        "leader": "华脉科技",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "物联网",
+        "main_net": 2456000000.0,
+        "main_net_5d": 2147000000.0,
+        "pct_chg": 0.51,
+        "leader": "凡拓数创",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "无人机",
+        "main_net": 2400000000.0,
+        "main_net_5d": 155000000.0,
+        "pct_chg": 0.87,
+        "leader": "金百泽",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "西部大开发",
+        "main_net": 2297000000.0,
+        "main_net_5d": 1253000000.0,
+        "pct_chg": 0.5,
+        "leader": "百洋股份",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "卫星导航",
+        "main_net": 2111000000.0,
+        "main_net_5d": 44000000.0,
+        "pct_chg": 0.82,
+        "leader": "本川智能",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "工业互联网",
+        "main_net": 1942000000.0000002,
+        "main_net_5d": -313000000.0,
+        "pct_chg": 0.45,
+        "leader": "金百泽",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "跨境电商",
+        "main_net": 1936000000.0,
+        "main_net_5d": 1014000000.0,
+        "pct_chg": 0.77,
+        "leader": "丽人丽妆",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "创投",
+        "main_net": 1935000000.0000002,
+        "main_net_5d": 684000000.0,
+        "pct_chg": 0.53,
+        "leader": "金百泽",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "天然气",
+        "main_net": 1892000000.0000002,
+        "main_net_5d": -1083000000.0,
+        "pct_chg": 0.74,
+        "leader": "雪人集团",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "俄乌冲突概念",
+        "main_net": 1880999999.9999998,
+        "main_net_5d": 921000000.0000001,
+        "pct_chg": 1.27,
+        "leader": "凯美特气",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "海峡两岸",
+        "main_net": 1786000000.0,
+        "main_net_5d": -86000000.0,
+        "pct_chg": 0.82,
+        "leader": "雪人集团",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "大飞机",
+        "main_net": 1779000000.0,
+        "main_net_5d": -716000000.0,
+        "pct_chg": 1.17,
+        "leader": "航发科技",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "高端装备",
+        "main_net": 1698999999.9999998,
+        "main_net_5d": 1231000000.0,
+        "pct_chg": 0.47,
+        "leader": "海得控制",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "富士康概念",
+        "main_net": 1698999999.9999998,
+        "main_net_5d": 816000000.0,
+        "pct_chg": 0.84,
+        "leader": "金百泽",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "毫米波雷达",
+        "main_net": 1639999999.9999998,
+        "main_net_5d": 1455000000.0,
+        "pct_chg": 1.6,
+        "leader": "金百泽",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "苹果概念",
+        "main_net": 1635000000.0000002,
+        "main_net_5d": -37000000.0,
+        "pct_chg": 0.95,
+        "leader": "超声电子",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "MiniLED",
+        "main_net": 1609000000.0,
+        "main_net_5d": -169000000.0,
+        "pct_chg": 1.64,
+        "leader": "超声电子",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "6G概念",
+        "main_net": 1607999999.9999998,
+        "main_net_5d": 112000000.00000001,
+        "pct_chg": 1.36,
+        "leader": "金百泽",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "人形机器人",
+        "main_net": 1604000000.0,
+        "main_net_5d": 1468000000.0,
+        "pct_chg": -0.09,
+        "leader": "骏亚科技",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "国产航母",
+        "main_net": 1590000000.0,
+        "main_net_5d": -25000000.0,
+        "pct_chg": 2.17,
+        "leader": "航发科技",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "专精特新",
+        "main_net": 1535000000.0,
+        "main_net_5d": 2558000000.0,
+        "pct_chg": 0.26,
+        "leader": "迅捷兴",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "柔性屏(折叠屏)",
+        "main_net": 1527000000.0,
+        "main_net_5d": -865000000.0,
+        "pct_chg": 0.98,
+        "leader": "中京电子",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "小米概念",
+        "main_net": 1496000000.0,
+        "main_net_5d": 1794000000.0000002,
+        "pct_chg": 0.25,
+        "leader": "骏亚科技",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "机器人概念",
+        "main_net": 1465000000.0,
+        "main_net_5d": 1777000000.0,
+        "pct_chg": 0.22,
+        "leader": "迅捷兴",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "沪股通",
+        "main_net": 1443000000.0,
+        "main_net_5d": 4150000000.0,
+        "pct_chg": -0.02,
+        "leader": "国科军工",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "民营医院",
+        "main_net": 1422000000.0,
+        "main_net_5d": -617000000.0,
+        "pct_chg": 0.29,
+        "leader": "澳洋健康",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "英伟达概念",
+        "main_net": 1383000000.0,
+        "main_net_5d": 1165000000.0,
+        "pct_chg": 0.9,
+        "leader": "奥拓电子",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "智能穿戴",
+        "main_net": 1366000000.0,
+        "main_net_5d": 683000000.0,
+        "pct_chg": 0.53,
+        "leader": "迅捷兴",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "汽车芯片",
+        "main_net": 1306000000.0,
+        "main_net_5d": 593000000.0,
+        "pct_chg": -0.01,
+        "leader": "粤芯半导体",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "同花顺新质50",
+        "main_net": 1290000000.0,
+        "main_net_5d": 1286000000.0,
+        "pct_chg": 0.19,
+        "leader": "天孚通信",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "智能座舱",
+        "main_net": 1275000000.0,
+        "main_net_5d": 1238000000.0,
+        "pct_chg": 0.3,
+        "leader": "迅捷兴",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "同花顺中特估100",
+        "main_net": 1275000000.0,
+        "main_net_5d": 785000000.0,
+        "pct_chg": 0.3,
+        "leader": "中船防务",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "小金属概念",
+        "main_net": 1167000000.0,
+        "main_net_5d": 1607999999.9999998,
+        "pct_chg": -0.12,
+        "leader": "*ST威领",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "冷链物流",
+        "main_net": 1138000000.0,
+        "main_net_5d": 225000000.0,
+        "pct_chg": 0.86,
+        "leader": "晶雪节能",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "百度概念",
+        "main_net": 1119000000.0,
+        "main_net_5d": 2863000000.0,
+        "pct_chg": 0.85,
+        "leader": "金百泽",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "玻璃基板",
+        "main_net": 1048000000.0,
+        "main_net_5d": -1178000000.0,
+        "pct_chg": 0.62,
+        "leader": "亚玛顿",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "页岩气",
+        "main_net": 1039000000.0,
+        "main_net_5d": -235000000.0,
+        "pct_chg": 0.37,
+        "leader": "广汇能源",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "股权转让(并购重组)",
+        "main_net": 1008000000.0,
+        "main_net_5d": 1079000000.0,
+        "pct_chg": 0.58,
+        "leader": "迅捷兴",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "算力租赁",
+        "main_net": 981000000.0,
+        "main_net_5d": 552000000.0,
+        "pct_chg": 0.72,
+        "leader": "广电网络",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "黑龙江自贸区",
+        "main_net": 980000000.0000001,
+        "main_net_5d": 23000000.0,
+        "pct_chg": 1.96,
+        "leader": "哈空调",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "高铁",
+        "main_net": 927999999.9999999,
+        "main_net_5d": 553000000.0,
+        "pct_chg": 0.53,
+        "leader": "隆华新材",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "MicroLED概念",
+        "main_net": 927000000.0,
+        "main_net_5d": -884000000.0,
+        "pct_chg": 1.01,
+        "leader": "中京电子",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "抖音概念(字节概念)",
+        "main_net": 909000000.0,
+        "main_net_5d": 4157000000.0,
+        "pct_chg": 0.97,
+        "leader": "丽人丽妆",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "维生素",
+        "main_net": 909000000.0,
+        "main_net_5d": -311000000.0,
+        "pct_chg": -0.18,
+        "leader": "醋化股份",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "航空发动机",
+        "main_net": 880000000.0000001,
+        "main_net_5d": -129000000.0,
+        "pct_chg": 1.22,
+        "leader": "航发科技",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "小红书概念",
+        "main_net": 877000000.0,
+        "main_net_5d": 809000000.0,
+        "pct_chg": 1.62,
+        "leader": "返利科技",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "中船系",
+        "main_net": 869999999.9999999,
+        "main_net_5d": 217000000.0,
+        "pct_chg": 3.05,
+        "leader": "昆船智能",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "同花顺果指数",
+        "main_net": 866000000.0,
+        "main_net_5d": -548000000.0,
+        "pct_chg": -0.24,
+        "leader": "鹏鼎控股",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "航运概念",
+        "main_net": 860000000.0,
+        "main_net_5d": -112000000.00000001,
+        "pct_chg": 0.53,
+        "leader": "招商轮船",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "存储芯片",
+        "main_net": 844000000.0,
+        "main_net_5d": 699000000.0,
+        "pct_chg": 0.76,
+        "leader": "满坤科技",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "黄金概念",
+        "main_net": 815000000.0,
+        "main_net_5d": 1247000000.0,
+        "pct_chg": 0.56,
+        "leader": "欧亚集团",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "MR(混合现实)",
+        "main_net": 814000000.0,
+        "main_net_5d": 285000000.0,
+        "pct_chg": 1.48,
+        "leader": "风语筑",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "金属回收",
+        "main_net": 780000000.0,
+        "main_net_5d": 344000000.0,
+        "pct_chg": 0.19,
+        "leader": "华阳新材",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "预制菜",
+        "main_net": 774000000.0,
+        "main_net_5d": 941000000.0,
+        "pct_chg": 0.86,
+        "leader": "百洋股份",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "快手概念",
+        "main_net": 761000000.0,
+        "main_net_5d": 1141000000.0,
+        "pct_chg": 1.55,
+        "leader": "元隆雅图",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "AI眼镜",
+        "main_net": 726000000.0,
+        "main_net_5d": 742000000.0,
+        "pct_chg": 0.56,
+        "leader": "则成电子",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "三胎概念",
+        "main_net": 722000000.0,
+        "main_net_5d": -28999999.999999996,
+        "pct_chg": 0.57,
+        "leader": "阳光乳业",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "NFT概念",
+        "main_net": 722000000.0,
+        "main_net_5d": 1315000000.0,
+        "pct_chg": 1.15,
+        "leader": "实丰文化",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "医疗器械概念",
+        "main_net": 719000000.0,
+        "main_net_5d": -1056000000.0,
+        "pct_chg": -0.06,
+        "leader": "迅捷兴",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "铜缆高速连接",
+        "main_net": 702000000.0,
+        "main_net_5d": 775000000.0,
+        "pct_chg": 1.49,
+        "leader": "华脉科技",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "网红经济",
+        "main_net": 686000000.0,
+        "main_net_5d": 778000000.0,
+        "pct_chg": 1.1,
+        "leader": "丽人丽妆",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "粮食概念",
+        "main_net": 683000000.0,
+        "main_net_5d": 534999999.99999994,
+        "pct_chg": 1.06,
+        "leader": "金健米业",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "煤炭概念",
+        "main_net": 677000000.0,
+        "main_net_5d": 64000000.0,
+        "pct_chg": 0.62,
+        "leader": "广汇能源",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "职业教育",
+        "main_net": 660000000.0,
+        "main_net_5d": 397000000.0,
+        "pct_chg": 0.84,
+        "leader": "金百泽",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "军工信息化",
+        "main_net": 650000000.0,
+        "main_net_5d": -61000000.0,
+        "pct_chg": 1.44,
+        "leader": "凡拓数创",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "核污染防治",
+        "main_net": 641000000.0,
+        "main_net_5d": 156000000.0,
+        "pct_chg": 0.75,
+        "leader": "光智科技",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "新股与次新股",
+        "main_net": 627000000.0,
+        "main_net_5d": 352000000.0,
+        "pct_chg": -0.69,
+        "leader": "粤芯半导体",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "注册制次新股",
+        "main_net": 627000000.0,
+        "main_net_5d": 352000000.0,
+        "pct_chg": -0.53,
+        "leader": "粤芯半导体",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "华为海思概念股",
+        "main_net": 622000000.0,
+        "main_net_5d": 459000000.0,
+        "pct_chg": 0.59,
+        "leader": "一博科技",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "海工装备",
+        "main_net": 616000000.0,
+        "main_net_5d": 252999999.99999997,
+        "pct_chg": 0.44,
+        "leader": "江龙船艇",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "云计算",
+        "main_net": 603000000.0,
+        "main_net_5d": 1202000000.0,
+        "pct_chg": 0.55,
+        "leader": "郑中设计",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "玉米",
+        "main_net": 603000000.0,
+        "main_net_5d": 698000000.0,
+        "pct_chg": 0.4,
+        "leader": "金健米业",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "养老概念",
+        "main_net": 602000000.0,
+        "main_net_5d": 2409000000.0,
+        "pct_chg": 0.37,
+        "leader": "澳洋健康",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "消费电子概念",
+        "main_net": 600000000.0,
+        "main_net_5d": 4254999999.9999995,
+        "pct_chg": 0.63,
+        "leader": "则成电子",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "污水处理",
+        "main_net": 599000000.0,
+        "main_net_5d": 465000000.00000006,
+        "pct_chg": 0.42,
+        "leader": "*ST仕净",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "东数西算(算力)",
+        "main_net": 590000000.0,
+        "main_net_5d": 2787000000.0,
+        "pct_chg": 0.57,
+        "leader": "海得控制",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "AI手机",
+        "main_net": 572000000.0,
+        "main_net_5d": 98000000.0,
+        "pct_chg": 0.55,
+        "leader": "中京电子",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "元宇宙",
+        "main_net": 548000000.0,
+        "main_net_5d": 1048000000.0,
+        "pct_chg": 1.22,
+        "leader": "凡拓数创",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "工业母机",
+        "main_net": 543000000.0,
+        "main_net_5d": 13000000.0,
+        "pct_chg": 0.4,
+        "leader": "海得控制",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "金属铅",
+        "main_net": 543000000.0,
+        "main_net_5d": 577000000.0,
+        "pct_chg": 0.49,
+        "leader": "*ST威领",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "成飞概念",
+        "main_net": 533000000.0,
+        "main_net_5d": -200000000.0,
+        "pct_chg": 1.75,
+        "leader": "侨源股份",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "金属铜",
+        "main_net": 522000000.0,
+        "main_net_5d": 1172000000.0,
+        "pct_chg": 0.12,
+        "leader": "中国瑞林",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "农机",
+        "main_net": 499000000.0,
+        "main_net_5d": -316000000.0,
+        "pct_chg": 0.36,
+        "leader": "中马传动",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "金属锌",
+        "main_net": 494000000.00000006,
+        "main_net_5d": 666000000.0,
+        "pct_chg": 0.68,
+        "leader": "*ST威领",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "家用电器",
+        "main_net": 482000000.0,
+        "main_net_5d": 275000000.0,
+        "pct_chg": 0.49,
+        "leader": "科拜尔",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "Web3.0",
+        "main_net": 480999999.99999994,
+        "main_net_5d": 811999999.9999999,
+        "pct_chg": 1.17,
+        "leader": "元隆雅图",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "无线耳机",
+        "main_net": 476000000.0,
+        "main_net_5d": 1384000000.0,
+        "pct_chg": 0.45,
+        "leader": "元隆雅图",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "可控核聚变",
+        "main_net": 472000000.0,
+        "main_net_5d": 270000000.0,
+        "pct_chg": 0.75,
+        "leader": "雪人集团",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "数据要素",
+        "main_net": 458000000.0,
+        "main_net_5d": 3385000000.0,
+        "pct_chg": 0.65,
+        "leader": "博汇科技",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "参股保险",
+        "main_net": 457000000.0,
+        "main_net_5d": 469000000.00000006,
+        "pct_chg": 0.29,
+        "leader": "中国瑞林",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "净水概念",
+        "main_net": 403000000.0,
+        "main_net_5d": 16000000.0,
+        "pct_chg": 1.06,
+        "leader": "*ST仕净",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "量子科技",
+        "main_net": 396000000.0,
+        "main_net_5d": 170000000.0,
+        "pct_chg": 0.51,
+        "leader": "九联科技",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "ERP概念",
+        "main_net": 385000000.0,
+        "main_net_5d": 262000000.0,
+        "pct_chg": 0.84,
+        "leader": "英唐智控",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "光伏概念",
+        "main_net": 380000000.0,
+        "main_net_5d": 1436000000.0,
+        "pct_chg": 0.34,
+        "leader": "*ST仕净",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "仿制药一致性评价",
+        "main_net": 377000000.0,
+        "main_net_5d": 349000000.0,
+        "pct_chg": -0.56,
+        "leader": "双成药业",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "核电",
+        "main_net": 347000000.0,
+        "main_net_5d": -855000000.0000001,
+        "pct_chg": 0.56,
+        "leader": "光智科技",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "肝炎概念",
+        "main_net": 342000000.0,
+        "main_net_5d": -459000000.0,
+        "pct_chg": -0.94,
+        "leader": "双成药业",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "化肥",
+        "main_net": 322000000.0,
+        "main_net_5d": -453000000.0,
+        "pct_chg": 0.33,
+        "leader": "粤桂股份",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "医药电商",
+        "main_net": 320000000.0,
+        "main_net_5d": -163000000.0,
+        "pct_chg": -0.36,
+        "leader": "两面针",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "腾讯概念",
+        "main_net": 318000000.0,
+        "main_net_5d": 3726000000.0,
+        "pct_chg": 0.77,
+        "leader": "金百泽",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "虚拟数字人",
+        "main_net": 308000000.0,
+        "main_net_5d": 2278000000.0,
+        "pct_chg": 0.91,
+        "leader": "凡拓数创",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "跨境支付(CIPS)",
+        "main_net": 306000000.0,
+        "main_net_5d": 1170000000.0,
+        "pct_chg": 0.49,
+        "leader": "精达股份",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "电子纸",
+        "main_net": 303000000.0,
+        "main_net_5d": -421000000.0,
+        "pct_chg": 0.19,
+        "leader": "深科达",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "农业种植",
+        "main_net": 286000000.0,
+        "main_net_5d": -302000000.0,
+        "pct_chg": 0.56,
+        "leader": "粤桂股份",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "太赫兹",
+        "main_net": 272000000.0,
+        "main_net_5d": -827999999.9999999,
+        "pct_chg": 1.09,
+        "leader": "电科思仪",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "智能家居",
+        "main_net": 262000000.0,
+        "main_net_5d": 1148000000.0,
+        "pct_chg": 0.49,
+        "leader": "澳弘电子",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "乳业",
+        "main_net": 259000000.0,
+        "main_net_5d": 855000000.0000001,
+        "pct_chg": 0.96,
+        "leader": "阳光乳业",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "智慧政务",
+        "main_net": 240000000.0,
+        "main_net_5d": 1517000000.0,
+        "pct_chg": 0.71,
+        "leader": "凡拓数创",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "血氧仪",
+        "main_net": 236000000.0,
+        "main_net_5d": 136000000.0,
+        "pct_chg": 0.19,
+        "leader": "华盛昌",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "上海自贸区",
+        "main_net": 231999999.99999997,
+        "main_net_5d": -409000000.0,
+        "pct_chg": -0.04,
+        "leader": "招商轮船",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "上海自贸区",
+        "main_net": 231999999.99999997,
+        "main_net_5d": -409000000.0,
+        "pct_chg": -0.04,
+        "leader": "招商轮船",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "可燃冰",
+        "main_net": 227000000.0,
+        "main_net_5d": -88000000.0,
+        "pct_chg": 0.48,
+        "leader": "时代电气",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "智谱AI",
+        "main_net": 221000000.0,
+        "main_net_5d": 1459000000.0,
+        "pct_chg": 0.89,
+        "leader": "凡拓数创",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "空气能热泵",
+        "main_net": 219000000.0,
+        "main_net_5d": -108000000.0,
+        "pct_chg": 0.77,
+        "leader": "雪人集团",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "民爆概念",
+        "main_net": 214000000.0,
+        "main_net_5d": 219000000.0,
+        "pct_chg": 0.85,
+        "leader": "金奥博",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "互联网金融",
+        "main_net": 210000000.0,
+        "main_net_5d": 74000000.0,
+        "pct_chg": 1.05,
+        "leader": "华脉科技",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "PM2.5",
+        "main_net": 190000000.0,
+        "main_net_5d": -61000000.0,
+        "pct_chg": 0.96,
+        "leader": "理工能科",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "中俄贸易概念",
+        "main_net": 190000000.0,
+        "main_net_5d": -32000000.0,
+        "pct_chg": 0.81,
+        "leader": "金百泽",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "虚拟现实",
+        "main_net": 190000000.0,
+        "main_net_5d": 958000000.0,
+        "pct_chg": 1.23,
+        "leader": "则成电子",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "拼多多概念",
+        "main_net": 188000000.0,
+        "main_net_5d": 430000000.0,
+        "pct_chg": 1.74,
+        "leader": "丽人丽妆",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "智慧灯杆",
+        "main_net": 186000000.0,
+        "main_net_5d": 178000000.0,
+        "pct_chg": 1.11,
+        "leader": "奥拓电子",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "医美概念",
+        "main_net": 185000000.0,
+        "main_net_5d": 35000000.0,
+        "pct_chg": -0.17,
+        "leader": "澳洋健康",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "新疆振兴",
+        "main_net": 181000000.0,
+        "main_net_5d": -110000000.00000001,
+        "pct_chg": 0.67,
+        "leader": "三和管桩",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "国资云",
+        "main_net": 173000000.0,
+        "main_net_5d": 333000000.0,
+        "pct_chg": 0.55,
+        "leader": "广电网络",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "石墨烯",
+        "main_net": 172000000.0,
+        "main_net_5d": 1169000000.0,
+        "pct_chg": 0.03,
+        "leader": "龙江交通",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "大豆",
+        "main_net": 168000000.0,
+        "main_net_5d": -19000000.0,
+        "pct_chg": 1.14,
+        "leader": "农发种业",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "ChatGPT概念",
+        "main_net": 154000000.0,
+        "main_net_5d": 1934000000.0,
+        "pct_chg": 1.0,
+        "leader": "凡拓数创",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "MCU芯片",
+        "main_net": 154000000.0,
+        "main_net_5d": 627000000.0,
+        "pct_chg": -0.28,
+        "leader": "灿瑞科技",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "毛发医疗",
+        "main_net": 149000000.0,
+        "main_net_5d": 17000000.0,
+        "pct_chg": 0.33,
+        "leader": "澳洋健康",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "建筑节能",
+        "main_net": 145000000.0,
+        "main_net_5d": 270000000.0,
+        "pct_chg": 1.02,
+        "leader": "晶雪节能",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "培育钻石",
+        "main_net": 144000000.0,
+        "main_net_5d": -350000000.0,
+        "pct_chg": 1.26,
+        "leader": "惠丰钻石",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "雅下水电概念",
+        "main_net": 142000000.0,
+        "main_net_5d": 62000000.0,
+        "pct_chg": 0.42,
+        "leader": "雪人集团",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "足球概念",
+        "main_net": 142000000.0,
+        "main_net_5d": 137000000.0,
+        "pct_chg": -0.12,
+        "leader": "奥拓电子",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "移动支付",
+        "main_net": 141000000.0,
+        "main_net_5d": 157000000.0,
+        "pct_chg": 0.53,
+        "leader": "九联科技",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "染料",
+        "main_net": 135000000.0,
+        "main_net_5d": 84000000.0,
+        "pct_chg": 3.55,
+        "leader": "建新股份",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "C2M概念",
+        "main_net": 132000000.0,
+        "main_net_5d": 187000000.0,
+        "pct_chg": 1.28,
+        "leader": "奥康国际",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "华为昇腾",
+        "main_net": 131000000.0,
+        "main_net_5d": 1190000000.0,
+        "pct_chg": 0.57,
+        "leader": "威派格",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "露营经济",
+        "main_net": 127000000.0,
+        "main_net_5d": 36000000.0,
+        "pct_chg": 1.38,
+        "leader": "大连圣亚",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "华为数字能源",
+        "main_net": 126000000.0,
+        "main_net_5d": 146000000.0,
+        "pct_chg": 0.62,
+        "leader": "和顺石油",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "减速器",
+        "main_net": 125000000.0,
+        "main_net_5d": -217000000.0,
+        "pct_chg": 0.02,
+        "leader": "中马传动",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "横琴新区",
+        "main_net": 121000000.0,
+        "main_net_5d": 651000000.0,
+        "pct_chg": 0.26,
+        "leader": "贤丰控股",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "旅游概念",
+        "main_net": 121000000.0,
+        "main_net_5d": -190000000.0,
+        "pct_chg": 1.4,
+        "leader": "凡拓数创",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "广东自贸区",
+        "main_net": 120000000.0,
+        "main_net_5d": 189000000.0,
+        "pct_chg": 1.7,
+        "leader": "中京电子",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "钒电池",
+        "main_net": 108000000.0,
+        "main_net_5d": 69000000.0,
+        "pct_chg": -0.41,
+        "leader": "振华股份",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "华为手机",
+        "main_net": 102000000.0,
+        "main_net_5d": 508000000.0,
+        "pct_chg": 0.41,
+        "leader": "东田微",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "固废处理",
+        "main_net": 102000000.0,
+        "main_net_5d": -51000000.0,
+        "pct_chg": 0.3,
+        "leader": "*ST仕净",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "华为盘古",
+        "main_net": 98000000.0,
+        "main_net_5d": 453000000.0,
+        "pct_chg": 0.54,
+        "leader": "九联科技",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "光刻胶",
+        "main_net": 94000000.0,
+        "main_net_5d": -10000000.0,
+        "pct_chg": -0.11,
+        "leader": "世名科技",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "光刻机",
+        "main_net": 94000000.0,
+        "main_net_5d": -250000000.0,
+        "pct_chg": 0.73,
+        "leader": "凯美特气",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "OLED",
+        "main_net": 91000000.0,
+        "main_net_5d": 401999999.99999994,
+        "pct_chg": 0.51,
+        "leader": "凯伦股份",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "转基因",
+        "main_net": 91000000.0,
+        "main_net_5d": -7000000.000000001,
+        "pct_chg": -0.11,
+        "leader": "农发种业",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "IP经济(谷子经济)",
+        "main_net": 90000000.0,
+        "main_net_5d": 1320000000.0,
+        "pct_chg": 1.3,
+        "leader": "凡拓数创",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "流感",
+        "main_net": 90000000.0,
+        "main_net_5d": -19000000.0,
+        "pct_chg": -0.75,
+        "leader": "灵康药业",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "信托概念",
+        "main_net": 89000000.0,
+        "main_net_5d": -51000000.0,
+        "pct_chg": 0.7,
+        "leader": "百大集团",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "云办公",
+        "main_net": 88000000.0,
+        "main_net_5d": 755000000.0,
+        "pct_chg": 0.61,
+        "leader": "品高股份",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "人造肉",
+        "main_net": 88000000.0,
+        "main_net_5d": 12000000.0,
+        "pct_chg": -0.53,
+        "leader": "海欣食品",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "兵装重组概念",
+        "main_net": 88000000.0,
+        "main_net_5d": -18000000.0,
+        "pct_chg": 1.84,
+        "leader": "湖南天雁",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "超导概念",
+        "main_net": 83000000.0,
+        "main_net_5d": 48000000.0,
+        "pct_chg": 0.91,
+        "leader": "杭氧股份",
+        "signal": "持续流入"
+      },
+      {
+        "sector": "网络游戏",
+        "main_net": 83000000.0,
+        "main_net_5d": 971000000.0000001,
+        "pct_chg": 1.14,
+        "leader": "实丰文化",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "土地流转",
+        "main_net": 83000000.0,
+        "main_net_5d": -187000000.0,
+        "pct_chg": 0.53,
+        "leader": "粤桂股份",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "碳纤维",
+        "main_net": 83000000.0,
+        "main_net_5d": -658000000.0,
+        "pct_chg": 0.13,
+        "leader": "常友科技",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "DeepSeek概念",
+        "main_net": 81000000.0,
+        "main_net_5d": 3582000000.0,
+        "pct_chg": 0.24,
+        "leader": "海得控制",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "钛白粉概念",
+        "main_net": 73000000.0,
+        "main_net_5d": -67000000.00000001,
+        "pct_chg": -0.05,
+        "leader": "振华股份",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "NMN概念",
+        "main_net": 69000000.0,
+        "main_net_5d": -110000000.00000001,
+        "pct_chg": 0.1,
+        "leader": "红太阳",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "冰雪产业",
+        "main_net": 68000000.0,
+        "main_net_5d": 509000000.0,
+        "pct_chg": 2.68,
+        "leader": "晶雪节能",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "空间计算",
+        "main_net": 64000000.0,
+        "main_net_5d": 455000000.0,
+        "pct_chg": 1.29,
+        "leader": "凡拓数创",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "华为欧拉",
+        "main_net": 56999999.99999999,
+        "main_net_5d": 99000000.0,
+        "pct_chg": 0.75,
+        "leader": "品高股份",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "煤化工概念",
+        "main_net": 53000000.0,
+        "main_net_5d": -1862000000.0,
+        "pct_chg": 0.54,
+        "leader": "杭氧股份",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "3D打印",
+        "main_net": 49000000.0,
+        "main_net_5d": 81000000.0,
+        "pct_chg": 0.18,
+        "leader": "金太阳",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "文化传媒概念",
+        "main_net": 47000000.0,
+        "main_net_5d": 2816000000.0,
+        "pct_chg": 1.29,
+        "leader": "博汇科技",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "ETC",
+        "main_net": 43000000.0,
+        "main_net_5d": 74000000.0,
+        "pct_chg": 0.63,
+        "leader": "金溢科技",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "动物疫苗",
+        "main_net": 40000000.0,
+        "main_net_5d": 77000000.0,
+        "pct_chg": -0.24,
+        "leader": "贤丰控股",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "知识产权保护",
+        "main_net": 33000000.0,
+        "main_net_5d": 809000000.0,
+        "pct_chg": 0.6,
+        "leader": "新经典",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "数字水印",
+        "main_net": 19000000.0,
+        "main_net_5d": 166000000.0,
+        "pct_chg": 0.67,
+        "leader": "锐科激光",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "特钢概念",
+        "main_net": 18000000.0,
+        "main_net_5d": 504000000.0,
+        "pct_chg": 0.13,
+        "leader": "盛德鑫泰",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "生态农业",
+        "main_net": 16000000.0,
+        "main_net_5d": -18000000.0,
+        "pct_chg": 0.71,
+        "leader": "龙建股份",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "财税数字化",
+        "main_net": 16000000.0,
+        "main_net_5d": 244000000.0,
+        "pct_chg": 0.49,
+        "leader": "天亿马",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "农村电商",
+        "main_net": 16000000.0,
+        "main_net_5d": 61000000.0,
+        "pct_chg": 1.17,
+        "leader": "南宁百货",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "草甘膦",
+        "main_net": 16000000.0,
+        "main_net_5d": -184000000.0,
+        "pct_chg": 0.26,
+        "leader": "蓝丰生化",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "幽门螺杆菌概念",
+        "main_net": 14000000.000000002,
+        "main_net_5d": -7000000.000000001,
+        "pct_chg": -0.58,
+        "leader": "东方海洋",
+        "signal": "由流出转流入"
+      },
+      {
+        "sector": "天津自贸区",
+        "main_net": 9000000.0,
+        "main_net_5d": 158000000.0,
+        "pct_chg": 0.8,
+        "leader": "天津普林",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "中韩自贸区",
+        "main_net": 8000000.0,
+        "main_net_5d": 115999999.99999999,
+        "pct_chg": 0.54,
+        "leader": "朗姿股份",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "消毒剂",
+        "main_net": 8000000.0,
+        "main_net_5d": 83000000.0,
+        "pct_chg": 0.2,
+        "leader": "世龙实业",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "飞行汽车(eVTOL)",
+        "main_net": 8000000.0,
+        "main_net_5d": 935000000.0,
+        "pct_chg": 0.1,
+        "leader": "建新股份",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "房屋检测",
+        "main_net": 2000000.0,
+        "main_net_5d": 256000000.0,
+        "pct_chg": 0.65,
+        "leader": "招标股份",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "烟草",
+        "main_net": 2000000.0,
+        "main_net_5d": 53000000.0,
+        "pct_chg": 0.35,
+        "leader": "昆船智能",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "上海国企改革",
+        "main_net": 2000000.0,
+        "main_net_5d": 119000000.0,
+        "pct_chg": -0.19,
+        "leader": "上海建科",
+        "signal": "加速流入"
+      },
+      {
+        "sector": "新型工业化",
+        "main_net": -2000000.0,
+        "main_net_5d": 697000000.0,
+        "pct_chg": 0.31,
+        "leader": "金百泽",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "智慧城市",
+        "main_net": -3000000.0,
+        "main_net_5d": 1381000000.0,
+        "pct_chg": 0.81,
+        "leader": "凡拓数创",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "手机游戏",
+        "main_net": -7000000.000000001,
+        "main_net_5d": 549000000.0,
+        "pct_chg": 1.23,
+        "leader": "慈文传媒",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "无人零售",
+        "main_net": -12000000.0,
+        "main_net_5d": -108000000.0,
+        "pct_chg": 1.27,
+        "leader": "冰山冷热",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "食品安全",
+        "main_net": -20000000.0,
+        "main_net_5d": 141000000.0,
+        "pct_chg": 0.09,
+        "leader": "华盛昌",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "创新药",
+        "main_net": -23000000.0,
+        "main_net_5d": 511000000.00000006,
+        "pct_chg": -0.83,
+        "leader": "海欣股份",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "期货概念",
+        "main_net": -25000000.0,
+        "main_net_5d": 87000000.0,
+        "pct_chg": 0.31,
+        "leader": "瑞达期货",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "垃圾分类",
+        "main_net": -26000000.0,
+        "main_net_5d": 94000000.0,
+        "pct_chg": -0.02,
+        "leader": "百洋股份",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "芬太尼",
+        "main_net": -30000000.0,
+        "main_net_5d": 1000000.0,
+        "pct_chg": -0.89,
+        "leader": "羚锐制药",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "钙钛矿电池",
+        "main_net": -30000000.0,
+        "main_net_5d": 52000000.0,
+        "pct_chg": -0.42,
+        "leader": "亚玛顿",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "MLOps概念",
+        "main_net": -32000000.0,
+        "main_net_5d": 83000000.0,
+        "pct_chg": 0.1,
+        "leader": "润和软件",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "硅能源",
+        "main_net": -34000000.0,
+        "main_net_5d": -753000000.0,
+        "pct_chg": 0.01,
+        "leader": "东岳硅材",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "MLCC概念",
+        "main_net": -36000000.0,
+        "main_net_5d": 474000000.0,
+        "pct_chg": -0.04,
+        "leader": "博杰股份",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "摘帽",
+        "main_net": -38000000.0,
+        "main_net_5d": 296000000.0,
+        "pct_chg": 1.15,
+        "leader": "双成药业",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "免税店",
+        "main_net": -41000000.0,
+        "main_net_5d": 165000000.0,
+        "pct_chg": 1.74,
+        "leader": "南宁百货",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "云游戏",
+        "main_net": -44000000.0,
+        "main_net_5d": 242000000.0,
+        "pct_chg": 0.67,
+        "leader": "宝通科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "在线教育",
+        "main_net": -46000000.0,
+        "main_net_5d": 863000000.0000001,
+        "pct_chg": 0.87,
+        "leader": "博汇科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "数字孪生",
+        "main_net": -47000000.0,
+        "main_net_5d": 758000000.0,
+        "pct_chg": 0.87,
+        "leader": "博汇科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "特色小镇",
+        "main_net": -49000000.0,
+        "main_net_5d": 459000000.0,
+        "pct_chg": 0.71,
+        "leader": "长白山",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "水泥概念",
+        "main_net": -50000000.0,
+        "main_net_5d": 279000000.0,
+        "pct_chg": 0.58,
+        "leader": "三和管桩",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "禽流感",
+        "main_net": -53000000.0,
+        "main_net_5d": 51000000.0,
+        "pct_chg": -0.84,
+        "leader": "亚泰集团",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "人脸识别",
+        "main_net": -56000000.00000001,
+        "main_net_5d": 894000000.0,
+        "pct_chg": 0.68,
+        "leader": "奥拓电子",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "养鸡",
+        "main_net": -57999999.99999999,
+        "main_net_5d": 98000000.0,
+        "pct_chg": -0.64,
+        "leader": "京基智农",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "华为鲲鹏",
+        "main_net": -60000000.0,
+        "main_net_5d": 1210000000.0,
+        "pct_chg": 0.74,
+        "leader": "博汇科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "TOPCON电池",
+        "main_net": -60000000.0,
+        "main_net_5d": 580000000.0,
+        "pct_chg": 0.56,
+        "leader": "*ST仕净",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "共享单车",
+        "main_net": -60000000.0,
+        "main_net_5d": 115999999.99999999,
+        "pct_chg": -0.67,
+        "leader": "上海凤凰",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "体育产业",
+        "main_net": -65000000.0,
+        "main_net_5d": 231999999.99999997,
+        "pct_chg": 1.14,
+        "leader": "雪人集团",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "代糖概念",
+        "main_net": -66000000.0,
+        "main_net_5d": -130000000.0,
+        "pct_chg": 0.29,
+        "leader": "醋化股份",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "托育服务",
+        "main_net": -67000000.00000001,
+        "main_net_5d": 128000000.0,
+        "pct_chg": 0.21,
+        "leader": "海伦钢琴",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "青蒿素",
+        "main_net": -72000000.0,
+        "main_net_5d": -1000000.0,
+        "pct_chg": -1.02,
+        "leader": "德龙汇能",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "数字货币",
+        "main_net": -75000000.0,
+        "main_net_5d": 86000000.0,
+        "pct_chg": 0.54,
+        "leader": "赢时胜",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "长三角一体化",
+        "main_net": -76000000.0,
+        "main_net_5d": -573000000.0,
+        "pct_chg": 0.74,
+        "leader": "凯伦股份",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "AI视频",
+        "main_net": -77000000.0,
+        "main_net_5d": 1666000000.0,
+        "pct_chg": 0.82,
+        "leader": "龙版传媒",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "深圳国企改革",
+        "main_net": -78000000.0,
+        "main_net_5d": -75000000.0,
+        "pct_chg": 0.2,
+        "leader": "*ST英飞",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "EDR概念",
+        "main_net": -84000000.0,
+        "main_net_5d": 122000000.0,
+        "pct_chg": 0.05,
+        "leader": "博敏电子",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "网约车",
+        "main_net": -88000000.0,
+        "main_net_5d": -4000000.0,
+        "pct_chg": 1.09,
+        "leader": "长白山",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "一体化压铸",
+        "main_net": -89000000.0,
+        "main_net_5d": -100000000.0,
+        "pct_chg": -0.24,
+        "leader": "安车检测",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "多模态AI",
+        "main_net": -89000000.0,
+        "main_net_5d": 1365000000.0,
+        "pct_chg": 0.74,
+        "leader": "博汇科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "DRG/DIP",
+        "main_net": -99000000.0,
+        "main_net_5d": 85000000.0,
+        "pct_chg": -0.13,
+        "leader": "国新健康",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "超级电容",
+        "main_net": -101000000.0,
+        "main_net_5d": 594000000.0,
+        "pct_chg": -0.61,
+        "leader": "通业科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "安防",
+        "main_net": -105000000.0,
+        "main_net_5d": 1221000000.0,
+        "pct_chg": 0.52,
+        "leader": "魅视科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "时空大数据",
+        "main_net": -106000000.0,
+        "main_net_5d": 241000000.0,
+        "pct_chg": 0.83,
+        "leader": "蕾奥规划",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "地下管网",
+        "main_net": -107000000.0,
+        "main_net_5d": 446000000.0,
+        "pct_chg": 1.12,
+        "leader": "凡拓数创",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "高压氧舱",
+        "main_net": -109000000.00000001,
+        "main_net_5d": -2000000.0,
+        "pct_chg": 1.76,
+        "leader": "澳洋健康",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "雄安新区",
+        "main_net": -115999999.99999999,
+        "main_net_5d": 475000000.0,
+        "pct_chg": 0.53,
+        "leader": "建新股份",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "自由贸易港",
+        "main_net": -118000000.0,
+        "main_net_5d": -127000000.0,
+        "pct_chg": 0.38,
+        "leader": "上海建科",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "数字乡村",
+        "main_net": -129000000.0,
+        "main_net_5d": 364000000.0,
+        "pct_chg": 0.63,
+        "leader": "威派格",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "PPP概念",
+        "main_net": -132000000.0,
+        "main_net_5d": 396000000.0,
+        "pct_chg": 0.52,
+        "leader": "华骐环保",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "供销社",
+        "main_net": -133000000.0,
+        "main_net_5d": 2000000.0,
+        "pct_chg": 1.3,
+        "leader": "新力金融",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "电子身份证",
+        "main_net": -136000000.0,
+        "main_net_5d": 347000000.0,
+        "pct_chg": 0.48,
+        "leader": "吉大正元",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "稀土永磁",
+        "main_net": -147000000.0,
+        "main_net_5d": 594000000.0,
+        "pct_chg": 0.27,
+        "leader": "瑞晨环保",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "语音技术",
+        "main_net": -147000000.0,
+        "main_net_5d": 77000000.0,
+        "pct_chg": 0.8,
+        "leader": "奥拓电子",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "海南自贸区",
+        "main_net": -152000000.0,
+        "main_net_5d": -40000000.0,
+        "pct_chg": 0.55,
+        "leader": "双成药业",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "碳交易",
+        "main_net": -155000000.0,
+        "main_net_5d": -39000000.0,
+        "pct_chg": 0.13,
+        "leader": "福建金森",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "阿里巴巴概念",
+        "main_net": -156000000.0,
+        "main_net_5d": 4011999999.9999995,
+        "pct_chg": 0.46,
+        "leader": "雪人集团",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "合成生物",
+        "main_net": -160000000.0,
+        "main_net_5d": -484999999.99999994,
+        "pct_chg": -0.55,
+        "leader": "路德科技",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "土壤修复",
+        "main_net": -163000000.0,
+        "main_net_5d": -220000000.00000003,
+        "pct_chg": 0.55,
+        "leader": "百洋股份",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "赛马概念",
+        "main_net": -168000000.0,
+        "main_net_5d": 15000000.0,
+        "pct_chg": -0.42,
+        "leader": "中体产业",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "生物质能发电",
+        "main_net": -171000000.0,
+        "main_net_5d": -62000000.0,
+        "pct_chg": -0.14,
+        "leader": "*ST华西",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "特高压",
+        "main_net": -183000000.0,
+        "main_net_5d": -284000000.0,
+        "pct_chg": 0.43,
+        "leader": "金百泽",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "国家大基金持股",
+        "main_net": -184000000.0,
+        "main_net_5d": 557000000.0,
+        "pct_chg": -0.07,
+        "leader": "中科飞测",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "新型烟草(电子烟)",
+        "main_net": -184000000.0,
+        "main_net_5d": 383000000.0,
+        "pct_chg": 0.09,
+        "leader": "中京电子",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "参股银行",
+        "main_net": -191000000.0,
+        "main_net_5d": 4000000.0,
+        "pct_chg": 0.25,
+        "leader": "大连圣亚",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "举牌",
+        "main_net": -193000000.0,
+        "main_net_5d": 103000000.0,
+        "pct_chg": 2.03,
+        "leader": "华骐环保",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "丙烯酸",
+        "main_net": -198000000.0,
+        "main_net_5d": -428000000.0,
+        "pct_chg": -0.52,
+        "leader": "兄弟科技",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "石墨电极",
+        "main_net": -215000000.0,
+        "main_net_5d": 93000000.0,
+        "pct_chg": -0.54,
+        "leader": "龙江交通",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "电子竞技",
+        "main_net": -234000000.0,
+        "main_net_5d": 304000000.0,
+        "pct_chg": 0.99,
+        "leader": "天府文旅",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "可降解塑料",
+        "main_net": -236000000.0,
+        "main_net_5d": -971000000.0000001,
+        "pct_chg": -0.12,
+        "leader": "华阳新材",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "化债概念(AMC概念)",
+        "main_net": -238000000.0,
+        "main_net_5d": -270000000.0,
+        "pct_chg": 0.54,
+        "leader": "新力金融",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "宠物经济",
+        "main_net": -245000000.00000003,
+        "main_net_5d": 449000000.0,
+        "pct_chg": 0.25,
+        "leader": "实丰文化",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "区块链",
+        "main_net": -247000000.00000003,
+        "main_net_5d": 2266000000.0,
+        "pct_chg": 0.55,
+        "leader": "威派格",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "猪肉",
+        "main_net": -250999999.99999997,
+        "main_net_5d": 285000000.0,
+        "pct_chg": -0.04,
+        "leader": "京基智农",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "汽车热管理",
+        "main_net": -256999999.99999997,
+        "main_net_5d": 71000000.0,
+        "pct_chg": -0.11,
+        "leader": "冰山冷热",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "生物疫苗",
+        "main_net": -258000000.0,
+        "main_net_5d": 198000000.0,
+        "pct_chg": -1.23,
+        "leader": "海欣股份",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "PVDF概念",
+        "main_net": -271000000.0,
+        "main_net_5d": -161000000.0,
+        "pct_chg": 0.11,
+        "leader": "金明精机",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "低空经济",
+        "main_net": -290000000.0,
+        "main_net_5d": 1583000000.0,
+        "pct_chg": 0.56,
+        "leader": "建新股份",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "PEEK材料",
+        "main_net": -290000000.0,
+        "main_net_5d": -33000000.0,
+        "pct_chg": 0.01,
+        "leader": "富春染织",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "智能物流",
+        "main_net": -291000000.0,
+        "main_net_5d": 1021000000.0000001,
+        "pct_chg": 0.12,
+        "leader": "三和管桩",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "统一大市场",
+        "main_net": -295000000.0,
+        "main_net_5d": -254000000.0,
+        "pct_chg": 0.65,
+        "leader": "东百集团",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "数据确权",
+        "main_net": -300000000.0,
+        "main_net_5d": 754000000.0,
+        "pct_chg": 0.55,
+        "leader": "广电网络",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "柔性直流输电",
+        "main_net": -315000000.0,
+        "main_net_5d": -354000000.0,
+        "pct_chg": 0.44,
+        "leader": "金百泽",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "超超临界发电",
+        "main_net": -316000000.0,
+        "main_net_5d": -264000000.0,
+        "pct_chg": 0.16,
+        "leader": "哈空调",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "金属镍",
+        "main_net": -318000000.0,
+        "main_net_5d": 101000000.0,
+        "pct_chg": -1.07,
+        "leader": "盛达资源",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "啤酒概念",
+        "main_net": -323000000.0,
+        "main_net_5d": -209000000.0,
+        "pct_chg": 0.89,
+        "leader": "凯美特气",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "中芯国际概念",
+        "main_net": -323000000.0,
+        "main_net_5d": -1378000000.0,
+        "pct_chg": -0.17,
+        "leader": "京仪装备",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "眼科医疗",
+        "main_net": -324000000.0,
+        "main_net_5d": 325000000.0,
+        "pct_chg": -0.67,
+        "leader": "凯美特气",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "环氧丙烷",
+        "main_net": -331000000.0,
+        "main_net_5d": -590000000.0,
+        "pct_chg": -0.55,
+        "leader": "惠通科技",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "光热发电",
+        "main_net": -335000000.0,
+        "main_net_5d": -44000000.0,
+        "pct_chg": 0.14,
+        "leader": "*ST华西",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "ST板块",
+        "main_net": -339000000.0,
+        "main_net_5d": -164000000.0,
+        "pct_chg": -0.07,
+        "leader": "*ST仕净",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "2026三季报预增",
+        "main_net": -345000000.0,
+        "main_net_5d": 0,
+        "pct_chg": 1.97,
+        "leader": "本川智能",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "无线充电",
+        "main_net": -346000000.0,
+        "main_net_5d": -164000000.0,
+        "pct_chg": 0.03,
+        "leader": "雷柏科技",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "福建自贸区",
+        "main_net": -348000000.0,
+        "main_net_5d": -529000000.0,
+        "pct_chg": 0.54,
+        "leader": "雪人集团",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "智能音箱",
+        "main_net": -351000000.0,
+        "main_net_5d": 821000000.0000001,
+        "pct_chg": 0.57,
+        "leader": "实丰文化",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "有机硅概念",
+        "main_net": -353000000.0,
+        "main_net_5d": -104000000.0,
+        "pct_chg": 0.42,
+        "leader": "吉华集团",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "充电桩",
+        "main_net": -362000000.0,
+        "main_net_5d": 299000000.0,
+        "pct_chg": 0.2,
+        "leader": "本川智能",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "金属钴",
+        "main_net": -367000000.0,
+        "main_net_5d": 285000000.0,
+        "pct_chg": -1.11,
+        "leader": "中国瑞林",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "PET铜箔",
+        "main_net": -373000000.0,
+        "main_net_5d": 214000000.0,
+        "pct_chg": 0.66,
+        "leader": "铜峰电子",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "氟化工概念",
+        "main_net": -396000000.0,
+        "main_net_5d": -94000000.0,
+        "pct_chg": -0.05,
+        "leader": "凯美特气",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "信创",
+        "main_net": -399000000.0,
+        "main_net_5d": 1499000000.0,
+        "pct_chg": 0.81,
+        "leader": "金百泽",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "AI语料",
+        "main_net": -404000000.0,
+        "main_net_5d": 1026000000.0,
+        "pct_chg": 0.39,
+        "leader": "慈文传媒",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "电力物联网",
+        "main_net": -409000000.0,
+        "main_net_5d": 212000000.0,
+        "pct_chg": 0.27,
+        "leader": "理工能科",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "短剧游戏",
+        "main_net": -436000000.00000006,
+        "main_net_5d": 2004000000.0,
+        "pct_chg": 0.74,
+        "leader": "天府文旅",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "牙科医疗",
+        "main_net": -440000000.00000006,
+        "main_net_5d": -173000000.0,
+        "pct_chg": -0.93,
+        "leader": "朗姿股份",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "重组蛋白",
+        "main_net": -458000000.0,
+        "main_net_5d": 355000000.0,
+        "pct_chg": -1.89,
+        "leader": "敷尔佳",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "证金持股",
+        "main_net": -461000000.00000006,
+        "main_net_5d": 315000000.0,
+        "pct_chg": -0.49,
+        "leader": "中国石油",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "租售同权",
+        "main_net": -486000000.00000006,
+        "main_net_5d": 1730999999.9999998,
+        "pct_chg": 0.14,
+        "leader": "天府文旅",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "减肥药",
+        "main_net": -488999999.99999994,
+        "main_net_5d": 680000000.0,
+        "pct_chg": -1.07,
+        "leader": "争光股份",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "AIGC概念",
+        "main_net": -515000000.00000006,
+        "main_net_5d": 3059000000.0,
+        "pct_chg": 0.85,
+        "leader": "博汇科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "辅助生殖",
+        "main_net": -517000000.0,
+        "main_net_5d": 135000000.0,
+        "pct_chg": -0.74,
+        "leader": "双成药业",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "乡村振兴",
+        "main_net": -520000000.0,
+        "main_net_5d": 1410000000.0,
+        "pct_chg": 0.87,
+        "leader": "华骐环保",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "光伏建筑一体化",
+        "main_net": -522000000.0,
+        "main_net_5d": 397000000.0,
+        "pct_chg": 0.5,
+        "leader": "凯伦股份",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "水利",
+        "main_net": -526999999.99999994,
+        "main_net_5d": -444000000.00000006,
+        "pct_chg": 0.63,
+        "leader": "凡拓数创",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "脑机接口",
+        "main_net": -532000000.0,
+        "main_net_5d": 374000000.0,
+        "pct_chg": -0.36,
+        "leader": "澳洋健康",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "CRO概念",
+        "main_net": -538000000.0,
+        "main_net_5d": 342000000.0,
+        "pct_chg": -0.9,
+        "leader": "双成药业",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "共同富裕示范区",
+        "main_net": -539000000.0,
+        "main_net_5d": 199000000.0,
+        "pct_chg": 0.13,
+        "leader": "中马传动",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "阿尔茨海默概念",
+        "main_net": -554000000.0,
+        "main_net_5d": -22000000.0,
+        "pct_chg": -0.64,
+        "leader": "双成药业",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "POE胶膜",
+        "main_net": -557000000.0,
+        "main_net_5d": -593000000.0,
+        "pct_chg": -0.28,
+        "leader": "亚玛顿",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "数字经济",
+        "main_net": -562000000.0,
+        "main_net_5d": 1583000000.0,
+        "pct_chg": 0.78,
+        "leader": "凡拓数创",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "猴痘概念",
+        "main_net": -569000000.0,
+        "main_net_5d": 234000000.0,
+        "pct_chg": -1.09,
+        "leader": "东方海洋",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "基因测序",
+        "main_net": -574000000.0,
+        "main_net_5d": 71000000.0,
+        "pct_chg": -0.89,
+        "leader": "东方海洋",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "蚂蚁集团概念",
+        "main_net": -585000000.0,
+        "main_net_5d": 288000000.0,
+        "pct_chg": 0.22,
+        "leader": "华信永道",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "鸿蒙概念",
+        "main_net": -611000000.0,
+        "main_net_5d": 2553000000.0,
+        "pct_chg": 0.44,
+        "leader": "华盛昌",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "汽车拆解概念",
+        "main_net": -613000000.0,
+        "main_net_5d": -142000000.0,
+        "pct_chg": -0.25,
+        "leader": "北巴传媒",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "氢能源",
+        "main_net": -617000000.0,
+        "main_net_5d": -54000000.0,
+        "pct_chg": 0.02,
+        "leader": "光智科技",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "数据安全",
+        "main_net": -623000000.0,
+        "main_net_5d": 2096000000.0,
+        "pct_chg": 0.39,
+        "leader": "博汇科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "BC电池",
+        "main_net": -636000000.0,
+        "main_net_5d": 616000000.0,
+        "pct_chg": -0.44,
+        "leader": "锐科激光",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "碳中和",
+        "main_net": -641000000.0,
+        "main_net_5d": -991000000.0,
+        "pct_chg": 0.44,
+        "leader": "晶雪节能",
+        "signal": "加速流出"
+      },
+      {
+        "sector": "机器视觉",
+        "main_net": -642000000.0,
+        "main_net_5d": 1341000000.0,
+        "pct_chg": 0.23,
+        "leader": "海得控制",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "新能源汽车",
+        "main_net": -642000000.0,
+        "main_net_5d": 3386999999.9999995,
+        "pct_chg": 0.04,
+        "leader": "迅捷兴",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "国产操作系统",
+        "main_net": -646000000.0,
+        "main_net_5d": -15000000.0,
+        "pct_chg": 0.02,
+        "leader": "亚华电子",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "高压快充",
+        "main_net": -650000000.0,
+        "main_net_5d": 334000000.0,
+        "pct_chg": -0.2,
+        "leader": "和顺石油",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "抽水蓄能",
+        "main_net": -657000000.0,
+        "main_net_5d": -411000000.00000006,
+        "pct_chg": -0.02,
+        "leader": "雪人集团",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "AI智能体",
+        "main_net": -672000000.0,
+        "main_net_5d": 4104999999.9999995,
+        "pct_chg": 0.41,
+        "leader": "华盛昌",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "白酒概念",
+        "main_net": -689000000.0,
+        "main_net_5d": 2000000.0,
+        "pct_chg": 0.67,
+        "leader": "金种子酒",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "网络安全",
+        "main_net": -694000000.0,
+        "main_net_5d": 897000000.0000001,
+        "pct_chg": 0.5,
+        "leader": "博汇科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "HJT电池",
+        "main_net": -698000000.0,
+        "main_net_5d": 605000000.0,
+        "pct_chg": -0.23,
+        "leader": "实丰文化",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "磷化工",
+        "main_net": -702000000.0,
+        "main_net_5d": -578000000.0,
+        "pct_chg": -0.21,
+        "leader": "粤桂股份",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "细胞免疫治疗",
+        "main_net": -721000000.0,
+        "main_net_5d": 549000000.0,
+        "pct_chg": -0.87,
+        "leader": "海欣股份",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "星闪概念",
+        "main_net": -731000000.0,
+        "main_net_5d": -360000000.0,
+        "pct_chg": -0.07,
+        "leader": "雷柏科技",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "装配式建筑",
+        "main_net": -734000000.0,
+        "main_net_5d": 988000000.0000001,
+        "pct_chg": 1.24,
+        "leader": "三和管桩",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "同花顺出海50",
+        "main_net": -736000000.0,
+        "main_net_5d": -177000000.0,
+        "pct_chg": -0.67,
+        "leader": "沪电股份",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "AI应用",
+        "main_net": -769000000.0,
+        "main_net_5d": 4197999999.9999995,
+        "pct_chg": 0.55,
+        "leader": "博汇科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "人工智能",
+        "main_net": -794000000.0,
+        "main_net_5d": 3989000000.0,
+        "pct_chg": 0.48,
+        "leader": "博汇科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "新型城镇化",
+        "main_net": -816000000.0,
+        "main_net_5d": 1084000000.0,
+        "pct_chg": 0.95,
+        "leader": "三和管桩",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "两轮车",
+        "main_net": -856000000.0,
+        "main_net_5d": 44000000.0,
+        "pct_chg": -0.72,
+        "leader": "九联科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "智能电网",
+        "main_net": -884000000.0,
+        "main_net_5d": 186000000.0,
+        "pct_chg": 0.18,
+        "leader": "满坤科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "物业管理",
+        "main_net": -909000000.0,
+        "main_net_5d": 2210000000.0,
+        "pct_chg": 0.59,
+        "leader": "东百集团",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "车联网(车路协同)",
+        "main_net": -919000000.0,
+        "main_net_5d": 139000000.0,
+        "pct_chg": 0.44,
+        "leader": "凡拓数创",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "燃料电池",
+        "main_net": -932000000.0,
+        "main_net_5d": 1494000000.0,
+        "pct_chg": -0.32,
+        "leader": "江龙船艇",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "风电",
+        "main_net": -961999999.9999999,
+        "main_net_5d": 224000000.00000003,
+        "pct_chg": -0.03,
+        "leader": "三和管桩",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "华为汽车",
+        "main_net": -986999999.9999999,
+        "main_net_5d": 564000000.0,
+        "pct_chg": -0.15,
+        "leader": "春秋电子",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "虚拟电厂",
+        "main_net": -1025000000.0,
+        "main_net_5d": -173000000.0,
+        "pct_chg": 0.08,
+        "leader": "金百泽",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "盐湖提锂",
+        "main_net": -1033000000.0,
+        "main_net_5d": -241000000.0,
+        "pct_chg": -0.7,
+        "leader": "中国瑞林",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "独角兽概念",
+        "main_net": -1060000000.0,
+        "main_net_5d": 463999999.99999994,
+        "pct_chg": 0.31,
+        "leader": "冰山冷热",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "京津冀一体化",
+        "main_net": -1123000000.0,
+        "main_net_5d": 1087000000.0,
+        "pct_chg": 0.51,
+        "leader": "建新股份",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "超级品牌",
+        "main_net": -1127000000.0,
+        "main_net_5d": -803999999.9999999,
+        "pct_chg": -0.47,
+        "leader": "朱老六",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "特斯拉概念",
+        "main_net": -1168000000.0,
+        "main_net_5d": 2014000000.0,
+        "pct_chg": -0.19,
+        "leader": "晶雪节能",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "长安汽车概念",
+        "main_net": -1207000000.0,
+        "main_net_5d": -96000000.0,
+        "pct_chg": -0.07,
+        "leader": "中马传动",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "比亚迪概念",
+        "main_net": -1238000000.0,
+        "main_net_5d": 404000000.0,
+        "pct_chg": 0.03,
+        "leader": "金百泽",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "小米汽车",
+        "main_net": -1306000000.0,
+        "main_net_5d": -306000000.0,
+        "pct_chg": -0.27,
+        "leader": "春秋电子",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "换电概念",
+        "main_net": -1400000000.0,
+        "main_net_5d": 284000000.0,
+        "pct_chg": 0.03,
+        "leader": "安车检测",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "家庭医生",
+        "main_net": -1421000000.0,
+        "main_net_5d": 63000000.0,
+        "pct_chg": 0.44,
+        "leader": "海峡创新",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "科创次新股",
+        "main_net": -1431000000.0,
+        "main_net_5d": 544000000.0,
+        "pct_chg": -0.41,
+        "leader": "泰金新能",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "高股息精选",
+        "main_net": -1516000000.0,
+        "main_net_5d": 1106000000.0,
+        "pct_chg": -0.18,
+        "leader": "新经典",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "参股券商",
+        "main_net": -1687000000.0,
+        "main_net_5d": 111000000.00000001,
+        "pct_chg": 0.2,
+        "leader": "海欣股份",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "互联网保险",
+        "main_net": -1782999999.9999998,
+        "main_net_5d": -236000000.0,
+        "pct_chg": 0.1,
+        "leader": "旗天科技",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "绿色电力",
+        "main_net": -1802000000.0,
+        "main_net_5d": -106000000.0,
+        "pct_chg": -0.02,
+        "leader": "迅捷兴",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "智能医疗",
+        "main_net": -2128000000.0,
+        "main_net_5d": 703000000.0,
+        "pct_chg": -0.25,
+        "leader": "金百泽",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "宁德时代概念",
+        "main_net": -3065000000.0,
+        "main_net_5d": 1914999999.9999998,
+        "pct_chg": -0.67,
+        "leader": "满坤科技",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "锂电池概念",
+        "main_net": -3640999999.9999995,
+        "main_net_5d": 1560000000.0,
+        "pct_chg": -0.56,
+        "leader": "粤桂股份",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "固态电池",
+        "main_net": -3740999999.9999995,
+        "main_net_5d": 1398000000.0,
+        "pct_chg": -1.25,
+        "leader": "泰金新能",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "动力电池回收",
+        "main_net": -3811999999.9999995,
+        "main_net_5d": 277000000.0,
+        "pct_chg": -1.47,
+        "leader": "粤宏远A",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "同花顺漂亮100",
+        "main_net": -4215999999.9999995,
+        "main_net_5d": -149000000.0,
+        "pct_chg": -0.85,
+        "leader": "航发动力",
+        "signal": "持续流出"
+      },
+      {
+        "sector": "储能",
+        "main_net": -4379000000.0,
+        "main_net_5d": 2276000000.0,
+        "pct_chg": -0.15,
+        "leader": "华骐环保",
+        "signal": "由流入转流出"
+      },
+      {
+        "sector": "钠离子电池",
+        "main_net": -4621000000.0,
+        "main_net_5d": 860000000.0,
+        "pct_chg": -1.9,
+        "leader": "科翔股份",
+        "signal": "由流入转流出"
+      }
+    ]
+  }
+}
