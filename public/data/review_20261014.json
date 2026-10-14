@@ -3355,6 +3355,8 @@
         "industry": "家居用品"
       }
     ],
-    "dragon_tiger": []
+    "dragon_tiger": [],
+    "_build_stage": "late",
+    "_build_time": "2026-10-14 08:27:46"
   }
 }

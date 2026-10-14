@@ -1,5 +1,5 @@
 
-// ===== 静态模式：fetch 重写（部署到 Cloudflare Pages 时用） =====
+// ===== 静态模式：fetch 重写 =====
 const ORIG_FETCH = window.fetch.bind(window);
 window.fetch = async function(url, ...args) {
     if (typeof url !== "string") return ORIG_FETCH(url, ...args);
@@ -16,14 +16,7 @@ window.fetch = async function(url, ...args) {
         url = "./data/north_flow.json";
     } else if (m = url.match(/^\/api\/youzi_trace\/(\d+)/)) {
         url = `./data/youzi_trace_${m[1]}.json`;
-    } else if (m = url.match(/^\/api\/sector_stocks\/([^?]+)/)) {
-        url = `./data/sector_stocks_${decodeURIComponent(m[1])}.json`;
-    } else if (m = url.match(/^\/api\/sector_trend\/([^?]+)/)) {
-        url = `./data/sector_trend_${decodeURIComponent(m[1])}.json`;
-    } else if (m = url.match(/^\/api\/lhb_detail\/(\d+)/)) {
-        url = `./data/lhb_detail_${m[1]}.json`;
     }
-    // 静态文件 404 时返回空结构，避免崩溃
     try {
         const res = await ORIG_FETCH(url, ...args);
         if (!res.ok) {
@@ -36,8 +29,6 @@ window.fetch = async function(url, ...args) {
             {status: 200, headers: {"Content-Type": "application/json"}});
     }
 };
-// ===== 静态模式 end =====
-
 const API = "/api/review";
 
 // ---------- 主题相关 ----------

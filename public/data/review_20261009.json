@@ -1,0 +1,4197 @@
+{
+  "code": 0,
+  "data": {
+    "metrics": {
+      "date": "20261009",
+      "prev_date": "20261008",
+      "zt_count": 69,
+      "dt_count": 8,
+      "zb_count": 14,
+      "break_rate": 16.87,
+      "up_count": 3297,
+      "down_count": 2144,
+      "flat_count": 117,
+      "up_source": "kpl_crawler",
+      "lianban_tiers": {
+        "9": [
+          {
+            "code": "600825",
+            "name": "新华传媒",
+            "industry": "出版",
+            "pct_chg": 10.008779525756836
+          }
+        ],
+        "5": [
+          {
+            "code": "600241",
+            "name": "时代万恒",
+            "industry": "电池",
+            "pct_chg": 10.009354591369629
+          },
+          {
+            "code": "002242",
+            "name": "九阳股份",
+            "industry": "小家电",
+            "pct_chg": 10.03636360168457
+          }
+        ],
+        "4": [
+          {
+            "code": "002058",
+            "name": "紫竹高科",
+            "industry": "电池",
+            "pct_chg": 9.990999221801758
+          }
+        ],
+        "2": [
+          {
+            "code": "001300",
+            "name": "三柏硕",
+            "industry": "文娱用品",
+            "pct_chg": 9.992597579956055
+          },
+          {
+            "code": "600812",
+            "name": "华北制药",
+            "industry": "化学制药",
+            "pct_chg": 10.03649616241455
+          },
+          {
+            "code": "002733",
+            "name": "雄韬股份",
+            "industry": "电池",
+            "pct_chg": 10.005293846130371
+          },
+          {
+            "code": "002805",
+            "name": "丰元股份",
+            "industry": "电池",
+            "pct_chg": 10.016977310180664
+          },
+          {
+            "code": "001336",
+            "name": "楚环科技",
+            "industry": "环保设备",
+            "pct_chg": 10.024212837219238
+          },
+          {
+            "code": "300530",
+            "name": "领湃科技",
+            "industry": "电池",
+            "pct_chg": 20.016611099243164
+          },
+          {
+            "code": "600408",
+            "name": "安泰集团",
+            "industry": "焦炭Ⅱ",
+            "pct_chg": 9.883721351623535
+          },
+          {
+            "code": "600400",
+            "name": "红豆股份",
+            "industry": "服装家纺",
+            "pct_chg": 9.944750785827637
+          }
+        ],
+        "1": [
+          {
+            "code": "002692",
+            "name": "远程股份",
+            "industry": "电网设备",
+            "pct_chg": 9.930715560913086
+          },
+          {
+            "code": "601811",
+            "name": "新华文轩",
+            "industry": "出版",
+            "pct_chg": 9.994739532470703
+          },
+          {
+            "code": "605136",
+            "name": "丽人丽妆",
+            "industry": "互联网电",
+            "pct_chg": 10.023309707641602
+          },
+          {
+            "code": "600207",
+            "name": "安彩高科",
+            "industry": "光伏设备",
+            "pct_chg": 10.019646644592285
+          },
+          {
+            "code": "605399",
+            "name": "晨光新材",
+            "industry": "化学制品",
+            "pct_chg": 10.025274276733398
+          },
+          {
+            "code": "600478",
+            "name": "科力远",
+            "industry": "电池",
+            "pct_chg": 9.913793563842773
+          },
+          {
+            "code": "300821",
+            "name": "东岳硅材",
+            "industry": "化学制品",
+            "pct_chg": 20.013996124267578
+          },
+          {
+            "code": "603155",
+            "name": "新亚强",
+            "industry": "化学制品",
+            "pct_chg": 9.978616714477539
+          },
+          {
+            "code": "600843",
+            "name": "上工申贝",
+            "industry": "专用设备",
+            "pct_chg": 9.946236610412598
+          },
+          {
+            "code": "600127",
+            "name": "金健米业",
+            "industry": "农产品加",
+            "pct_chg": 10.0
+          },
+          {
+            "code": "600629",
+            "name": "华建集团",
+            "industry": "工程咨询",
+            "pct_chg": 10.01220989227295
+          },
+          {
+            "code": "601086",
+            "name": "国芳集团",
+            "industry": "一般零售",
+            "pct_chg": 10.014727592468262
+          },
+          {
+            "code": "600371",
+            "name": "万向德农",
+            "industry": "种植业",
+            "pct_chg": 9.99265193939209
+          },
+          {
+            "code": "603101",
+            "name": "汇嘉时代",
+            "industry": "一般零售",
+            "pct_chg": 10.055096626281738
+          },
+          {
+            "code": "002675",
+            "name": "东诚药业",
+            "industry": "化学制药",
+            "pct_chg": 9.97624683380127
+          },
+          {
+            "code": "300981",
+            "name": "中红医疗",
+            "industry": "医疗器械",
+            "pct_chg": 19.979455947875977
+          },
+          {
+            "code": "000546",
+            "name": "金圆股份",
+            "industry": "环境治理",
+            "pct_chg": 9.90783405303955
+          },
+          {
+            "code": "002480",
+            "name": "新筑股份",
+            "industry": "电力",
+            "pct_chg": 10.091742515563965
+          },
+          {
+            "code": "300369",
+            "name": "绿盟科技",
+            "industry": "软件开发",
+            "pct_chg": 20.02301597595215
+          },
+          {
+            "code": "600865",
+            "name": "百大集团",
+            "industry": "一般零售",
+            "pct_chg": 10.038241386413574
+          },
+          {
+            "code": "600882",
+            "name": "妙可蓝多",
+            "industry": "饮料乳品",
+            "pct_chg": 9.994794845581055
+          },
+          {
+            "code": "002212",
+            "name": "天融信",
+            "industry": "软件开发",
+            "pct_chg": 10.043667793273926
+          },
+          {
+            "code": "605188",
+            "name": "国光连锁",
+            "industry": "一般零售",
+            "pct_chg": 10.015897750854492
+          },
+          {
+            "code": "603067",
+            "name": "振华股份",
+            "industry": "化学原料",
+            "pct_chg": 10.010400772094727
+          },
+          {
+            "code": "601069",
+            "name": "西部黄金",
+            "industry": "贵金属",
+            "pct_chg": 9.983429908752441
+          },
+          {
+            "code": "600354",
+            "name": "敦煌种业",
+            "industry": "种植业",
+            "pct_chg": 10.022026062011719
+          },
+          {
+            "code": "000420",
+            "name": "吉林化纤",
+            "industry": "化学纤维",
+            "pct_chg": 10.115607261657715
+          },
+          {
+            "code": "600621",
+            "name": "华鑫股份",
+            "industry": "证券Ⅱ",
+            "pct_chg": 10.030394554138184
+          },
+          {
+            "code": "601519",
+            "name": "大智慧",
+            "industry": "软件开发",
+            "pct_chg": 9.952038764953613
+          },
+          {
+            "code": "002912",
+            "name": "中新赛克",
+            "industry": "计算机设",
+            "pct_chg": 10.019268035888672
+          },
+          {
+            "code": "605177",
+            "name": "东亚药业",
+            "industry": "化学制药",
+            "pct_chg": 9.992223739624023
+          },
+          {
+            "code": "002811",
+            "name": "郑中设计",
+            "industry": "装修装饰",
+            "pct_chg": 9.982068061828613
+          },
+          {
+            "code": "601566",
+            "name": "九牧王",
+            "industry": "服装家纺",
+            "pct_chg": 9.978307723999023
+          },
+          {
+            "code": "605287",
+            "name": "德才股份",
+            "industry": "装修装饰",
+            "pct_chg": 9.99178695678711
+          },
+          {
+            "code": "605577",
+            "name": "龙版传媒",
+            "industry": "出版",
+            "pct_chg": 9.979633331298828
+          },
+          {
+            "code": "601595",
+            "name": "上海电影",
+            "industry": "影视院线",
+            "pct_chg": 10.004446983337402
+          },
+          {
+            "code": "601929",
+            "name": "吉视传媒",
+            "industry": "电视广播",
+            "pct_chg": 10.132158279418945
+          },
+          {
+            "code": "603096",
+            "name": "新经典",
+            "industry": "出版",
+            "pct_chg": 10.031745910644531
+          },
+          {
+            "code": "000710",
+            "name": "贝瑞基因",
+            "industry": "医疗服务",
+            "pct_chg": 10.02921199798584
+          },
+          {
+            "code": "000892",
+            "name": "欢瑞世纪",
+            "industry": "影视院线",
+            "pct_chg": 9.977324485778809
+          },
+          {
+            "code": "603232",
+            "name": "格尔软件",
+            "industry": "软件开发",
+            "pct_chg": 9.974093437194824
+          },
+          {
+            "code": "002317",
+            "name": "众生药业",
+            "industry": "中药Ⅱ",
+            "pct_chg": 10.012948036193848
+          },
+          {
+            "code": "300364",
+            "name": "中文在线",
+            "industry": "数字媒体",
+            "pct_chg": 20.009807586669922
+          },
+          {
+            "code": "603533",
+            "name": "掌阅科技",
+            "industry": "数字媒体",
+            "pct_chg": 9.987030029296875
+          },
+          {
+            "code": "002181",
+            "name": "粤 传 媒",
+            "industry": "出版",
+            "pct_chg": 9.953161239624023
+          },
+          {
+            "code": "688152",
+            "name": "麒麟信安",
+            "industry": "软件开发",
+            "pct_chg": 19.994766235351562
+          },
+          {
+            "code": "001330",
+            "name": "博纳影业",
+            "industry": "影视院线",
+            "pct_chg": 9.936908721923828
+          },
+          {
+            "code": "300413",
+            "name": "芒果超媒",
+            "industry": "数字媒体",
+            "pct_chg": 19.97913360595703
+          },
+          {
+            "code": "002343",
+            "name": "慈文传媒",
+            "industry": "影视院线",
+            "pct_chg": 9.94575023651123
+          },
+          {
+            "code": "002696",
+            "name": "百洋股份",
+            "industry": "饲料",
+            "pct_chg": 10.075187683105469
+          },
+          {
+            "code": "002979",
+            "name": "雷赛智能",
+            "industry": "自动化设",
+            "pct_chg": 9.994062423706055
+          },
+          {
+            "code": "605168",
+            "name": "三人行",
+            "industry": "广告营销",
+            "pct_chg": 10.008445739746094
+          },
+          {
+            "code": "603216",
+            "name": "梦天家居",
+            "industry": "家居用品",
+            "pct_chg": 9.99543571472168
+          },
+          {
+            "code": "600715",
+            "name": "文投控股",
+            "industry": "游戏Ⅱ",
+            "pct_chg": 10.0
+          },
+          {
+            "code": "000736",
+            "name": "中交发展",
+            "industry": "房地产服",
+            "pct_chg": 9.91561222076416
+          },
+          {
+            "code": "605058",
+            "name": "澳弘电子",
+            "industry": "元件",
+            "pct_chg": 10.0
+          },
+          {
+            "code": "601118",
+            "name": "海南橡胶",
+            "industry": "种植业",
+            "pct_chg": 9.984639167785645
+          }
+        ]
+      },
+      "theme_dist": {
+        "电池": 6,
+        "出版": 5,
+        "软件开发": 5,
+        "一般零售": 4,
+        "影视院线": 4,
+        "种植业": 3,
+        "化学制药": 3,
+        "数字媒体": 3,
+        "化学制品": 3,
+        "服装家纺": 2,
+        "装修装饰": 2,
+        "光伏设备": 1,
+        "文娱用品": 1,
+        "互联网电": 1,
+        "电网设备": 1
+      },
+      "yesterday_zt_perf": {
+        "avg_pct": 3.11,
+        "sample_count": 43,
+        "promote_rate": 0.0
+      },
+      "sentiment": {
+        "score": 76,
+        "level": "强赚钱",
+        "level_cls": "strong-up",
+        "adr": 1.54,
+        "up_ratio": 59.3,
+        "zt_dt_ratio": 8.62,
+        "break_rate": 16.87,
+        "avg_pct": 3.11,
+        "promote_rate": 0.0,
+        "max_lb": 9,
+        "items": [
+          {
+            "key": "avg_pct",
+            "label": "昨日涨停溢价",
+            "value": "+3.11%",
+            "score": 100,
+            "status": "good",
+            "hint": "越高越好，>3%为强"
+          },
+          {
+            "key": "promote",
+            "label": "连板晋级率",
+            "value": "0.0%",
+            "score": 15,
+            "status": "bad",
+            "hint": "越高越好，>25%为强"
+          },
+          {
+            "key": "break_rate",
+            "label": "炸板率",
+            "value": "16.9%",
+            "score": 75,
+            "status": "good",
+            "hint": "越低越好，<20%为强"
+          },
+          {
+            "key": "lb_height",
+            "label": "最高连板",
+            "value": "9板",
+            "score": 100,
+            "status": "good",
+            "hint": "越高越好，≥5板为强"
+          },
+          {
+            "key": "zt_dt",
+            "label": "涨停/跌停比",
+            "value": "69/8",
+            "score": 100,
+            "status": "good",
+            "hint": "比值越高越好"
+          },
+          {
+            "key": "adr",
+            "label": "涨跌家数比",
+            "value": "1.54",
+            "score": 85,
+            "status": "good",
+            "hint": ">1.5偏强，<0.7偏弱"
+          },
+          {
+            "key": "up_ratio",
+            "label": "上涨家数占比",
+            "value": "59.3%",
+            "score": 63.31414177761785,
+            "status": "mid",
+            "hint": ">60%偏强，<40%偏弱"
+          }
+        ]
+      }
+    },
+    "limit_up_stocks": [
+      {
+        "序号": 1,
+        "code": "600825",
+        "name": "新华传媒",
+        "pct_chg": 10.0087795258,
+        "price": 12.53,
+        "amount": 625610976,
+        "float_mv": 13092444760.5,
+        "total_mv": 13092444835.679998,
+        "turnover": 4.7784123421,
+        "seal_amount": 1421176407,
+        "first_seal_time": "092500",
+        "last_seal_time": "092500",
+        "break_count": 0,
+        "limit_stat": "9/9",
+        "consecutive_days": 9,
+        "industry": "出版"
+      },
+      {
+        "序号": 2,
+        "code": "600241",
+        "name": "时代万恒",
+        "pct_chg": 10.0093545914,
+        "price": 11.76,
+        "amount": 68939072,
+        "float_mv": 3460992872.4,
+        "total_mv": 3460992837.12,
+        "turnover": 1.9918870926,
+        "seal_amount": 229379199,
+        "first_seal_time": "092500",
+        "last_seal_time": "092500",
+        "break_count": 0,
+        "limit_stat": "5/5",
+        "consecutive_days": 5,
+        "industry": "电池"
+      },
+      {
+        "序号": 3,
+        "code": "002058",
+        "name": "紫竹高科",
+        "pct_chg": 9.9909992218,
+        "price": 24.44,
+        "amount": 100791831,
+        "float_mv": 3503860934.0800004,
+        "total_mv": 3505877234.0800004,
+        "turnover": 2.8765933514,
+        "seal_amount": 89302489,
+        "first_seal_time": "092500",
+        "last_seal_time": "092500",
+        "break_count": 0,
+        "limit_stat": "4/4",
+        "consecutive_days": 4,
+        "industry": "电池"
+      },
+      {
+        "序号": 4,
+        "code": "001300",
+        "name": "三柏硕",
+        "pct_chg": 9.99259758,
+        "price": 14.86,
+        "amount": 122004198,
+        "float_mv": 3622510082.04,
+        "total_mv": 3622510082.04,
+        "turnover": 3.4094426632,
+        "seal_amount": 17108318,
+        "first_seal_time": "093018",
+        "last_seal_time": "093018",
+        "break_count": 0,
+        "limit_stat": "2/2",
+        "consecutive_days": 2,
+        "industry": "文娱用品"
+      },
+      {
+        "序号": 5,
+        "code": "002242",
+        "name": "九阳股份",
+        "pct_chg": 10.0363636017,
+        "price": 15.13,
+        "amount": 2062716608,
+        "float_mv": 11525513906.25,
+        "total_mv": 11544447331.04,
+        "turnover": 18.2771949768,
+        "seal_amount": 74005656,
+        "first_seal_time": "093027",
+        "last_seal_time": "132851",
+        "break_count": 6,
+        "limit_stat": "5/5",
+        "consecutive_days": 5,
+        "industry": "小家电"
+      },
+      {
+        "序号": 6,
+        "code": "600812",
+        "name": "华北制药",
+        "pct_chg": 10.0364961624,
+        "price": 6.03,
+        "amount": 687660544,
+        "float_mv": 10345854131.1,
+        "total_mv": 10345854119.04,
+        "turnover": 6.7535228729,
+        "seal_amount": 119195793,
+        "first_seal_time": "093058",
+        "last_seal_time": "093058",
+        "break_count": 0,
+        "limit_stat": "2/2",
+        "consecutive_days": 2,
+        "industry": "化学制药"
+      },
+      {
+        "序号": 7,
+        "code": "002733",
+        "name": "雄韬股份",
+        "pct_chg": 10.0052938461,
+        "price": 20.78,
+        "amount": 434396752,
+        "float_mv": 7664968132.02,
+        "total_mv": 7983985871.360001,
+        "turnover": 5.7096953392,
+        "seal_amount": 198013887,
+        "first_seal_time": "093103",
+        "last_seal_time": "093103",
+        "break_count": 0,
+        "limit_stat": "2/2",
+        "consecutive_days": 2,
+        "industry": "电池"
+      },
+      {
+        "序号": 8,
+        "code": "002692",
+        "name": "远程股份",
+        "pct_chg": 9.9307155609,
+        "price": 4.76,
+        "amount": 80596491,
+        "float_mv": 3417021573.0,
+        "total_mv": 3418374960.0,
+        "turnover": 2.3858327866,
+        "seal_amount": 34613863,
+        "first_seal_time": "093148",
+        "last_seal_time": "093148",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "电网设备"
+      },
+      {
+        "序号": 9,
+        "code": "601811",
+        "name": "新华文轩",
+        "pct_chg": 9.9947395325,
+        "price": 20.91,
+        "amount": 1172870480,
+        "float_mv": 16558710549.0,
+        "total_mv": 25799615477.28,
+        "turnover": 7.4706850052,
+        "seal_amount": 45790809,
+        "first_seal_time": "093159",
+        "last_seal_time": "141314",
+        "break_count": 3,
+        "limit_stat": "10/7",
+        "consecutive_days": 1,
+        "industry": "出版"
+      },
+      {
+        "序号": 10,
+        "code": "605136",
+        "name": "丽人丽妆",
+        "pct_chg": 10.0233097076,
+        "price": 9.44,
+        "amount": 158789251,
+        "float_mv": 3780328240.0,
+        "total_mv": 3780328202.24,
+        "turnover": 4.2602415085,
+        "seal_amount": 29041216,
+        "first_seal_time": "093316",
+        "last_seal_time": "093316",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "互联网电"
+      },
+      {
+        "序号": 11,
+        "code": "600207",
+        "name": "安彩高科",
+        "pct_chg": 10.0196466446,
+        "price": 5.6,
+        "amount": 271154864,
+        "float_mv": 6100150302.4,
+        "total_mv": 6100150336.0,
+        "turnover": 4.5285263062,
+        "seal_amount": 43910176,
+        "first_seal_time": "093500",
+        "last_seal_time": "101212",
+        "break_count": 1,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "光伏设备"
+      },
+      {
+        "序号": 12,
+        "code": "605399",
+        "name": "晨光新材",
+        "pct_chg": 10.0252742767,
+        "price": 13.06,
+        "amount": 77810099,
+        "float_mv": 4062238610.2400002,
+        "total_mv": 4066509334.7200003,
+        "turnover": 1.9518586397,
+        "seal_amount": 36223216,
+        "first_seal_time": "093522",
+        "last_seal_time": "093522",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "化学制品"
+      },
+      {
+        "序号": 13,
+        "code": "002805",
+        "name": "丰元股份",
+        "pct_chg": 10.0169773102,
+        "price": 19.44,
+        "amount": 607293920,
+        "float_mv": 5420184361.92,
+        "total_mv": 5444415233.280001,
+        "turnover": 11.3639717102,
+        "seal_amount": 88444224,
+        "first_seal_time": "093621",
+        "last_seal_time": "093751",
+        "break_count": 1,
+        "limit_stat": "2/2",
+        "consecutive_days": 2,
+        "industry": "电池"
+      },
+      {
+        "序号": 14,
+        "code": "001336",
+        "name": "楚环科技",
+        "pct_chg": 10.0242128372,
+        "price": 22.72,
+        "amount": 347765040,
+        "float_mv": 1460865623.36,
+        "total_mv": 2373911696.0,
+        "turnover": 24.1290359497,
+        "seal_amount": 336338541,
+        "first_seal_time": "093730",
+        "last_seal_time": "093815",
+        "break_count": 1,
+        "limit_stat": "2/2",
+        "consecutive_days": 2,
+        "industry": "环保设备"
+      },
+      {
+        "序号": 15,
+        "code": "600478",
+        "name": "科力远",
+        "pct_chg": 9.9137935638,
+        "price": 5.1,
+        "amount": 308873440,
+        "float_mv": 8638986471.599998,
+        "total_mv": 8638986451.199999,
+        "turnover": 3.6237053871,
+        "seal_amount": 59463195,
+        "first_seal_time": "093749",
+        "last_seal_time": "093819",
+        "break_count": 1,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "电池"
+      },
+      {
+        "序号": 16,
+        "code": "300821",
+        "name": "东岳硅材",
+        "pct_chg": 20.0139961243,
+        "price": 17.15,
+        "amount": 2488094400,
+        "float_mv": 20576411362.5,
+        "total_mv": 20580000000.0,
+        "turnover": 12.5621919632,
+        "seal_amount": 150874552,
+        "first_seal_time": "093839",
+        "last_seal_time": "102827",
+        "break_count": 1,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "化学制品"
+      },
+      {
+        "序号": 17,
+        "code": "603155",
+        "name": "新亚强",
+        "pct_chg": 9.9786167145,
+        "price": 15.43,
+        "amount": 452225104,
+        "float_mv": 7065255969.8,
+        "total_mv": 7065256031.5199995,
+        "turnover": 6.5002717972,
+        "seal_amount": 53628477,
+        "first_seal_time": "094018",
+        "last_seal_time": "130903",
+        "break_count": 2,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "化学制品"
+      },
+      {
+        "序号": 18,
+        "code": "600843",
+        "name": "上工申贝",
+        "pct_chg": 9.9462366104,
+        "price": 8.18,
+        "amount": 292866992,
+        "float_mv": 3838241931.4,
+        "total_mv": 5833701806.4,
+        "turnover": 7.8299145699,
+        "seal_amount": 51057924,
+        "first_seal_time": "094159",
+        "last_seal_time": "094453",
+        "break_count": 1,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "专用设备"
+      },
+      {
+        "序号": 19,
+        "code": "600127",
+        "name": "金健米业",
+        "pct_chg": 10.0,
+        "price": 15.18,
+        "amount": 2959497536,
+        "float_mv": 9742269249.24,
+        "total_mv": 9742269218.88,
+        "turnover": 31.465429306,
+        "seal_amount": 193751508,
+        "first_seal_time": "095039",
+        "last_seal_time": "100551",
+        "break_count": 2,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "农产品加"
+      },
+      {
+        "序号": 20,
+        "code": "300530",
+        "name": "领湃科技",
+        "pct_chg": 20.0166110992,
+        "price": 28.9,
+        "amount": 722835184,
+        "float_mv": 4969394130.599999,
+        "total_mv": 4969394130.599999,
+        "turnover": 15.0423402786,
+        "seal_amount": 38023007,
+        "first_seal_time": "095427",
+        "last_seal_time": "104436",
+        "break_count": 3,
+        "limit_stat": "2/2",
+        "consecutive_days": 2,
+        "industry": "电池"
+      },
+      {
+        "序号": 21,
+        "code": "600629",
+        "name": "华建集团",
+        "pct_chg": 10.0122098923,
+        "price": 18.02,
+        "amount": 616352448,
+        "float_mv": 20719483901.56,
+        "total_mv": 20719483937.6,
+        "turnover": 3.0828781128,
+        "seal_amount": 94086384,
+        "first_seal_time": "101122",
+        "last_seal_time": "101122",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "工程咨询"
+      },
+      {
+        "序号": 22,
+        "code": "601086",
+        "name": "国芳集团",
+        "pct_chg": 10.0147275925,
+        "price": 14.94,
+        "amount": 1006742992,
+        "float_mv": 9950040000.0,
+        "total_mv": 9950040000.0,
+        "turnover": 10.5633516312,
+        "seal_amount": 59912388,
+        "first_seal_time": "101607",
+        "last_seal_time": "101607",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "一般零售"
+      },
+      {
+        "序号": 23,
+        "code": "600371",
+        "name": "万向德农",
+        "pct_chg": 9.9926519394,
+        "price": 14.97,
+        "amount": 949505120,
+        "float_mv": 4379892660.0,
+        "total_mv": 4379892660.0,
+        "turnover": 22.3515415192,
+        "seal_amount": 39895124,
+        "first_seal_time": "102045",
+        "last_seal_time": "110042",
+        "break_count": 1,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "种植业"
+      },
+      {
+        "序号": 24,
+        "code": "603101",
+        "name": "汇嘉时代",
+        "pct_chg": 10.0550966263,
+        "price": 7.99,
+        "amount": 146219698,
+        "float_mv": 3758496000.0,
+        "total_mv": 3758496000.0,
+        "turnover": 3.986571312,
+        "seal_amount": 20993820,
+        "first_seal_time": "103634",
+        "last_seal_time": "103825",
+        "break_count": 2,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "一般零售"
+      },
+      {
+        "序号": 25,
+        "code": "002675",
+        "name": "东诚药业",
+        "pct_chg": 9.9762468338,
+        "price": 13.89,
+        "amount": 519170480,
+        "float_mv": 10325603676.66,
+        "total_mv": 11453634439.68,
+        "turnover": 5.1514854431,
+        "seal_amount": 93447753,
+        "first_seal_time": "103645",
+        "last_seal_time": "130336",
+        "break_count": 2,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "化学制药"
+      },
+      {
+        "序号": 26,
+        "code": "600408",
+        "name": "安泰集团",
+        "pct_chg": 9.8837213516,
+        "price": 3.78,
+        "amount": 750030320,
+        "float_mv": 3805704000.0,
+        "total_mv": 3805704000.0,
+        "turnover": 20.914100647,
+        "seal_amount": 34150406,
+        "first_seal_time": "104317",
+        "last_seal_time": "104317",
+        "break_count": 0,
+        "limit_stat": "2/2",
+        "consecutive_days": 2,
+        "industry": "焦炭Ⅱ"
+      },
+      {
+        "序号": 27,
+        "code": "300981",
+        "name": "中红医疗",
+        "pct_chg": 19.9794559479,
+        "price": 23.36,
+        "amount": 732402928,
+        "float_mv": 9180418773.44,
+        "total_mv": 10018285465.6,
+        "turnover": 8.9130945206,
+        "seal_amount": 64392914,
+        "first_seal_time": "104700",
+        "last_seal_time": "105624",
+        "break_count": 1,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "医疗器械"
+      },
+      {
+        "序号": 28,
+        "code": "000546",
+        "name": "金圆股份",
+        "pct_chg": 9.907834053,
+        "price": 4.77,
+        "amount": 115289309,
+        "float_mv": 3323283832.62,
+        "total_mv": 3709382181.12,
+        "turnover": 3.5851988792,
+        "seal_amount": 36621355,
+        "first_seal_time": "105048",
+        "last_seal_time": "105048",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "环境治理"
+      },
+      {
+        "序号": 29,
+        "code": "002480",
+        "name": "新筑股份",
+        "pct_chg": 10.0917425156,
+        "price": 6.0,
+        "amount": 286036000,
+        "float_mv": 4604924826.0,
+        "total_mv": 4615012032.0,
+        "turnover": 6.3981003761,
+        "seal_amount": 21871800,
+        "first_seal_time": "111745",
+        "last_seal_time": "142557",
+        "break_count": 5,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "电力"
+      },
+      {
+        "序号": 30,
+        "code": "300369",
+        "name": "绿盟科技",
+        "pct_chg": 20.023015976,
+        "price": 10.43,
+        "amount": 1006656816,
+        "float_mv": 8428023329.04,
+        "total_mv": 8454786291.84,
+        "turnover": 13.0734596252,
+        "seal_amount": 96403415,
+        "first_seal_time": "130509",
+        "last_seal_time": "130509",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "软件开发"
+      },
+      {
+        "序号": 31,
+        "code": "600865",
+        "name": "百大集团",
+        "pct_chg": 10.0382413864,
+        "price": 11.51,
+        "amount": 449311792,
+        "float_mv": 4330526037.16,
+        "total_mv": 4330526083.2,
+        "turnover": 10.8489046097,
+        "seal_amount": 32043840,
+        "first_seal_time": "130527",
+        "last_seal_time": "130527",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "一般零售"
+      },
+      {
+        "序号": 32,
+        "code": "600882",
+        "name": "妙可蓝多",
+        "pct_chg": 9.9947948456,
+        "price": 21.13,
+        "amount": 316678832,
+        "float_mv": 10743625561.109999,
+        "total_mv": 10743625582.24,
+        "turnover": 3.0707128048,
+        "seal_amount": 48077511,
+        "first_seal_time": "130603",
+        "last_seal_time": "130603",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "饮料乳品"
+      },
+      {
+        "序号": 33,
+        "code": "002212",
+        "name": "天融信",
+        "pct_chg": 10.0436677933,
+        "price": 7.56,
+        "amount": 882347760,
+        "float_mv": 8821379823.48,
+        "total_mv": 8916671272.32,
+        "turnover": 10.5604162216,
+        "seal_amount": 78404298,
+        "first_seal_time": "130806",
+        "last_seal_time": "130806",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "软件开发"
+      },
+      {
+        "序号": 34,
+        "code": "605188",
+        "name": "国光连锁",
+        "pct_chg": 10.0158977509,
+        "price": 13.84,
+        "amount": 310725696,
+        "float_mv": 7040387240.0,
+        "total_mv": 7040387184.64,
+        "turnover": 4.5967926979,
+        "seal_amount": 34966760,
+        "first_seal_time": "131016",
+        "last_seal_time": "131016",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "一般零售"
+      },
+      {
+        "序号": 35,
+        "code": "603067",
+        "name": "振华股份",
+        "pct_chg": 10.0104007721,
+        "price": 42.31,
+        "amount": 1658361888,
+        "float_mv": 31966279843.24,
+        "total_mv": 31966280012.480003,
+        "turnover": 5.5111527443,
+        "seal_amount": 111670729,
+        "first_seal_time": "131112",
+        "last_seal_time": "140557",
+        "break_count": 1,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "化学原料"
+      },
+      {
+        "序号": 36,
+        "code": "601069",
+        "name": "西部黄金",
+        "pct_chg": 9.9834299088,
+        "price": 26.55,
+        "amount": 712910464,
+        "float_mv": 23554853161.65,
+        "total_mv": 24187026636.0,
+        "turnover": 3.1725516319,
+        "seal_amount": 96127885,
+        "first_seal_time": "131414",
+        "last_seal_time": "131414",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "贵金属"
+      },
+      {
+        "序号": 37,
+        "code": "600354",
+        "name": "敦煌种业",
+        "pct_chg": 10.022026062,
+        "price": 9.99,
+        "amount": 1198876912,
+        "float_mv": 5272742779.2,
+        "total_mv": 5272742779.2,
+        "turnover": 23.6728153229,
+        "seal_amount": 55074430,
+        "first_seal_time": "131537",
+        "last_seal_time": "131537",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "种植业"
+      },
+      {
+        "序号": 38,
+        "code": "000420",
+        "name": "吉林化纤",
+        "pct_chg": 10.1156072617,
+        "price": 3.81,
+        "amount": 893374752,
+        "float_mv": 9367934056.83,
+        "total_mv": 9368288360.16,
+        "turnover": 9.7576160431,
+        "seal_amount": 78581250,
+        "first_seal_time": "131539",
+        "last_seal_time": "135809",
+        "break_count": 1,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "化学纤维"
+      },
+      {
+        "序号": 39,
+        "code": "600621",
+        "name": "华鑫股份",
+        "pct_chg": 10.0303945541,
+        "price": 14.48,
+        "amount": 702519120,
+        "float_mv": 15361821748.16,
+        "total_mv": 15361821806.08,
+        "turnover": 4.7199110985,
+        "seal_amount": 35265591,
+        "first_seal_time": "131602",
+        "last_seal_time": "131602",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "证券Ⅱ"
+      },
+      {
+        "序号": 40,
+        "code": "601519",
+        "name": "大智慧",
+        "pct_chg": 9.952038765,
+        "price": 9.17,
+        "amount": 846133216,
+        "float_mv": 18240597200.0,
+        "total_mv": 18240597200.0,
+        "turnover": 4.851266861,
+        "seal_amount": 131327476,
+        "first_seal_time": "132015",
+        "last_seal_time": "132142",
+        "break_count": 1,
+        "limit_stat": "4/2",
+        "consecutive_days": 1,
+        "industry": "软件开发"
+      },
+      {
+        "序号": 41,
+        "code": "002912",
+        "name": "中新赛克",
+        "pct_chg": 10.0192680359,
+        "price": 28.55,
+        "amount": 673757056,
+        "float_mv": 4631461967.8,
+        "total_mv": 4874969600.0,
+        "turnover": 15.6514873505,
+        "seal_amount": 53526082,
+        "first_seal_time": "132548",
+        "last_seal_time": "132548",
+        "break_count": 0,
+        "limit_stat": "16/8",
+        "consecutive_days": 1,
+        "industry": "计算机设"
+      },
+      {
+        "序号": 42,
+        "code": "605177",
+        "name": "东亚药业",
+        "pct_chg": 9.9922237396,
+        "price": 28.29,
+        "amount": 402750336,
+        "float_mv": 3215228121.69,
+        "total_mv": 3245033079.48,
+        "turnover": 13.3590593338,
+        "seal_amount": 29947794,
+        "first_seal_time": "133032",
+        "last_seal_time": "133032",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "化学制药"
+      },
+      {
+        "序号": 43,
+        "code": "002811",
+        "name": "郑中设计",
+        "pct_chg": 9.9820680618,
+        "price": 18.4,
+        "amount": 361656816,
+        "float_mv": 5208364517.599999,
+        "total_mv": 5666648000.0,
+        "turnover": 7.3032636642,
+        "seal_amount": 14586600,
+        "first_seal_time": "133806",
+        "last_seal_time": "140530",
+        "break_count": 3,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "装修装饰"
+      },
+      {
+        "序号": 44,
+        "code": "601566",
+        "name": "九牧王",
+        "pct_chg": 9.978307724,
+        "price": 10.14,
+        "amount": 389665328,
+        "float_mv": 5826820701.0,
+        "total_mv": 5826820721.280001,
+        "turnover": 6.9958977699,
+        "seal_amount": 40271010,
+        "first_seal_time": "133813",
+        "last_seal_time": "133813",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "服装家纺"
+      },
+      {
+        "序号": 45,
+        "code": "605287",
+        "name": "德才股份",
+        "pct_chg": 9.9917869568,
+        "price": 40.18,
+        "amount": 349821920,
+        "float_mv": 5625200000.0,
+        "total_mv": 5625200000.0,
+        "turnover": 6.6089859009,
+        "seal_amount": 81618437,
+        "first_seal_time": "133925",
+        "last_seal_time": "133925",
+        "break_count": 0,
+        "limit_stat": "3/2",
+        "consecutive_days": 1,
+        "industry": "装修装饰"
+      },
+      {
+        "序号": 46,
+        "code": "605577",
+        "name": "龙版传媒",
+        "pct_chg": 9.9796333313,
+        "price": 16.2,
+        "amount": 590208800,
+        "float_mv": 7200000009.0,
+        "total_mv": 7200000057.599999,
+        "turnover": 8.7172012329,
+        "seal_amount": 64518120,
+        "first_seal_time": "134440",
+        "last_seal_time": "134440",
+        "break_count": 0,
+        "limit_stat": "3/2",
+        "consecutive_days": 1,
+        "industry": "出版"
+      },
+      {
+        "序号": 47,
+        "code": "601595",
+        "name": "上海电影",
+        "pct_chg": 10.0044469833,
+        "price": 24.74,
+        "amount": 295094656,
+        "float_mv": 11088468000.0,
+        "total_mv": 11088468000.0,
+        "turnover": 2.80042696,
+        "seal_amount": 69036970,
+        "first_seal_time": "135226",
+        "last_seal_time": "135226",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "影视院线"
+      },
+      {
+        "序号": 48,
+        "code": "601929",
+        "name": "吉视传媒",
+        "pct_chg": 10.1321582794,
+        "price": 2.5,
+        "amount": 475031392,
+        "float_mv": 8724470420.0,
+        "total_mv": 8724470440.0,
+        "turnover": 5.7231297493,
+        "seal_amount": 78261497,
+        "first_seal_time": "135625",
+        "last_seal_time": "135625",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "电视广播"
+      },
+      {
+        "序号": 49,
+        "code": "603096",
+        "name": "新经典",
+        "pct_chg": 10.0317459106,
+        "price": 17.33,
+        "amount": 70710476,
+        "float_mv": 2672886033.9199996,
+        "total_mv": 2672886033.9199996,
+        "turnover": 2.7972319126,
+        "seal_amount": 48801280,
+        "first_seal_time": "140035",
+        "last_seal_time": "140035",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "出版"
+      },
+      {
+        "序号": 50,
+        "code": "000710",
+        "name": "贝瑞基因",
+        "pct_chg": 10.029211998,
+        "price": 11.3,
+        "amount": 792968096,
+        "float_mv": 3791459145.4,
+        "total_mv": 3994792633.6000004,
+        "turnover": 22.858833313,
+        "seal_amount": 50291938,
+        "first_seal_time": "140212",
+        "last_seal_time": "140212",
+        "break_count": 0,
+        "limit_stat": "6/3",
+        "consecutive_days": 1,
+        "industry": "医疗服务"
+      },
+      {
+        "序号": 51,
+        "code": "000892",
+        "name": "欢瑞世纪",
+        "pct_chg": 9.9773244858,
+        "price": 4.85,
+        "amount": 611067232,
+        "float_mv": 3447374199.3999996,
+        "total_mv": 4757755328.0,
+        "turnover": 18.8310260773,
+        "seal_amount": 53705980,
+        "first_seal_time": "140318",
+        "last_seal_time": "140318",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "影视院线"
+      },
+      {
+        "序号": 52,
+        "code": "603232",
+        "name": "格尔软件",
+        "pct_chg": 9.9740934372,
+        "price": 16.98,
+        "amount": 400137728,
+        "float_mv": 3927473915.1,
+        "total_mv": 3948624203.1,
+        "turnover": 10.830745697,
+        "seal_amount": 48845109,
+        "first_seal_time": "140456",
+        "last_seal_time": "140456",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "软件开发"
+      },
+      {
+        "序号": 53,
+        "code": "002317",
+        "name": "众生药业",
+        "pct_chg": 10.0129480362,
+        "price": 25.49,
+        "amount": 1221113056,
+        "float_mv": 19576889217.19,
+        "total_mv": 21664727935.199997,
+        "turnover": 6.4340500832,
+        "seal_amount": 102576832,
+        "first_seal_time": "140815",
+        "last_seal_time": "140815",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "中药Ⅱ"
+      },
+      {
+        "序号": 54,
+        "code": "300364",
+        "name": "中文在线",
+        "pct_chg": 20.0098075867,
+        "price": 24.47,
+        "amount": 1850122256,
+        "float_mv": 16176766173.609999,
+        "total_mv": 17826397740.64,
+        "turnover": 12.5788574219,
+        "seal_amount": 206704770,
+        "first_seal_time": "140851",
+        "last_seal_time": "140851",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "数字媒体"
+      },
+      {
+        "序号": 55,
+        "code": "603533",
+        "name": "掌阅科技",
+        "pct_chg": 9.9870300293,
+        "price": 25.44,
+        "amount": 872887936,
+        "float_mv": 11165535482.4,
+        "total_mv": 11165535406.08,
+        "turnover": 8.3879470825,
+        "seal_amount": 87841190,
+        "first_seal_time": "140903",
+        "last_seal_time": "140903",
+        "break_count": 0,
+        "limit_stat": "4/2",
+        "consecutive_days": 1,
+        "industry": "数字媒体"
+      },
+      {
+        "序号": 56,
+        "code": "002181",
+        "name": "粤 传 媒",
+        "pct_chg": 9.9531612396,
+        "price": 9.39,
+        "amount": 770568016,
+        "float_mv": 10653303406.560001,
+        "total_mv": 10902336272.640001,
+        "turnover": 7.6323623657,
+        "seal_amount": 29863796,
+        "first_seal_time": "141103",
+        "last_seal_time": "144706",
+        "break_count": 5,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "出版"
+      },
+      {
+        "序号": 57,
+        "code": "688152",
+        "name": "麒麟信安",
+        "pct_chg": 19.9947662354,
+        "price": 45.85,
+        "amount": 482931984,
+        "float_mv": 4672026784.6,
+        "total_mv": 4672026784.6,
+        "turnover": 11.2413721085,
+        "seal_amount": 53848899,
+        "first_seal_time": "141550",
+        "last_seal_time": "141550",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "软件开发"
+      },
+      {
+        "序号": 58,
+        "code": "001330",
+        "name": "博纳影业",
+        "pct_chg": 9.9369087219,
+        "price": 6.97,
+        "amount": 1615588592,
+        "float_mv": 8105045834.34,
+        "total_mv": 9580397374.24,
+        "turnover": 20.9245376587,
+        "seal_amount": 61244693,
+        "first_seal_time": "141615",
+        "last_seal_time": "141654",
+        "break_count": 1,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "影视院线"
+      },
+      {
+        "序号": 59,
+        "code": "300413",
+        "name": "芒果超媒",
+        "pct_chg": 19.979133606,
+        "price": 23.0,
+        "amount": 2384983296,
+        "float_mv": 23499099034.0,
+        "total_mv": 43026578768.0,
+        "turnover": 11.1696844101,
+        "seal_amount": 80957631,
+        "first_seal_time": "141733",
+        "last_seal_time": "142551",
+        "break_count": 1,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "数字媒体"
+      },
+      {
+        "序号": 60,
+        "code": "002343",
+        "name": "慈文传媒",
+        "pct_chg": 9.9457502365,
+        "price": 6.08,
+        "amount": 140260296,
+        "float_mv": 2879976138.88,
+        "total_mv": 2879976151.04,
+        "turnover": 5.1114506721,
+        "seal_amount": 17011840,
+        "first_seal_time": "141754",
+        "last_seal_time": "141809",
+        "break_count": 1,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "影视院线"
+      },
+      {
+        "序号": 61,
+        "code": "002696",
+        "name": "百洋股份",
+        "pct_chg": 10.0751876831,
+        "price": 7.32,
+        "amount": 208840039,
+        "float_mv": 2446775279.76,
+        "total_mv": 2530921036.8,
+        "turnover": 9.1817712784,
+        "seal_amount": 32983920,
+        "first_seal_time": "142212",
+        "last_seal_time": "142212",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "饲料"
+      },
+      {
+        "序号": 62,
+        "code": "002979",
+        "name": "雷赛智能",
+        "pct_chg": 9.9940624237,
+        "price": 55.58,
+        "amount": 692474160,
+        "float_mv": 12454165367.14,
+        "total_mv": 17565397375.68,
+        "turnover": 5.9126553535,
+        "seal_amount": 68160866,
+        "first_seal_time": "142645",
+        "last_seal_time": "142645",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "自动化设"
+      },
+      {
+        "序号": 63,
+        "code": "605168",
+        "name": "三人行",
+        "pct_chg": 10.0084457397,
+        "price": 52.1,
+        "amount": 432550944,
+        "float_mv": 10983564970.6,
+        "total_mv": 10983564970.6,
+        "turnover": 4.097489357,
+        "seal_amount": 4959920,
+        "first_seal_time": "142701",
+        "last_seal_time": "145449",
+        "break_count": 6,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "广告营销"
+      },
+      {
+        "序号": 64,
+        "code": "603216",
+        "name": "梦天家居",
+        "pct_chg": 9.9954357147,
+        "price": 24.1,
+        "amount": 201398679,
+        "float_mv": 5366829000.0,
+        "total_mv": 5366829000.0,
+        "turnover": 3.9951951504,
+        "seal_amount": 46416600,
+        "first_seal_time": "142722",
+        "last_seal_time": "142722",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "家居用品"
+      },
+      {
+        "序号": 65,
+        "code": "600715",
+        "name": "文投控股",
+        "pct_chg": 10.0,
+        "price": 1.76,
+        "amount": 213668564,
+        "float_mv": 5037775144.16,
+        "total_mv": 7145342167.04,
+        "turnover": 4.3744297028,
+        "seal_amount": 10813344,
+        "first_seal_time": "142940",
+        "last_seal_time": "144619",
+        "break_count": 3,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "游戏Ⅱ"
+      },
+      {
+        "序号": 66,
+        "code": "000736",
+        "name": "中交发展",
+        "pct_chg": 9.9156122208,
+        "price": 5.21,
+        "amount": 281283664,
+        "float_mv": 3892382669.21,
+        "total_mv": 3892382664.0,
+        "turnover": 7.5936465263,
+        "seal_amount": 25791068,
+        "first_seal_time": "143242",
+        "last_seal_time": "143242",
+        "break_count": 0,
+        "limit_stat": "1/1",
+        "consecutive_days": 1,
+        "industry": "房地产服"
+      },
+      {
+        "序号": 67,
+        "code": "605058",
+        "name": "澳弘电子",
+        "pct_chg": 10.0,
+        "price": 53.35,
+        "amount": 1066564768,
+        "float_mv": 7625262790.2,
+        "total_mv": 7625262790.2,
+        "turnover": 14.8249177933,
+        "seal_amount": 27385141,
+        "first_seal_time": "143833",
+        "last_seal_time": "143833",
+        "break_count": 0,
+        "limit_stat": "15/9",
+        "consecutive_days": 1,
+        "industry": "元件"
+      },
+      {
+        "序号": 68,
+        "code": "600400",
+        "name": "红豆股份",
+        "pct_chg": 9.9447507858,
+        "price": 3.98,
+        "amount": 744163056,
+        "float_mv": 9119659970.96,
+        "total_mv": 9119659986.88,
+        "turnover": 8.5088367462,
+        "seal_amount": 32983772,
+        "first_seal_time": "144612",
+        "last_seal_time": "144612",
+        "break_count": 0,
+        "limit_stat": "2/2",
+        "consecutive_days": 2,
+        "industry": "服装家纺"
+      },
+      {
+        "序号": 69,
+        "code": "601118",
+        "name": "海南橡胶",
+        "pct_chg": 9.9846391678,
+        "price": 7.16,
+        "amount": 1930793296,
+        "float_mv": 30640703026.52,
+        "total_mv": 30640702990.72,
+        "turnover": 6.6432471275,
+        "seal_amount": 64505829,
+        "first_seal_time": "145236",
+        "last_seal_time": "145236",
+        "break_count": 0,
+        "limit_stat": "3/2",
+        "consecutive_days": 1,
+        "industry": "种植业"
+      }
+    ],
+    "limit_down_stocks": [
+      {
+        "序号": 1,
+        "code": "603400",
+        "name": "华之杰",
+        "pct_chg": -10.0,
+        "price": 42.93,
+        "amount": 286680592,
+        "float_mv": 1555357119.75,
+        "总市值": 5573605119.75,
+        "动态市盈率": 62.9746742249,
+        "turnover": 18.131187439,
+        "seal_amount": 3142476,
+        "最后封板时间": "150000",
+        "板上成交额": 56893837,
+        "consecutive_days": 2,
+        "开板次数": 7,
+        "industry": "通用设备"
+      },
+      {
+        "序号": 2,
+        "code": "603823",
+        "name": "百合花",
+        "pct_chg": -10.0021467209,
+        "price": 41.93,
+        "amount": 855381184,
+        "float_mv": 17458297828.72,
+        "总市值": 17458298164.16,
+        "动态市盈率": 75.5817871094,
+        "turnover": 4.8796577454,
+        "seal_amount": 3882718,
+        "最后封板时间": "145126",
+        "板上成交额": 532100839,
+        "consecutive_days": 1,
+        "开板次数": 17,
+        "industry": "化学制品"
+      },
+      {
+        "序号": 3,
+        "code": "603073",
+        "name": "彩蝶实业",
+        "pct_chg": -10.0130605698,
+        "price": 20.67,
+        "amount": 201331598,
+        "float_mv": 2397720000.0,
+        "总市值": 2397720000.0,
+        "动态市盈率": 47.1061401367,
+        "turnover": 8.2612934113,
+        "seal_amount": 5345262,
+        "最后封板时间": "142947",
+        "板上成交额": 92785911,
+        "consecutive_days": 1,
+        "开板次数": 13,
+        "industry": "化学纤维"
+      },
+      {
+        "序号": 4,
+        "code": "002927",
+        "name": "泰永长征",
+        "pct_chg": -10.0,
+        "price": 17.64,
+        "amount": 289675616,
+        "float_mv": 3893815356.48,
+        "总市值": 3937110055.2000003,
+        "动态市盈率": 96.3134460449,
+        "turnover": 7.2317008972,
+        "seal_amount": 5471928,
+        "最后封板时间": "141433",
+        "板上成交额": 83638718,
+        "consecutive_days": 1,
+        "开板次数": 17,
+        "industry": "电网设备"
+      },
+      {
+        "序号": 5,
+        "code": "002962",
+        "name": "五方光电",
+        "pct_chg": -10.0059919357,
+        "price": 15.02,
+        "amount": 333502544,
+        "float_mv": 3142420264.6,
+        "总市值": 4380813707.2,
+        "动态市盈率": 147.9129943848,
+        "turnover": 10.465098381,
+        "seal_amount": 44164868,
+        "最后封板时间": "094506",
+        "板上成交额": 97494354,
+        "consecutive_days": 1,
+        "开板次数": 1,
+        "industry": "光学光电"
+      },
+      {
+        "序号": 6,
+        "code": "605366",
+        "name": "宏柏新材",
+        "pct_chg": -9.9637680054,
+        "price": 9.94,
+        "amount": 1033147536,
+        "float_mv": 7681907338.0,
+        "总市值": 7681907298.24,
+        "动态市盈率": -125.9928131104,
+        "turnover": 12.2565984726,
+        "seal_amount": 96686350,
+        "最后封板时间": "132320",
+        "板上成交额": 75021474,
+        "consecutive_days": 1,
+        "开板次数": 2,
+        "industry": "化学制品"
+      },
+      {
+        "序号": 7,
+        "code": "002636",
+        "name": "金安国纪",
+        "pct_chg": -9.9962320328,
+        "price": 71.67,
+        "amount": 2807666912,
+        "float_mv": 51977704470.21,
+        "总市值": 52175760000.0,
+        "动态市盈率": 34.0623092651,
+        "turnover": 5.365737915,
+        "seal_amount": 127708701,
+        "最后封板时间": "143351",
+        "板上成交额": 1062725331,
+        "consecutive_days": 1,
+        "开板次数": 12,
+        "industry": "元件"
+      },
+      {
+        "序号": 8,
+        "code": "002487",
+        "name": "大金重工",
+        "pct_chg": -9.9979429245,
+        "price": 43.75,
+        "amount": 4957548032,
+        "float_mv": 27602761637.5,
+        "总市值": 32378756200.0,
+        "动态市盈率": 26.9568214417,
+        "turnover": 16.6662445068,
+        "seal_amount": 181300350,
+        "最后封板时间": "133657",
+        "板上成交额": 527474890,
+        "consecutive_days": 1,
+        "开板次数": 3,
+        "industry": "风电设备"
+      }
+    ],
+    "broken_stocks": [
+      {
+        "序号": 1,
+        "code": "605303",
+        "name": "园林股份",
+        "pct_chg": 2.156676054,
+        "price": 32.21,
+        "limit_price": 34.68,
+        "amount": 849336400,
+        "float_mv": 5193456911.68,
+        "total_mv": 5193456911.68,
+        "turnover": 16.3010616302,
+        "speed": 0.0,
+        "first_seal_time": "092502",
+        "break_count": 1,
+        "涨停统计": "4/3",
+        "amplitude": 17.7608623505,
+        "industry": "基础建设"
+      },
+      {
+        "序号": 2,
+        "code": "603630",
+        "name": "拉芳家化",
+        "pct_chg": 2.9095509052,
+        "price": 16.27,
+        "limit_price": 17.39,
+        "amount": 507423184,
+        "float_mv": 3664078516.6,
+        "total_mv": 3664078516.6,
+        "turnover": 13.4730939865,
+        "speed": 0.0,
+        "first_seal_time": "093010",
+        "break_count": 1,
+        "涨停统计": "0/0",
+        "amplitude": 10.120177269,
+        "industry": "化妆品"
+      },
+      {
+        "序号": 3,
+        "code": "002285",
+        "name": "世联行",
+        "pct_chg": 1.869158864,
+        "price": 3.27,
+        "limit_price": 3.53,
+        "amount": 1078343008,
+        "float_mv": 6471360675.87,
+        "total_mv": 6516550960.8,
+        "turnover": 16.7273330688,
+        "speed": 0.0,
+        "first_seal_time": "093036",
+        "break_count": 1,
+        "涨停统计": "0/0",
+        "amplitude": 17.1339550018,
+        "industry": "房地产服"
+      },
+      {
+        "序号": 4,
+        "code": "603068",
+        "name": "博通集成",
+        "pct_chg": 2.4976437092,
+        "price": 43.5,
+        "limit_price": 46.68,
+        "amount": 973926768,
+        "float_mv": 6602748376.5,
+        "total_mv": 6602748376.5,
+        "turnover": 14.6965179443,
+        "speed": 0.0,
+        "first_seal_time": "094724",
+        "break_count": 1,
+        "涨停统计": "0/0",
+        "amplitude": 12.4410934448,
+        "industry": "半导体"
+      },
+      {
+        "序号": 5,
+        "code": "300111",
+        "name": "向日葵",
+        "pct_chg": 14.8148145676,
+        "price": 3.41,
+        "limit_price": 3.56,
+        "amount": 912946944,
+        "float_mv": 4389388534.74,
+        "total_mv": 4389388555.2,
+        "turnover": 20.8186016083,
+        "speed": 0.0,
+        "first_seal_time": "094851",
+        "break_count": 3,
+        "涨停统计": "0/0",
+        "amplitude": 19.1919193268,
+        "industry": "化学制药"
+      },
+      {
+        "序号": 6,
+        "code": "002083",
+        "name": "孚日股份",
+        "pct_chg": 4.8353910446,
+        "price": 10.19,
+        "limit_price": 10.69,
+        "amount": 931693488,
+        "float_mv": 9642881699.279999,
+        "total_mv": 9646251491.52,
+        "turnover": 9.5770120621,
+        "speed": 0.0,
+        "first_seal_time": "095406",
+        "break_count": 1,
+        "涨停统计": "0/0",
+        "amplitude": 10.3909463882,
+        "industry": "纺织制造"
+      },
+      {
+        "序号": 7,
+        "code": "603810",
+        "name": "丰山集团",
+        "pct_chg": 4.3513293266,
+        "price": 12.95,
+        "limit_price": 13.65,
+        "amount": 128959725,
+        "float_mv": 2141186941.9499998,
+        "total_mv": 2141186941.9499998,
+        "turnover": 6.0620036125,
+        "speed": 0.0,
+        "first_seal_time": "095932",
+        "break_count": 1,
+        "涨停统计": "0/0",
+        "amplitude": 11.2006444931,
+        "industry": "农化制品"
+      },
+      {
+        "序号": 8,
+        "code": "600785",
+        "name": "新华百货",
+        "pct_chg": 7.7137546539,
+        "price": 11.59,
+        "limit_price": 11.84,
+        "amount": 582777616,
+        "float_mv": 3661093149.2799997,
+        "total_mv": 3661093149.2799997,
+        "turnover": 16.2810306549,
+        "speed": 0.0,
+        "first_seal_time": "102633",
+        "break_count": 1,
+        "涨停统计": "0/0",
+        "amplitude": 10.4089221954,
+        "industry": "一般零售"
+      },
+      {
+        "序号": 9,
+        "code": "002702",
+        "name": "海欣食品",
+        "pct_chg": 4.0540537834,
+        "price": 6.16,
+        "limit_price": 6.51,
+        "amount": 1034853104,
+        "float_mv": 2825861500.0,
+        "total_mv": 3423481600.0,
+        "turnover": 36.7615470886,
+        "speed": 0.0,
+        "first_seal_time": "102636",
+        "break_count": 1,
+        "涨停统计": "2/1",
+        "amplitude": 11.9932432175,
+        "industry": "食品加工"
+      },
+      {
+        "序号": 10,
+        "code": "001318",
+        "name": "阳光乳业",
+        "pct_chg": 4.6765394211,
+        "price": 13.43,
+        "limit_price": 14.11,
+        "amount": 384247824,
+        "float_mv": 3796123800.0,
+        "total_mv": 3796123800.0,
+        "turnover": 10.275346756,
+        "speed": 0.0,
+        "first_seal_time": "103315",
+        "break_count": 1,
+        "涨停统计": "0/0",
+        "amplitude": 13.3281364441,
+        "industry": "饮料乳品"
+      },
+      {
+        "序号": 11,
+        "code": "002709",
+        "name": "天赐材料",
+        "pct_chg": 9.146528244,
+        "price": 35.68,
+        "limit_price": 35.96,
+        "amount": 7104253696,
+        "float_mv": 53841513157.92,
+        "total_mv": 72735883025.92,
+        "turnover": 13.4951639175,
+        "speed": 0.0,
+        "first_seal_time": "104942",
+        "break_count": 2,
+        "涨停统计": "0/0",
+        "amplitude": 11.4408073425,
+        "industry": "电池"
+      },
+      {
+        "序号": 12,
+        "code": "300340",
+        "name": "科恒股份",
+        "pct_chg": 15.8918914795,
+        "price": 10.72,
+        "limit_price": 11.1,
+        "amount": 669399504,
+        "float_mv": 2931343006.7200003,
+        "total_mv": 2953517798.4,
+        "turnover": 23.5516929626,
+        "speed": 0.0,
+        "first_seal_time": "105627",
+        "break_count": 3,
+        "涨停统计": "0/0",
+        "amplitude": 21.297296524,
+        "industry": "电池"
+      },
+      {
+        "序号": 13,
+        "code": "920627",
+        "name": "力王股份",
+        "pct_chg": 24.1166572571,
+        "price": 22.13,
+        "limit_price": 23.17,
+        "amount": 357229392,
+        "float_mv": 1086527675.0,
+        "total_mv": 2090178500.0,
+        "turnover": 35.7848129272,
+        "speed": -1.028622508,
+        "first_seal_time": "105812",
+        "break_count": 2,
+        "涨停统计": "2/1",
+        "amplitude": 33.9315757751,
+        "industry": "电池"
+      },
+      {
+        "序号": 14,
+        "code": "002105",
+        "name": "信隆健康",
+        "pct_chg": 5.5105347633,
+        "price": 6.51,
+        "limit_price": 6.79,
+        "amount": 210375419,
+        "float_mv": 2372712557.25,
+        "total_mv": 2384235107.52,
+        "turnover": 8.8627929688,
+        "speed": 0.0,
+        "first_seal_time": "132545",
+        "break_count": 4,
+        "涨停统计": "0/0",
+        "amplitude": 12.3176660538,
+        "industry": "摩托车及"
+      }
+    ],
+    "_build_stage": "late",
+    "_build_time": "2026-10-14 08:26:35",
+    "today_stocks_lhb": [
+      {
+        "code": "300821",
+        "name": "东岳硅材",
+        "pct_chg": 20.014,
+        "net_buy": 187582294.39,
+        "buy_amount": 477357946.86,
+        "sell_amount": 289775652.47,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日涨幅达到15%的前5只证券"
+      },
+      {
+        "code": "000420",
+        "name": "吉林化纤",
+        "pct_chg": 10.1156,
+        "net_buy": 178378901.12,
+        "buy_amount": 233514396.34,
+        "sell_amount": 55135495.22,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日涨幅偏离值达到7%的前5只证券"
+      },
+      {
+        "code": "300369",
+        "name": "绿盟科技",
+        "pct_chg": 20.023,
+        "net_buy": 168063370.39,
+        "buy_amount": 305361218.19,
+        "sell_amount": 137297847.8,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日涨幅达到15%的前5只证券"
+      },
+      {
+        "code": "300364",
+        "name": "中文在线",
+        "pct_chg": 20.0098,
+        "net_buy": 143051975.23,
+        "buy_amount": 366013366.63,
+        "sell_amount": 222961391.4,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日涨幅达到15%的前5只证券"
+      },
+      {
+        "code": "002242",
+        "name": "九阳股份",
+        "pct_chg": 10.0364,
+        "net_buy": 137013626.68,
+        "buy_amount": 263931036.53,
+        "sell_amount": 126917409.85,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日涨幅偏离值达到7%的前5只证券"
+      },
+      {
+        "code": "300981",
+        "name": "中红医疗",
+        "pct_chg": 19.9795,
+        "net_buy": 126367173.22,
+        "buy_amount": 204105121.02,
+        "sell_amount": 77737947.8,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日涨幅达到15%的前5只证券"
+      },
+      {
+        "code": "002212",
+        "name": "天融信",
+        "pct_chg": 10.0437,
+        "net_buy": 120918957.78,
+        "buy_amount": 214479084.1,
+        "sell_amount": 93560126.32,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日涨幅偏离值达到7%的前5只证券"
+      },
+      {
+        "code": "002636",
+        "name": "金安国纪",
+        "pct_chg": -9.9962,
+        "net_buy": 112888955.24,
+        "buy_amount": 278827847.78,
+        "sell_amount": 165938892.54,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日跌幅偏离值达到7%的前5只证券"
+      },
+      {
+        "code": "601929",
+        "name": "吉视传媒",
+        "pct_chg": 10.1322,
+        "net_buy": 106192975.0,
+        "buy_amount": 166530634.0,
+        "sell_amount": 60337659.0,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+      },
+      {
+        "code": "600354",
+        "name": "敦煌种业",
+        "pct_chg": 10.022,
+        "net_buy": 87828323.24,
+        "buy_amount": 185231436.61,
+        "sell_amount": 97403113.37,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+      },
+      {
+        "code": "603232",
+        "name": "格尔软件",
+        "pct_chg": 9.9741,
+        "net_buy": 80738738.98,
+        "buy_amount": 132438814.12,
+        "sell_amount": 51700075.14,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券"
+      },
+      {
+        "code": "603757",
+        "name": "大元泵业",
+        "pct_chg": 4.5539,
+        "net_buy": 76273414.6,
+        "buy_amount": 197975026.07,
+        "sell_amount": 121701611.47,
+        "tags": [
+          "机构"
+        ],
+        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券"
+      },
+      {
+        "code": "300189",
+        "name": "神农种业",
+        "pct_chg": 10.396,
+        "net_buy": 71823451.86,
+        "buy_amount": 251494209.16,
+        "sell_amount": 179670757.3,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日换手率达到30%的前5只证券"
+      },
+      {
+        "code": "301689",
+        "name": "电科思仪",
+        "pct_chg": -1.6482,
+        "net_buy": 71215883.5,
+        "buy_amount": 221931751.74,
+        "sell_amount": 150715868.24,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日换手率达到30%的前5只证券"
+      },
+      {
+        "code": "600127",
+        "name": "金健米业",
+        "pct_chg": 10.0,
+        "net_buy": 60137441.2,
+        "buy_amount": 360227768.17,
+        "sell_amount": 300090326.97,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+      },
+      {
+        "code": "002317",
+        "name": "众生药业",
+        "pct_chg": 10.0129,
+        "net_buy": 57675159.7,
+        "buy_amount": 288677065.67,
+        "sell_amount": 231001905.97,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日涨幅偏离值达到7%的前5只证券"
+      },
+      {
+        "code": "688152",
+        "name": "麒麟信安",
+        "pct_chg": 19.9948,
+        "net_buy": 50891020.11,
+        "buy_amount": 99241215.83,
+        "sell_amount": 48350195.72,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券"
+      },
+      {
+        "code": "002487",
+        "name": "大金重工",
+        "pct_chg": -9.9979,
+        "net_buy": 35965650.8099999,
+        "buy_amount": 426474471.03,
+        "sell_amount": 390508820.22,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日跌幅偏离值达到7%的前5只证券 · 日振幅值达到15%的前5只证券"
+      },
+      {
+        "code": "603928",
+        "name": "兴业股份",
+        "pct_chg": -4.7983,
+        "net_buy": 26326578.59,
+        "buy_amount": 141185292.29,
+        "sell_amount": 114858713.7,
+        "tags": [
+          "机构"
+        ],
+        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券"
+      },
+      {
+        "code": "600812",
+        "name": "华北制药",
+        "pct_chg": 10.0365,
+        "net_buy": 25451340.79,
+        "buy_amount": 83631800.0,
+        "sell_amount": 58180459.21,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+      },
+      {
+        "code": "603096",
+        "name": "新经典",
+        "pct_chg": 10.0317,
+        "net_buy": 23010860.0,
+        "buy_amount": 38748093.0,
+        "sell_amount": 15737233.0,
+        "tags": [
+          "机构"
+        ],
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+      },
+      {
+        "code": "002316",
+        "name": "亚联发展",
+        "pct_chg": -2.6104,
+        "net_buy": 18476092.07,
+        "buy_amount": 98476173.0,
+        "sell_amount": 80000080.93,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日换手率达到20%的前5只证券"
+      },
+      {
+        "code": "920289",
+        "name": "华汇智能",
+        "pct_chg": 6.7437,
+        "net_buy": 14034775.53,
+        "buy_amount": 27907557.75,
+        "sell_amount": 13872782.22,
+        "tags": [
+          "机构"
+        ],
+        "reason": "当日换手率达到20%的前5只股票"
+      },
+      {
+        "code": "920779",
+        "name": "武汉蓝电",
+        "pct_chg": 1.9922,
+        "net_buy": 11550740.16,
+        "buy_amount": 38385176.44,
+        "sell_amount": 26834436.28,
+        "tags": [
+          "机构"
+        ],
+        "reason": "当日换手率达到20%的前5只股票"
+      },
+      {
+        "code": "603101",
+        "name": "汇嘉时代",
+        "pct_chg": 10.0551,
+        "net_buy": 9178135.4,
+        "buy_amount": 30398513.16,
+        "sell_amount": 21220377.76,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+      },
+      {
+        "code": "002927",
+        "name": "泰永长征",
+        "pct_chg": -10.0,
+        "net_buy": 5261435.77,
+        "buy_amount": 48963901.0,
+        "sell_amount": 43702465.23,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日跌幅偏离值达到7%的前5只证券"
+      },
+      {
+        "code": "920021",
+        "name": "流金科技",
+        "pct_chg": 20.1361,
+        "net_buy": 4110377.83,
+        "buy_amount": 46788988.57,
+        "sell_amount": 42678610.74,
+        "tags": [],
+        "reason": "当日收盘价涨幅达到20%的前5只股票"
+      },
+      {
+        "code": "920895",
+        "name": "花溪科技",
+        "pct_chg": 19.1318,
+        "net_buy": 2211426.5,
+        "buy_amount": 28434295.77,
+        "sell_amount": 26222869.27,
+        "tags": [
+          "机构"
+        ],
+        "reason": "当日换手率达到20%的前5只股票"
+      },
+      {
+        "code": "920202",
+        "name": "安达股份",
+        "pct_chg": 1.958,
+        "net_buy": 1119563.29,
+        "buy_amount": 12667503.66,
+        "sell_amount": 11547940.37,
+        "tags": [],
+        "reason": "当日换手率达到20%的前5只股票"
+      },
+      {
+        "code": "920237",
+        "name": "力佳科技",
+        "pct_chg": 6.9785,
+        "net_buy": 607703.630000001,
+        "buy_amount": 13612770.22,
+        "sell_amount": 13005066.59,
+        "tags": [
+          "机构"
+        ],
+        "reason": "当日价格振幅达到30%的前5只股票"
+      },
+      {
+        "code": "600825",
+        "name": "新华传媒",
+        "pct_chg": 10.0088,
+        "net_buy": 0.0,
+        "buy_amount": 1126173900.0,
+        "sell_amount": 1126173800.0,
+        "tags": [
+          "机构"
+        ],
+        "reason": "连续10个交易日内4次出现同正向异常波动的证券"
+      },
+      {
+        "code": "603248",
+        "name": "锡华科技",
+        "pct_chg": -3.7313,
+        "net_buy": -870764.609999999,
+        "buy_amount": 49553029.05,
+        "sell_amount": 50423793.66,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+      },
+      {
+        "code": "301139",
+        "name": "元道退",
+        "pct_chg": -5.3191,
+        "net_buy": -2133290.21,
+        "buy_amount": 2808720.88,
+        "sell_amount": 4942011.09,
+        "tags": [],
+        "reason": "退市整理期"
+      },
+      {
+        "code": "600865",
+        "name": "百大集团",
+        "pct_chg": 10.0382,
+        "net_buy": -4727782.41,
+        "buy_amount": 85414679.0,
+        "sell_amount": 90142461.41,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+      },
+      {
+        "code": "601091",
+        "name": "沈鼓集团",
+        "pct_chg": -4.8347,
+        "net_buy": -5503461.73000001,
+        "buy_amount": 99736959.94,
+        "sell_amount": 105240421.67,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+      },
+      {
+        "code": "301513",
+        "name": "尚水智能",
+        "pct_chg": 6.0168,
+        "net_buy": -6687186.97,
+        "buy_amount": 57628063.7,
+        "sell_amount": 64315250.67,
+        "tags": [],
+        "reason": "日换手率达到30%的前5只证券"
+      },
+      {
+        "code": "603073",
+        "name": "彩蝶实业",
+        "pct_chg": -10.0131,
+        "net_buy": -7188189.46,
+        "buy_amount": 33322707.54,
+        "sell_amount": 40510897.0,
+        "tags": [
+          "机构"
+        ],
+        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+      },
+      {
+        "code": "920627",
+        "name": "力王股份",
+        "pct_chg": 24.1167,
+        "net_buy": -8799030.5,
+        "buy_amount": 29290329.36,
+        "sell_amount": 38089359.86,
+        "tags": [
+          "机构"
+        ],
+        "reason": "当日收盘价涨幅达到20%的前5只股票 · 当日价格振幅达到30%的前5只股票 · 当日换手率达到20%的前5只股票"
+      },
+      {
+        "code": "603400",
+        "name": "华之杰",
+        "pct_chg": -10.0,
+        "net_buy": -13833920.61,
+        "buy_amount": 43029256.97,
+        "sell_amount": 56863177.58,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+      },
+      {
+        "code": "300413",
+        "name": "芒果超媒",
+        "pct_chg": 19.9791,
+        "net_buy": -18056407.42,
+        "buy_amount": 316089999.15,
+        "sell_amount": 334146406.57,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日涨幅达到15%的前5只证券"
+      },
+      {
+        "code": "002531",
+        "name": "天顺风能",
+        "pct_chg": -9.9401,
+        "net_buy": -18281759.88,
+        "buy_amount": 113156976.48,
+        "sell_amount": 131438736.36,
+        "tags": [],
+        "reason": "日跌幅偏离值达到7%的前5只证券"
+      },
+      {
+        "code": "000678",
+        "name": "襄阳轴承",
+        "pct_chg": 3.1046,
+        "net_buy": -18445741.44,
+        "buy_amount": 175303749.55,
+        "sell_amount": 193749490.99,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日换手率达到20%的前5只证券 · 日振幅值达到15%的前5只证券"
+      },
+      {
+        "code": "002172",
+        "name": "澳洋健康",
+        "pct_chg": 4.417,
+        "net_buy": -19029853.71,
+        "buy_amount": 84830721.01,
+        "sell_amount": 103860574.72,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日换手率达到20%的前5只证券"
+      },
+      {
+        "code": "605303",
+        "name": "园林股份",
+        "pct_chg": 2.1567,
+        "net_buy": -21442830.88,
+        "buy_amount": 80357496.0,
+        "sell_amount": 101800326.88,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券"
+      },
+      {
+        "code": "688806",
+        "name": "泰诺麦博",
+        "pct_chg": 11.7495,
+        "net_buy": -22652703.91,
+        "buy_amount": 80237512.36,
+        "sell_amount": 102890216.27,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日换手率达到30%的前五只证券"
+      },
+      {
+        "code": "605366",
+        "name": "宏柏新材",
+        "pct_chg": -9.9638,
+        "net_buy": -23928122.19,
+        "buy_amount": 66631506.33,
+        "sell_amount": 90559628.52,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+      },
+      {
+        "code": "301599",
+        "name": "理奇智能",
+        "pct_chg": -0.8108,
+        "net_buy": -25110275.16,
+        "buy_amount": 64535746.26,
+        "sell_amount": 89646021.42,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日换手率达到30%的前5只证券"
+      },
+      {
+        "code": "688244",
+        "name": "永信至诚",
+        "pct_chg": 16.2228,
+        "net_buy": -28532424.12,
+        "buy_amount": 28493121.97,
+        "sell_amount": 57025546.09,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日价格振幅达到30%的前五只证券 · 有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券"
+      },
+      {
+        "code": "000011",
+        "name": "深物业A",
+        "pct_chg": 3.8779,
+        "net_buy": -34091111.82,
+        "buy_amount": 133387168.32,
+        "sell_amount": 167478280.14,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日振幅值达到15%的前5只证券"
+      },
+      {
+        "code": "002702",
+        "name": "海欣食品",
+        "pct_chg": 4.0541,
+        "net_buy": -44278036.69,
+        "buy_amount": 115983353.3,
+        "sell_amount": 160261389.99,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日换手率达到20%的前5只证券"
+      },
+      {
+        "code": "002962",
+        "name": "五方光电",
+        "pct_chg": -10.006,
+        "net_buy": -44457192.2,
+        "buy_amount": 34448153.73,
+        "sell_amount": 78905345.93,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日跌幅偏离值达到7%的前5只证券"
+      },
+      {
+        "code": "002866",
+        "name": "传艺科技",
+        "pct_chg": -1.4524,
+        "net_buy": -51080203.57,
+        "buy_amount": 137642704.44,
+        "sell_amount": 188722908.01,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日振幅值达到15%的前5只证券 · 日换手率达到20%的前5只证券"
+      },
+      {
+        "code": "301697",
+        "name": "贝特利",
+        "pct_chg": -4.4748,
+        "net_buy": -60617775.56,
+        "buy_amount": 103305875.65,
+        "sell_amount": 163923651.21,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日换手率达到30%的前5只证券"
+      },
+      {
+        "code": "001330",
+        "name": "博纳影业",
+        "pct_chg": 9.9369,
+        "net_buy": -60714208.62,
+        "buy_amount": 203306769.0,
+        "sell_amount": 264020977.62,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日涨幅偏离值达到7%的前5只证券"
+      },
+      {
+        "code": "603823",
+        "name": "百合花",
+        "pct_chg": -10.0021,
+        "net_buy": -93404110.2,
+        "buy_amount": 55608154.0,
+        "sell_amount": 149012264.2,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+      },
+      {
+        "code": "600663",
+        "name": "陆家嘴",
+        "pct_chg": -8.723,
+        "net_buy": -98301123.12,
+        "buy_amount": 84812175.74,
+        "sell_amount": 183113298.86,
+        "tags": [
+          "机构"
+        ],
+        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+      },
+      {
+        "code": "002285",
+        "name": "世联行",
+        "pct_chg": 1.8692,
+        "net_buy": -100592909.32,
+        "buy_amount": 163602976.27,
+        "sell_amount": 264195885.59,
+        "tags": [
+          "机构"
+        ],
+        "reason": "日振幅值达到15%的前5只证券"
+      },
+      {
+        "code": "600722",
+        "name": "金牛化工",
+        "pct_chg": 4.2619,
+        "net_buy": -121283677.29,
+        "buy_amount": 260958492.35,
+        "sell_amount": 382242169.64,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+      },
+      {
+        "code": "603002",
+        "name": "宏昌电子",
+        "pct_chg": -5.404,
+        "net_buy": -275708956.0,
+        "buy_amount": 289470157.0,
+        "sell_amount": 565179113.0,
+        "tags": [],
+        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券"
+      }
+    ],
+    "three_day_stocks_lhb": [
+      {
+        "code": "002733",
+        "name": "雄韬股份",
+        "pct_chg": 10.0053,
+        "net_buy": 156990201.07,
+        "buy_amount": 225547175.75,
+        "sell_amount": 68556974.68,
+        "tags": [
+          "机构"
+        ],
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "300981",
+        "name": "中红医疗",
+        "pct_chg": 19.9795,
+        "net_buy": 79293146.69,
+        "buy_amount": 331183525.63,
+        "sell_amount": 251890378.94,
+        "tags": [
+          "机构"
+        ],
+        "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券"
+      },
+      {
+        "code": "600400",
+        "name": "红豆股份",
+        "pct_chg": 9.9448,
+        "net_buy": 69289720.8,
+        "buy_amount": 238307604.96,
+        "sell_amount": 169017884.16,
+        "tags": [],
+        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "600825",
+        "name": "新华传媒",
+        "pct_chg": 10.0088,
+        "net_buy": 49771266.82,
+        "buy_amount": 113462694.0,
+        "sell_amount": 63691427.18,
+        "tags": [
+          "机构"
+        ],
+        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "600812",
+        "name": "华北制药",
+        "pct_chg": 10.0365,
+        "net_buy": 42161539.62,
+        "buy_amount": 107476046.83,
+        "sell_amount": 65314507.21,
+        "tags": [],
+        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "002805",
+        "name": "丰元股份",
+        "pct_chg": 10.017,
+        "net_buy": 40277737.29,
+        "buy_amount": 206318135.27,
+        "sell_amount": 166040397.98,
+        "tags": [
+          "机构"
+        ],
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "603949",
+        "name": "雪龙集团",
+        "pct_chg": -5.7936,
+        "net_buy": 15755786.48,
+        "buy_amount": 75166624.53,
+        "sell_amount": 59410838.05,
+        "tags": [],
+        "reason": "非S证券连续三个交易日内收盘价格跌幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "600408",
+        "name": "安泰集团",
+        "pct_chg": 9.8837,
+        "net_buy": 9002607.90000001,
+        "buy_amount": 176589354.24,
+        "sell_amount": 167586746.34,
+        "tags": [],
+        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "002058",
+        "name": "紫竹高科",
+        "pct_chg": 9.991,
+        "net_buy": -6776399.0,
+        "buy_amount": 30675531.0,
+        "sell_amount": 37451930.0,
+        "tags": [
+          "机构"
+        ],
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "001300",
+        "name": "三柏硕",
+        "pct_chg": 9.9926,
+        "net_buy": -11553113.0,
+        "buy_amount": 51357611.0,
+        "sell_amount": 62910724.0,
+        "tags": [
+          "机构"
+        ],
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "603400",
+        "name": "华之杰",
+        "pct_chg": -10.0,
+        "net_buy": -16579889.97,
+        "buy_amount": 151795838.79,
+        "sell_amount": 168375728.76,
+        "tags": [],
+        "reason": "非S证券连续三个交易日内收盘价格跌幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "000911",
+        "name": "*ST广糖",
+        "pct_chg": 7.2566,
+        "net_buy": -17598442.0,
+        "buy_amount": 36102266.0,
+        "sell_amount": 53700708.0,
+        "tags": [
+          "机构"
+        ],
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "001336",
+        "name": "楚环科技",
+        "pct_chg": 10.0242,
+        "net_buy": -21316434.54,
+        "buy_amount": 77260224.56,
+        "sell_amount": 98576659.1,
+        "tags": [
+          "机构"
+        ],
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "001216",
+        "name": "华瓷股份",
+        "pct_chg": -3.438,
+        "net_buy": -26848326.9,
+        "buy_amount": 111797870.56,
+        "sell_amount": 138646197.46,
+        "tags": [],
+        "reason": "连续三个交易日内，跌幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "603200",
+        "name": "上海洗霸",
+        "pct_chg": 9.5712,
+        "net_buy": -31296130.95,
+        "buy_amount": 306241744.31,
+        "sell_amount": 337537875.26,
+        "tags": [],
+        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "601118",
+        "name": "海南橡胶",
+        "pct_chg": 9.9846,
+        "net_buy": -63688241.16,
+        "buy_amount": 532059052.27,
+        "sell_amount": 595747293.43,
+        "tags": [],
+        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "600363",
+        "name": "ST联光",
+        "pct_chg": -6.5574,
+        "net_buy": -71532882.69,
+        "buy_amount": 143256562.42,
+        "sell_amount": 214789445.11,
+        "tags": [
+          "机构"
+        ],
+        "reason": "非S证券连续三个交易日内收盘价格跌幅偏离值累计达到20%的证券"
+      }
+    ],
+    "lhb_summary": {
+      "total_stocks": 72,
+      "total_lhb": 82,
+      "total_net_buy": 891780841.96,
+      "institution_count": 43,
+      "top3": [
+        "东岳硅材",
+        "吉林化纤",
+        "绿盟科技"
+      ],
+      "today": {
+        "total_stocks": 59,
+        "total_net_buy": 784593293.0099995
+      },
+      "three_day": {
+        "total_stocks": 17,
+        "total_net_buy": 195352146.46000007
+      },
+      "all_stocks_count": 72
+    },
+    "sector_flow": {
+      "inflow": [
+        {
+          "sector": "通信设备",
+          "main_net": 4103000000.0,
+          "main_net_3d": -6767000000.0,
+          "main_net_5d": 819000000.0,
+          "main_net_10d": -1456000000.0,
+          "pct_chg": 1.45,
+          "leader": "华脉科技",
+          "leader_pct": 10.03,
+          "signal": "持续流入"
+        },
+        {
+          "sector": "军工装备",
+          "main_net": 3325000000.0,
+          "main_net_3d": -657000000.0,
+          "main_net_5d": 311000000.0,
+          "main_net_10d": 1331000000.0,
+          "pct_chg": 3.24,
+          "leader": "国科军工",
+          "leader_pct": 12.24,
+          "signal": "持续流入"
+        },
+        {
+          "sector": "元件",
+          "main_net": 3208000000.0,
+          "main_net_3d": 209000000.0,
+          "main_net_5d": 4414000000.0,
+          "main_net_10d": 351000000.0,
+          "pct_chg": 5.03,
+          "leader": "迅捷兴",
+          "leader_pct": 20.0,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "半导体",
+          "main_net": 1259000000.0,
+          "main_net_3d": -13231000000.0,
+          "main_net_5d": 1479000000.0,
+          "main_net_10d": -10112000000.0,
+          "pct_chg": 0.01,
+          "leader": "粤芯半导体",
+          "leader_pct": 223.06,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "光学光电子",
+          "main_net": 1065000000.0,
+          "main_net_3d": -4274000000.0,
+          "main_net_5d": -935000000.0,
+          "main_net_10d": 382000000.0,
+          "pct_chg": 1.18,
+          "leader": "光智科技",
+          "leader_pct": 14.07,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "小金属",
+          "main_net": 835000000.0,
+          "main_net_3d": -625000000.0,
+          "main_net_5d": 218000000.00000003,
+          "main_net_10d": -859000000.0,
+          "pct_chg": 0.54,
+          "leader": "华阳新材",
+          "leader_pct": 9.93,
+          "signal": "持续流入"
+        }
+      ],
+      "outflow": [
+        {
+          "sector": "电池",
+          "main_net": -4065000000.0,
+          "main_net_3d": 2110000000.0000002,
+          "main_net_5d": 1302000000.0,
+          "main_net_10d": -4147000000.0,
+          "pct_chg": -2.7,
+          "leader": "万里股份",
+          "leader_pct": 10.04,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "保险",
+          "main_net": -2072000000.0,
+          "main_net_3d": -401000000.0,
+          "main_net_5d": -275000000.0,
+          "main_net_10d": 146000000.0,
+          "pct_chg": -3.12,
+          "leader": "新华保险",
+          "leader_pct": -2.06,
+          "signal": "持续流出"
+        },
+        {
+          "sector": "银行",
+          "main_net": -1120000000.0,
+          "main_net_3d": 2600000000.0,
+          "main_net_5d": 1313000000.0,
+          "main_net_10d": 1342000000.0,
+          "pct_chg": -1.01,
+          "leader": "中国银行",
+          "leader_pct": 1.44,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "风电设备",
+          "main_net": -1110000000.0,
+          "main_net_3d": -725000000.0,
+          "main_net_5d": 291000000.0,
+          "main_net_10d": -555000000.0,
+          "pct_chg": -2.57,
+          "leader": "常友科技",
+          "leader_pct": 6.56,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "电力",
+          "main_net": -994000000.0,
+          "main_net_3d": 2782000000.0,
+          "main_net_5d": -1033000000.0,
+          "main_net_10d": -649000000.0,
+          "pct_chg": -0.61,
+          "leader": "郴电国际",
+          "leader_pct": 4.92,
+          "signal": "加速流出"
+        },
+        {
+          "sector": "房地产",
+          "main_net": -803999999.9999999,
+          "main_net_3d": -1427000000.0,
+          "main_net_5d": 2542000000.0,
+          "main_net_10d": 2573000000.0,
+          "pct_chg": -0.16,
+          "leader": "荣丰控股",
+          "leader_pct": 10.01,
+          "signal": "由流入转流出"
+        }
+      ],
+      "all": [
+        {
+          "sector": "通信设备",
+          "main_net": 4103000000.0,
+          "main_net_3d": -6767000000.0,
+          "main_net_5d": 819000000.0,
+          "main_net_10d": -1456000000.0,
+          "pct_chg": 1.45,
+          "leader": "华脉科技",
+          "leader_pct": 10.03,
+          "signal": "持续流入"
+        },
+        {
+          "sector": "军工装备",
+          "main_net": 3325000000.0,
+          "main_net_3d": -657000000.0,
+          "main_net_5d": 311000000.0,
+          "main_net_10d": 1331000000.0,
+          "pct_chg": 3.24,
+          "leader": "国科军工",
+          "leader_pct": 12.24,
+          "signal": "持续流入"
+        },
+        {
+          "sector": "元件",
+          "main_net": 3208000000.0,
+          "main_net_3d": 209000000.0,
+          "main_net_5d": 4414000000.0,
+          "main_net_10d": 351000000.0,
+          "pct_chg": 5.03,
+          "leader": "迅捷兴",
+          "leader_pct": 20.0,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "半导体",
+          "main_net": 1259000000.0,
+          "main_net_3d": -13231000000.0,
+          "main_net_5d": 1479000000.0,
+          "main_net_10d": -10112000000.0,
+          "pct_chg": 0.01,
+          "leader": "粤芯半导体",
+          "leader_pct": 223.06,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "光学光电子",
+          "main_net": 1065000000.0,
+          "main_net_3d": -4274000000.0,
+          "main_net_5d": -935000000.0,
+          "main_net_10d": 382000000.0,
+          "pct_chg": 1.18,
+          "leader": "光智科技",
+          "leader_pct": 14.07,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "小金属",
+          "main_net": 835000000.0,
+          "main_net_3d": -625000000.0,
+          "main_net_5d": 218000000.00000003,
+          "main_net_10d": -859000000.0,
+          "pct_chg": 0.54,
+          "leader": "华阳新材",
+          "leader_pct": 9.93,
+          "signal": "持续流入"
+        },
+        {
+          "sector": "港口航运",
+          "main_net": 796000000.0,
+          "main_net_3d": -883000000.0,
+          "main_net_5d": -407000000.0,
+          "main_net_10d": 883000000.0,
+          "pct_chg": 1.19,
+          "leader": "招商轮船",
+          "leader_pct": 6.55,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "石油加工贸易",
+          "main_net": 789000000.0,
+          "main_net_3d": 641000000.0,
+          "main_net_5d": -221000000.0,
+          "main_net_10d": 589000000.0,
+          "pct_chg": 1.75,
+          "leader": "和顺石油",
+          "leader_pct": 10.02,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "煤炭开采加工",
+          "main_net": 784000000.0,
+          "main_net_3d": 796000000.0,
+          "main_net_5d": -164000000.0,
+          "main_net_10d": 1135000000.0,
+          "pct_chg": 1.14,
+          "leader": "广汇能源",
+          "leader_pct": 5.64,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "贵金属",
+          "main_net": 704000000.0,
+          "main_net_3d": -324000000.0,
+          "main_net_5d": 765000000.0,
+          "main_net_10d": -1768000000.0,
+          "pct_chg": 1.3,
+          "leader": "四川黄金",
+          "leader_pct": 3.46,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "工业金属",
+          "main_net": 607000000.0,
+          "main_net_3d": -401000000.0,
+          "main_net_5d": 1713000000.0,
+          "main_net_10d": -2016000000.0,
+          "pct_chg": 0.34,
+          "leader": "盛达资源",
+          "leader_pct": 3.72,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "种植业与林业",
+          "main_net": 561000000.0,
+          "main_net_3d": -500000000.0,
+          "main_net_5d": -500000000.0,
+          "main_net_10d": -223000000.0,
+          "pct_chg": 1.15,
+          "leader": "福建金森",
+          "leader_pct": 6.73,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "电子化学品",
+          "main_net": 530999999.99999994,
+          "main_net_3d": -1403000000.0,
+          "main_net_5d": 805000000.0000001,
+          "main_net_10d": -1767000000.0000002,
+          "pct_chg": 0.76,
+          "leader": "天承科技",
+          "leader_pct": 5.5,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "专用设备",
+          "main_net": 508000000.0,
+          "main_net_3d": -792000000.0,
+          "main_net_5d": -127000000.0,
+          "main_net_10d": -2766000000.0,
+          "pct_chg": 0.35,
+          "leader": "威派格",
+          "leader_pct": 9.99,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "IT服务",
+          "main_net": 488999999.99999994,
+          "main_net_3d": -2045000000.0,
+          "main_net_5d": 715000000.0,
+          "main_net_10d": -883000000.0,
+          "pct_chg": 0.65,
+          "leader": "博汇科技",
+          "leader_pct": 14.71,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "互联网电商",
+          "main_net": 482000000.0,
+          "main_net_3d": -330000000.0,
+          "main_net_5d": -24000000.0,
+          "main_net_10d": 1042000000.0,
+          "pct_chg": 3.38,
+          "leader": "丽人丽妆",
+          "leader_pct": 10.02,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "自动化设备",
+          "main_net": 461000000.00000006,
+          "main_net_3d": -2121000000.0,
+          "main_net_5d": -75000000.0,
+          "main_net_10d": -1478000000.0,
+          "pct_chg": 0.22,
+          "leader": "海得控制",
+          "leader_pct": 10.04,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "军工电子",
+          "main_net": 359000000.0,
+          "main_net_3d": -293000000.0,
+          "main_net_5d": -626000000.0,
+          "main_net_10d": -319000000.0,
+          "pct_chg": 1.43,
+          "leader": "高凌信息",
+          "leader_pct": 9.17,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "农产品加工",
+          "main_net": 356000000.0,
+          "main_net_3d": -349000000.0,
+          "main_net_5d": 683000000.0,
+          "main_net_10d": 440000000.00000006,
+          "pct_chg": 0.62,
+          "leader": "百洋股份",
+          "leader_pct": 10.06,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "化学制药",
+          "main_net": 342000000.0,
+          "main_net_3d": -2738000000.0,
+          "main_net_5d": 162000000.0,
+          "main_net_10d": 3942000000.0,
+          "pct_chg": -0.78,
+          "leader": "海欣股份",
+          "leader_pct": 10.0,
+          "signal": "持续流入"
+        },
+        {
+          "sector": "消费电子",
+          "main_net": 324000000.0,
+          "main_net_3d": -2915000000.0,
+          "main_net_5d": -138000000.0,
+          "main_net_10d": 176000000.0,
+          "pct_chg": 0.39,
+          "leader": "春秋电子",
+          "leader_pct": 6.27,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "旅游及酒店",
+          "main_net": 297000000.0,
+          "main_net_3d": -177000000.0,
+          "main_net_5d": -156000000.0,
+          "main_net_10d": 247000000.00000003,
+          "pct_chg": 2.55,
+          "leader": "天府文旅",
+          "leader_pct": 10.03,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "白色家电",
+          "main_net": 282000000.0,
+          "main_net_3d": -209000000.0,
+          "main_net_5d": -81000000.0,
+          "main_net_10d": -614000000.0,
+          "pct_chg": 0.12,
+          "leader": "三星新材",
+          "leader_pct": 6.2,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "油气开采及服务",
+          "main_net": 235000000.0,
+          "main_net_3d": 476000000.0,
+          "main_net_5d": -110000000.00000001,
+          "main_net_10d": 518000000.0,
+          "pct_chg": 0.88,
+          "leader": "新潮能源",
+          "leader_pct": 3.08,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "工程机械",
+          "main_net": 231999999.99999997,
+          "main_net_3d": -137000000.0,
+          "main_net_5d": -140000000.0,
+          "main_net_10d": -1000000.0,
+          "pct_chg": 0.03,
+          "leader": "艾迪精密",
+          "leader_pct": 2.64,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "公路铁路运输",
+          "main_net": 225999999.99999997,
+          "main_net_3d": 161000000.0,
+          "main_net_5d": -24000000.0,
+          "main_net_10d": 95000000.0,
+          "pct_chg": 0.79,
+          "leader": "龙江交通",
+          "leader_pct": 9.93,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "通用设备",
+          "main_net": 216000000.0,
+          "main_net_3d": -2213000000.0,
+          "main_net_5d": -958000000.0,
+          "main_net_10d": -901000000.0,
+          "pct_chg": 0.61,
+          "leader": "金沃股份",
+          "leader_pct": 13.86,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "轨交设备",
+          "main_net": 202999999.99999997,
+          "main_net_3d": 59000000.0,
+          "main_net_5d": 62000000.0,
+          "main_net_10d": 124000000.0,
+          "pct_chg": 1.05,
+          "leader": "日月明",
+          "leader_pct": 7.34,
+          "signal": "持续流入"
+        },
+        {
+          "sector": "影视院线",
+          "main_net": 133000000.0,
+          "main_net_3d": -522000000.0,
+          "main_net_5d": 513000000.0,
+          "main_net_10d": 497000000.0,
+          "pct_chg": 0.82,
+          "leader": "慈文传媒",
+          "leader_pct": 10.02,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "其他电子",
+          "main_net": 132000000.0,
+          "main_net_3d": -695000000.0,
+          "main_net_5d": -150000000.0,
+          "main_net_10d": -623000000.0,
+          "pct_chg": 0.84,
+          "leader": "英唐智控",
+          "leader_pct": 6.0,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "计算机设备",
+          "main_net": 122000000.0,
+          "main_net_3d": -1438000000.0,
+          "main_net_5d": -117000000.0,
+          "main_net_10d": -279000000.0,
+          "pct_chg": 0.75,
+          "leader": "魅视科技",
+          "leader_pct": 10.01,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "塑料制品",
+          "main_net": 107000000.0,
+          "main_net_3d": -490000000.00000006,
+          "main_net_5d": -298000000.0,
+          "main_net_10d": 45000000.0,
+          "pct_chg": 0.34,
+          "leader": "科拜尔",
+          "leader_pct": 15.89,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "燃气",
+          "main_net": 101000000.0,
+          "main_net_3d": -35000000.0,
+          "main_net_5d": -31000000.0,
+          "main_net_10d": 135000000.0,
+          "pct_chg": 0.77,
+          "leader": "长春燃气",
+          "leader_pct": 3.71,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "小家电",
+          "main_net": 97000000.0,
+          "main_net_3d": -88000000.0,
+          "main_net_5d": -104000000.0,
+          "main_net_10d": 88000000.0,
+          "pct_chg": 0.54,
+          "leader": "九阳股份",
+          "leader_pct": 6.19,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "美容护理",
+          "main_net": 88000000.0,
+          "main_net_3d": 44000000.0,
+          "main_net_5d": -90000000.0,
+          "main_net_10d": 112000000.00000001,
+          "pct_chg": 0.18,
+          "leader": "水羊股份",
+          "leader_pct": 6.36,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "软件开发",
+          "main_net": 83000000.0,
+          "main_net_3d": -1863000000.0,
+          "main_net_5d": 1005000000.0000001,
+          "main_net_10d": 1033000000.0,
+          "pct_chg": 0.66,
+          "leader": "理工能科",
+          "leader_pct": 10.01,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "通信服务",
+          "main_net": 77000000.0,
+          "main_net_3d": -35000000.0,
+          "main_net_5d": 234000000.0,
+          "main_net_10d": -325000000.0,
+          "pct_chg": 0.71,
+          "leader": "南凌科技",
+          "leader_pct": 3.77,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "零售",
+          "main_net": 55000000.00000001,
+          "main_net_3d": -528000000.0,
+          "main_net_5d": -152000000.0,
+          "main_net_10d": 483000000.0,
+          "pct_chg": 1.77,
+          "leader": "中兴商业",
+          "leader_pct": 10.1,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "家居用品",
+          "main_net": 50000000.0,
+          "main_net_3d": -199000000.0,
+          "main_net_5d": 280000000.0,
+          "main_net_10d": 80000000.0,
+          "pct_chg": 0.35,
+          "leader": "实丰文化",
+          "leader_pct": 10.0,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "钢铁",
+          "main_net": 49000000.0,
+          "main_net_3d": -80000000.0,
+          "main_net_5d": 463000000.0,
+          "main_net_10d": 225000000.0,
+          "pct_chg": 0.28,
+          "leader": "盛德鑫泰",
+          "leader_pct": 3.87,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "纺织制造",
+          "main_net": 48000000.0,
+          "main_net_3d": -112000000.00000001,
+          "main_net_5d": 2000000.0,
+          "main_net_10d": -154000000.0,
+          "pct_chg": 1.12,
+          "leader": "富春染织",
+          "leader_pct": 8.14,
+          "signal": "持续流入"
+        },
+        {
+          "sector": "造纸",
+          "main_net": 46000000.0,
+          "main_net_3d": -106000000.0,
+          "main_net_5d": -78000000.0,
+          "main_net_10d": -10000000.0,
+          "pct_chg": 0.44,
+          "leader": "凯恩股份",
+          "leader_pct": 4.27,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "服装家纺",
+          "main_net": 45000000.0,
+          "main_net_3d": 34000000.0,
+          "main_net_5d": -227000000.0,
+          "main_net_10d": -258000000.0,
+          "pct_chg": 0.8,
+          "leader": "奥康国际",
+          "leader_pct": 9.97,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "金属新材料",
+          "main_net": 44000000.0,
+          "main_net_3d": -155000000.0,
+          "main_net_5d": 184000000.0,
+          "main_net_10d": 289000000.0,
+          "pct_chg": 0.1,
+          "leader": "深圳新星",
+          "leader_pct": 3.67,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "证券",
+          "main_net": 43000000.0,
+          "main_net_3d": -2915000000.0,
+          "main_net_5d": -57999999.99999999,
+          "main_net_10d": 1880000000.0,
+          "pct_chg": 0.01,
+          "leader": "哈投股份",
+          "leader_pct": 3.63,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "其他电源设备",
+          "main_net": 42000000.0,
+          "main_net_3d": -398000000.0,
+          "main_net_5d": 140000000.0,
+          "main_net_10d": -547000000.0,
+          "pct_chg": -0.32,
+          "leader": "*ST华西",
+          "leader_pct": 8.47,
+          "signal": "加速流入"
+        },
+        {
+          "sector": "化学原料",
+          "main_net": 41000000.0,
+          "main_net_3d": 242000000.0,
+          "main_net_5d": -348000000.0,
+          "main_net_10d": 488999999.99999994,
+          "pct_chg": 0.59,
+          "leader": "世龙实业",
+          "leader_pct": 9.99,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "综合",
+          "main_net": 33000000.0,
+          "main_net_3d": -209000000.0,
+          "main_net_5d": -33000000.0,
+          "main_net_10d": -43000000.0,
+          "pct_chg": 0.86,
+          "leader": "ST三木",
+          "leader_pct": 4.36,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "橡胶制品",
+          "main_net": 22000000.0,
+          "main_net_3d": -52000000.0,
+          "main_net_5d": -99000000.0,
+          "main_net_10d": -119000000.0,
+          "pct_chg": 0.49,
+          "leader": "震安科技",
+          "leader_pct": 5.5,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "厨卫电器",
+          "main_net": 17000000.0,
+          "main_net_3d": 17000000.0,
+          "main_net_5d": -19000000.0,
+          "main_net_10d": 20000000.0,
+          "pct_chg": 0.13,
+          "leader": "浙江美大",
+          "leader_pct": 2.63,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "教育",
+          "main_net": 7000000.000000001,
+          "main_net_3d": -78000000.0,
+          "main_net_5d": -35000000.0,
+          "main_net_10d": 256999999.99999997,
+          "pct_chg": -0.1,
+          "leader": "ST东时",
+          "leader_pct": 2.96,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "贸易",
+          "main_net": 5000000.0,
+          "main_net_3d": -8000000.0,
+          "main_net_5d": -5000000.0,
+          "main_net_10d": 77000000.0,
+          "pct_chg": 1.4,
+          "leader": "凯瑞德",
+          "leader_pct": 5.32,
+          "signal": "由流出转流入"
+        },
+        {
+          "sector": "物流",
+          "main_net": 0.0,
+          "main_net_3d": 19000000.0,
+          "main_net_5d": 81000000.0,
+          "main_net_10d": 214000000.0,
+          "pct_chg": 0.26,
+          "leader": "三羊马",
+          "leader_pct": 3.71,
+          "signal": ""
+        },
+        {
+          "sector": "黑色家电",
+          "main_net": -1000000.0,
+          "main_net_3d": -130000000.0,
+          "main_net_5d": 31000000.0,
+          "main_net_10d": -15000000.0,
+          "pct_chg": 1.12,
+          "leader": "九联科技",
+          "leader_pct": 6.14,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "环保设备",
+          "main_net": -7000000.000000001,
+          "main_net_3d": -179000000.0,
+          "main_net_5d": 100000000.0,
+          "main_net_10d": -28999999.999999996,
+          "pct_chg": 0.69,
+          "leader": "*ST仕净",
+          "leader_pct": 20.0,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "文化传媒",
+          "main_net": -13000000.0,
+          "main_net_3d": -1545000000.0,
+          "main_net_5d": 1971000000.0,
+          "main_net_10d": -277000000.0,
+          "pct_chg": 1.18,
+          "leader": "凡拓数创",
+          "leader_pct": 13.91,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "化学纤维",
+          "main_net": -21000000.0,
+          "main_net_3d": -40000000.0,
+          "main_net_5d": -306000000.0,
+          "main_net_10d": 214000000.0,
+          "pct_chg": 0.51,
+          "leader": "*ST三房",
+          "leader_pct": 9.85,
+          "signal": "加速流出"
+        },
+        {
+          "sector": "食品加工制造",
+          "main_net": -28999999.999999996,
+          "main_net_3d": -103000000.0,
+          "main_net_5d": -300000000.0,
+          "main_net_10d": -36000000.0,
+          "pct_chg": 0.32,
+          "leader": "朱老六",
+          "leader_pct": 6.86,
+          "signal": "加速流出"
+        },
+        {
+          "sector": "其他社会服务",
+          "main_net": -38000000.0,
+          "main_net_3d": -35000000.0,
+          "main_net_5d": -23000000.0,
+          "main_net_10d": 172000000.0,
+          "pct_chg": -0.19,
+          "leader": "联检科技",
+          "leader_pct": 1.97,
+          "signal": "持续流出"
+        },
+        {
+          "sector": "汽车服务及其他",
+          "main_net": -40000000.0,
+          "main_net_3d": -71000000.0,
+          "main_net_5d": -2000000.0,
+          "main_net_10d": 200000000.0,
+          "pct_chg": -0.16,
+          "leader": "华洋赛车",
+          "leader_pct": 4.56,
+          "signal": "持续流出"
+        },
+        {
+          "sector": "包装印刷",
+          "main_net": -41000000.0,
+          "main_net_3d": -268000000.00000003,
+          "main_net_5d": 46000000.0,
+          "main_net_10d": -104000000.0,
+          "pct_chg": 0.28,
+          "leader": "柏星龙",
+          "leader_pct": 7.76,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "游戏",
+          "main_net": -48000000.0,
+          "main_net_3d": -694000000.0,
+          "main_net_5d": 34000000.0,
+          "main_net_10d": 218000000.00000003,
+          "pct_chg": 1.16,
+          "leader": "宝通科技",
+          "leader_pct": 7.57,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "医药商业",
+          "main_net": -72000000.0,
+          "main_net_3d": -163000000.0,
+          "main_net_5d": 1000000.0,
+          "main_net_10d": 225999999.99999997,
+          "pct_chg": 0.29,
+          "leader": "合富中国",
+          "leader_pct": 4.68,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "电机",
+          "main_net": -86000000.0,
+          "main_net_3d": -246000000.0,
+          "main_net_5d": 8000000.0,
+          "main_net_10d": 43000000.0,
+          "pct_chg": -0.6,
+          "leader": "神力股份",
+          "leader_pct": 2.3,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "中药",
+          "main_net": -91000000.0,
+          "main_net_3d": -252999999.99999997,
+          "main_net_5d": -319000000.0,
+          "main_net_10d": 1168000000.0,
+          "pct_chg": -0.13,
+          "leader": "天目药业",
+          "leader_pct": 3.99,
+          "signal": "加速流出"
+        },
+        {
+          "sector": "电网设备",
+          "main_net": -93000000.0,
+          "main_net_3d": -77000000.0,
+          "main_net_5d": 64000000.0,
+          "main_net_10d": 313000000.0,
+          "pct_chg": -0.13,
+          "leader": "华盛昌",
+          "leader_pct": 10.0,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "多元金融",
+          "main_net": -103000000.0,
+          "main_net_3d": -202999999.99999997,
+          "main_net_5d": -54000000.0,
+          "main_net_10d": 124000000.0,
+          "pct_chg": 1.09,
+          "leader": "新力金融",
+          "leader_pct": 9.13,
+          "signal": "持续流出"
+        },
+        {
+          "sector": "非金属材料",
+          "main_net": -112000000.00000001,
+          "main_net_3d": -194000000.0,
+          "main_net_5d": -127000000.0,
+          "main_net_10d": -298000000.0,
+          "pct_chg": 0.99,
+          "leader": "粤桂股份",
+          "leader_pct": 10.02,
+          "signal": "加速流出"
+        },
+        {
+          "sector": "机场航运",
+          "main_net": -133000000.0,
+          "main_net_3d": -646000000.0,
+          "main_net_5d": 48000000.0,
+          "main_net_10d": 162000000.0,
+          "pct_chg": -0.15,
+          "leader": "上海机场",
+          "leader_pct": 1.58,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "饮料制造",
+          "main_net": -185000000.0,
+          "main_net_3d": -109000000.00000001,
+          "main_net_5d": -1000000.0,
+          "main_net_10d": 357000000.0,
+          "pct_chg": 0.61,
+          "leader": "阳光乳业",
+          "leader_pct": 10.04,
+          "signal": "持续流出"
+        },
+        {
+          "sector": "养殖业",
+          "main_net": -189000000.0,
+          "main_net_3d": -546000000.0,
+          "main_net_5d": 273000000.0,
+          "main_net_10d": 186000000.0,
+          "pct_chg": 0.2,
+          "leader": "京基智农",
+          "leader_pct": 6.12,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "建筑材料",
+          "main_net": -271000000.0,
+          "main_net_3d": -861999999.9999999,
+          "main_net_5d": 243000000.00000003,
+          "main_net_10d": 46000000.0,
+          "pct_chg": 1.11,
+          "leader": "晶雪节能",
+          "leader_pct": 20.0,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "农化制品",
+          "main_net": -293000000.0,
+          "main_net_3d": 26000000.0,
+          "main_net_5d": -374000000.0,
+          "main_net_10d": 899000000.0,
+          "pct_chg": 0.34,
+          "leader": "农心科技",
+          "leader_pct": 10.0,
+          "signal": "加速流出"
+        },
+        {
+          "sector": "环境治理",
+          "main_net": -306000000.0,
+          "main_net_3d": -170000000.0,
+          "main_net_5d": -239000000.0,
+          "main_net_10d": 74000000.0,
+          "pct_chg": 0.17,
+          "leader": "华骐环保",
+          "leader_pct": 10.47,
+          "signal": "持续流出"
+        },
+        {
+          "sector": "医疗器械",
+          "main_net": -318000000.0,
+          "main_net_3d": -1084000000.0,
+          "main_net_5d": -114999999.99999999,
+          "main_net_10d": 758000000.0,
+          "pct_chg": -0.84,
+          "leader": "正川股份",
+          "leader_pct": 5.03,
+          "signal": "持续流出"
+        },
+        {
+          "sector": "化学制品",
+          "main_net": -325000000.0,
+          "main_net_3d": -882000000.0,
+          "main_net_5d": -496000000.0,
+          "main_net_10d": -526000000.0,
+          "pct_chg": 0.94,
+          "leader": "建新股份",
+          "leader_pct": 20.03,
+          "signal": "加速流出"
+        },
+        {
+          "sector": "能源金属",
+          "main_net": -337000000.0,
+          "main_net_3d": 248000000.0,
+          "main_net_5d": 21000000.0,
+          "main_net_10d": -16000000.0,
+          "pct_chg": -1.41,
+          "leader": "*ST威领",
+          "leader_pct": 10.0,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "医疗服务",
+          "main_net": -364000000.0,
+          "main_net_3d": -1895000000.0,
+          "main_net_5d": 275000000.0,
+          "main_net_10d": 1340000000.0,
+          "pct_chg": -1.36,
+          "leader": "澳洋健康",
+          "leader_pct": 10.04,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "汽车整车",
+          "main_net": -408000000.0,
+          "main_net_3d": -860000000.0,
+          "main_net_5d": 193000000.0,
+          "main_net_10d": 195000000.0,
+          "pct_chg": -0.48,
+          "leader": "曙光股份",
+          "leader_pct": 4.76,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "汽车零部件",
+          "main_net": -438000000.0,
+          "main_net_3d": -2039999999.9999998,
+          "main_net_5d": 224000000.00000003,
+          "main_net_10d": 665000000.0,
+          "pct_chg": -0.29,
+          "leader": "中马传动",
+          "leader_pct": 10.01,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "光伏设备",
+          "main_net": -548000000.0,
+          "main_net_3d": -809000000.0,
+          "main_net_5d": 487000000.0,
+          "main_net_10d": -254000000.0,
+          "pct_chg": -0.98,
+          "leader": "亚玛顿",
+          "leader_pct": 10.01,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "生物制品",
+          "main_net": -637000000.0,
+          "main_net_3d": -1124000000.0,
+          "main_net_5d": 114999999.99999999,
+          "main_net_10d": 1545000000.0,
+          "pct_chg": -1.62,
+          "leader": "双成药业",
+          "leader_pct": 10.02,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "白酒",
+          "main_net": -638000000.0,
+          "main_net_3d": 112000000.00000001,
+          "main_net_5d": -96000000.0,
+          "main_net_10d": -213000000.0,
+          "pct_chg": 0.99,
+          "leader": "金种子酒",
+          "leader_pct": 9.99,
+          "signal": "持续流出"
+        },
+        {
+          "sector": "建筑装饰",
+          "main_net": -726000000.0,
+          "main_net_3d": -799000000.0,
+          "main_net_5d": 634000000.0,
+          "main_net_10d": 454000000.0,
+          "pct_chg": 0.92,
+          "leader": "华阳国际",
+          "leader_pct": 9.98,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "房地产",
+          "main_net": -803999999.9999999,
+          "main_net_3d": -1427000000.0,
+          "main_net_5d": 2542000000.0,
+          "main_net_10d": 2573000000.0,
+          "pct_chg": -0.16,
+          "leader": "荣丰控股",
+          "leader_pct": 10.01,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "电力",
+          "main_net": -994000000.0,
+          "main_net_3d": 2782000000.0,
+          "main_net_5d": -1033000000.0,
+          "main_net_10d": -649000000.0,
+          "pct_chg": -0.61,
+          "leader": "郴电国际",
+          "leader_pct": 4.92,
+          "signal": "加速流出"
+        },
+        {
+          "sector": "风电设备",
+          "main_net": -1110000000.0,
+          "main_net_3d": -725000000.0,
+          "main_net_5d": 291000000.0,
+          "main_net_10d": -555000000.0,
+          "pct_chg": -2.57,
+          "leader": "常友科技",
+          "leader_pct": 6.56,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "银行",
+          "main_net": -1120000000.0,
+          "main_net_3d": 2600000000.0,
+          "main_net_5d": 1313000000.0,
+          "main_net_10d": 1342000000.0,
+          "pct_chg": -1.01,
+          "leader": "中国银行",
+          "leader_pct": 1.44,
+          "signal": "由流入转流出"
+        },
+        {
+          "sector": "保险",
+          "main_net": -2072000000.0,
+          "main_net_3d": -401000000.0,
+          "main_net_5d": -275000000.0,
+          "main_net_10d": 146000000.0,
+          "pct_chg": -3.12,
+          "leader": "新华保险",
+          "leader_pct": -2.06,
+          "signal": "持续流出"
+        },
+        {
+          "sector": "电池",
+          "main_net": -4065000000.0,
+          "main_net_3d": 2110000000.0000002,
+          "main_net_5d": 1302000000.0,
+          "main_net_10d": -4147000000.0,
+          "pct_chg": -2.7,
+          "leader": "万里股份",
+          "leader_pct": 10.04,
+          "signal": "由流入转流出"
+        }
+      ],
+      "rotation_signal": {
+        "in": [
+          "通信设备",
+          "军工装备",
+          "元件"
+        ],
+        "out": [
+          "银行",
+          "保险",
+          "电池"
+        ]
+      }
+    }
+  }
+}
