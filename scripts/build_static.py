@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """静态站点生成（支持分阶段：early / late / all）"""
 import os
+import re
 import json
 import sys
 import argparse
@@ -180,9 +181,11 @@ def main():
     parser.add_argument("--stage", choices=["early", "late", "all"], default="all")
     args = parser.parse_args()
 
-    date = get_latest_trade_date()
+    import datetime as _dt
+
+    latest_date = get_latest_trade_date()
     print(f"═══ 构建开始 ═══")
-    print(f"日期：{date}")
+    print(f"最新交易日：{latest_date}")
     print(f"阶段：{args.stage}")
 
     ensure_dirs()
@@ -190,19 +193,40 @@ def main():
     copy_frontend()
     build_global()
 
-    if args.stage == "early":
-        data = build_early(date)
-        merge_and_save(date, data, "early")
-    elif args.stage == "late":
-        data = build_late(date)
-        merge_and_save(date, data, "late")
-    else:
-        early = build_early(date)
-        merge_and_save(date, early, "early")
-        late = build_late(date)
-        merge_and_save(date, late, "late")
+    # 取最近 5 个交易日
+    all_dates = get_trade_dates()
+    today = _dt.datetime.now().strftime("%Y%m%d")
+    past = [d for d in all_dates if d <= today][-5:]
+    print(f"\n[BUILD] 生成最近 {len(past)} 个交易日：{past}")
+
+    for date in past:
+        print(f"\n{'='*50}")
+        print(f"处理 {date}")
+        print(f"{'='*50}")
+        try:
+            if args.stage in ("early", "all"):
+                data = build_early(date)
+                merge_and_save(date, data, "early")
+            if args.stage in ("late", "all"):
+                data = build_late(date)
+                merge_and_save(date, data, "late")
+        except Exception as e:
+            print(f"  ⚠️ {date} 失败：{e}")
+            continue
 
     print(f"\n🎉 完成！stage={args.stage}")
+
+    # 清理 6 天前的旧文件
+    try:
+        cutoff = _dt.datetime.now() - _dt.timedelta(days=6)
+        cutoff_str = cutoff.strftime("%Y%m%d")
+        for f in os.listdir(DATA):
+            m = re.match(r"review_(\d{8})\.json", f)
+            if m and m.group(1) < cutoff_str:
+                os.remove(os.path.join(DATA, f))
+                print(f"  🗑️ 清理旧文件：{f}")
+    except Exception:
+        pass
 
 
 if __name__ == "__main__":
