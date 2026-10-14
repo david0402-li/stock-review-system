@@ -2,11 +2,8 @@ name: Daily Build
 
 on:
   schedule:
-    # 1) 早出数据：北京时间 16:40（UTC 08:40）
     - cron: '40 8 * * 1-5'
-    # 2) 龙虎榜完整：北京时间 18:30（UTC 10:30）
     - cron: '30 10 * * 1-5'
-    # 3) 兜底再补一次：北京时间 19:30（UTC 11:30）
     - cron: '30 11 * * 1-5'
   workflow_dispatch:
     inputs:
@@ -30,14 +27,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: 判断当前阶段
+      - name: 判断阶段
         id: stage
         run: |
-          # 手动触发时用输入值
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "stage=${{ github.event.inputs.stage }}" >> $GITHUB_OUTPUT
           else
-            # cron 触发时根据触发时间判断（GitHub 用 UTC）
             HOUR=$(date -u +%H)
             if [ "$HOUR" = "08" ]; then
               echo "stage=early" >> $GITHUB_OUTPUT
@@ -46,8 +41,8 @@ jobs:
             fi
           fi
 
-      - name: 显示当前阶段
-        run: echo "当前阶段 = ${{ steps.stage.outputs.stage }}"
+      - name: 显示阶段
+        run: echo "stage = ${{ steps.stage.outputs.stage }}"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -57,7 +52,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Build static site
+      - name: Build
         run: python scripts/build_static.py --stage ${{ steps.stage.outputs.stage }}
         env:
           TZ: Asia/Shanghai

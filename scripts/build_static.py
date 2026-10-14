@@ -1,10 +1,11 @@
 # scripts/build_static.py
 # -*- coding: utf-8 -*-
-"""静态站点生成：抓数据 → 生成 public/ 目录"""
+"""静态站点生成（支持分阶段：early / late / all）"""
 import os
 import json
-import shutil
 import sys
+import argparse
+import shutil
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -13,7 +14,8 @@ sys.path.insert(0, ROOT)
 from data_service import (
     get_full_review, get_latest_trade_date, get_trade_dates,
     get_lhb_rich_data, fetch_concept_flow, fetch_north_flow,
-    load_youzi_map,
+    load_youzi_map, compute_market_metrics, fetch_limit_up_pool,
+    fetch_limit_down_pool, fetch_broken_pool, _df_to_records,
 )
 
 PUBLIC = os.path.join(ROOT, "public")
@@ -31,30 +33,35 @@ def save_json(path, obj):
         json.dump(obj, f, ensure_ascii=False, indent=2)
 
 
+def load_json(path):
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
 def copy_frontend():
-    """复制 HTML/CSS/JS 到 public/，并给 app.js 注入 fetch 重写逻辑"""
-    # index.html
     src_html = os.path.join(ROOT, "templates", "index.html")
-    dst_html = os.path.join(PUBLIC, "index.html")
     with open(src_html, "r", encoding="utf-8") as f:
         html = f.read()
     html = html.replace("/static/app.js", "./static/app_static.js")
     html = html.replace("/static/style.css", "./static/style.css")
-    with open(dst_html, "w", encoding="utf-8") as f:
+    with open(os.path.join(PUBLIC, "index.html"), "w", encoding="utf-8") as f:
         f.write(html)
     print(f"  ✅ index.html")
 
-    # style.css
     shutil.copy(os.path.join(ROOT, "static", "style.css"),
                 os.path.join(STATIC_OUT, "style.css"))
     print(f"  ✅ style.css")
 
-    # app.js + fetch 重写
     with open(os.path.join(ROOT, "static", "app.js"), "r", encoding="utf-8") as f:
         app_js = f.read()
 
     prefix = '''
-// ===== 静态模式：fetch 重写（部署到 Cloudflare Pages 时用） =====
+// ===== 静态模式：fetch 重写 =====
 const ORIG_FETCH = window.fetch.bind(window);
 window.fetch = async function(url, ...args) {
     if (typeof url !== "string") return ORIG_FETCH(url, ...args);
@@ -71,14 +78,7 @@ window.fetch = async function(url, ...args) {
         url = "./data/north_flow.json";
     } else if (m = url.match(/^\\/api\\/youzi_trace\\/(\\d+)/)) {
         url = `./data/youzi_trace_${m[1]}.json`;
-    } else if (m = url.match(/^\\/api\\/sector_stocks\\/([^?]+)/)) {
-        url = `./data/sector_stocks_${decodeURIComponent(m[1])}.json`;
-    } else if (m = url.match(/^\\/api\\/sector_trend\\/([^?]+)/)) {
-        url = `./data/sector_trend_${decodeURIComponent(m[1])}.json`;
-    } else if (m = url.match(/^\\/api\\/lhb_detail\\/(\\d+)/)) {
-        url = `./data/lhb_detail_${m[1]}.json`;
     }
-    // 静态文件 404 时返回空结构，避免崩溃
     try {
         const res = await ORIG_FETCH(url, ...args);
         if (!res.ok) {
@@ -91,53 +91,71 @@ window.fetch = async function(url, ...args) {
             {status: 200, headers: {"Content-Type": "application/json"}});
     }
 };
-// ===== 静态模式 end =====
-
 '''
     with open(os.path.join(STATIC_OUT, "app_static.js"), "w", encoding="utf-8") as f:
         f.write(prefix + app_js)
-    print(f"  ✅ app_static.js (含 fetch 重写)")
+    print(f"  ✅ app_static.js")
 
 
-def build_data():
-    """生成所有静态 JSON 数据"""
-    date = get_latest_trade_date()
-    print(f"\n[BUILD] 生成 {date} 的静态数据...")
+def build_early(date):
+    print(f"\n[EARLY] 拉取早出数据...")
+    result = {}
+    metrics = compute_market_metrics(date)
+    result["metrics"] = metrics
+    print(f"  ✅ metrics: 涨停 {metrics['zt_count']}, 跌停 {metrics['dt_count']}")
 
-    # 1. 交易日列表
-    dates = get_trade_dates()
-    today = datetime.now().strftime("%Y%m%d")
-    past = [d for d in dates if d <= today]
-    latest = past[-1] if past else (dates[-1] if dates else today)
-    save_json(os.path.join(DATA, "trade_dates.json"), {
-        "code": 0,
-        "latest": latest,
-        "dates": list(reversed(past[-250:])),
-    })
-    print(f"  ✅ trade_dates.json")
+    zt_df = fetch_limit_up_pool(date)
+    dt_df = fetch_limit_down_pool(date)
+    zb_df = fetch_broken_pool(date)
+    result["limit_up_stocks"] = _df_to_records(zt_df, 200)
+    result["limit_down_stocks"] = _df_to_records(dt_df, 100)
+    result["broken_stocks"] = _df_to_records(zb_df, 100)
+    print(f"  ✅ 涨停池 {len(result['limit_up_stocks'])} 条")
+    return result
 
-    # 2. 完整复盘数据
-    review = get_full_review(date, use_cache=False)
-    save_json(os.path.join(DATA, f"review_{date}.json"), {"code": 0, "data": review})
-    print(f"  ✅ review_{date}.json")
 
-    # 3. 龙虎榜
+def build_late(date):
+    print(f"\n[LATE] 拉取晚出数据...")
+    result = {}
     try:
         lhb = get_lhb_rich_data(date)
-        save_json(os.path.join(DATA, f"lhb_{date}.json"), {"code": 0, "data": lhb})
-        print(f"  ✅ lhb_{date}.json")
+        if lhb and lhb.get("today_stocks"):
+            result["today_stocks_lhb"] = lhb.get("today_stocks", [])
+            result["three_day_stocks_lhb"] = lhb.get("three_day_stocks", [])
+            result["lhb_summary"] = lhb.get("summary", {})
+            print(f"  ✅ 龙虎榜: {len(result['today_stocks_lhb'])} 只")
     except Exception as e:
         print(f"  ⚠️ 龙虎榜失败: {e}")
 
-    # 4. 概念资金流
     try:
-        cf = fetch_concept_flow(date, use_cache=False)
-        save_json(os.path.join(DATA, f"concept_flow_{date}.json"), {"code": 0, "data": cf})
-        print(f"  ✅ concept_flow_{date}.json")
+        from data_service import fetch_sector_flow
+        sf = fetch_sector_flow(date, use_cache=False)
+        result["sector_flow"] = sf
+        print(f"  ✅ 板块资金流")
     except Exception as e:
-        print(f"  ⚠️ 概念资金流失败: {e}")
+        print(f"  ⚠️ 板块资金流失败: {e}")
+    return result
 
-    # 5. 北向资金
+
+def build_global():
+    today = datetime.now().strftime("%Y%m%d")
+    dates = get_trade_dates()
+    past = [d for d in dates if d <= today]
+    latest = past[-1] if past else (dates[-1] if dates else today)
+
+    save_json(os.path.join(DATA, "trade_dates.json"), {
+        "code": 0, "latest": latest, "dates": list(reversed(past[-250:])),
+    })
+    print(f"  ✅ trade_dates.json")
+
+    try:
+        ym = load_youzi_map()
+        yz_list = [{"name": n, "keywords": k} for n, k in ym]
+        save_json(os.path.join(DATA, "youzi_map.json"), {"code": 0, "data": yz_list})
+        print(f"  ✅ youzi_map.json")
+    except Exception as e:
+        print(f"  ⚠️ 游资名单失败: {e}")
+
     try:
         nf = fetch_north_flow()
         save_json(os.path.join(DATA, "north_flow.json"), {"code": 0, "data": nf})
@@ -145,28 +163,46 @@ def build_data():
     except Exception as e:
         print(f"  ⚠️ 北向资金失败: {e}")
 
-    # 6. 游资名单
-    try:
-        ym = load_youzi_map()
-        # 转换成前端期望的格式（用 youzi_map.json 作为对照）
-        yz_list = [{"name": n, "keywords": k} for n, k in ym]
-        save_json(os.path.join(DATA, "youzi_map.json"), {"code": 0, "data": yz_list})
-        print(f"  ✅ youzi_map.json")
-    except Exception as e:
-        print(f"  ⚠️ 游资名单失败: {e}")
 
-    return date
+def merge_and_save(date, new_data, stage):
+    file_path = os.path.join(DATA, f"review_{date}.json")
+    existing = load_json(file_path) or {"code": 0, "data": {}}
+    old_data = existing.get("data", {})
+    old_data.update(new_data)
+    old_data["_build_stage"] = stage
+    old_data["_build_time"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    save_json(file_path, {"code": 0, "data": old_data})
+    print(f"  ✅ 已合并到 review_{date}.json（stage={stage}）")
 
 
 def main():
-    print("[1/3] 创建目录...")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--stage", choices=["early", "late", "all"], default="all")
+    args = parser.parse_args()
+
+    date = get_latest_trade_date()
+    print(f"═══ 构建开始 ═══")
+    print(f"日期：{date}")
+    print(f"阶段：{args.stage}")
+
     ensure_dirs()
-    print(f"[2/3] 复制前端资源...")
+    print(f"\n[GLOBAL] 全局数据...")
     copy_frontend()
-    print(f"[3/3] 生成数据...")
-    date = build_data()
-    print(f"\n🎉 完成！public/ 已生成（{date}）")
-    print(f"   📁 {PUBLIC}")
+    build_global()
+
+    if args.stage == "early":
+        data = build_early(date)
+        merge_and_save(date, data, "early")
+    elif args.stage == "late":
+        data = build_late(date)
+        merge_and_save(date, data, "late")
+    else:
+        early = build_early(date)
+        merge_and_save(date, early, "early")
+        late = build_late(date)
+        merge_and_save(date, late, "late")
+
+    print(f"\n🎉 完成！stage={args.stage}")
 
 
 if __name__ == "__main__":
