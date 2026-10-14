@@ -632,7 +632,12 @@ async function loadLhbPanel() {
         renderLhbSummary();
         applyLhbFilter();
     } catch (e) {
-        if (list) list.innerHTML = `<div style="color:#ef4444;padding:20px;">加载失败：${e.message}</div>`;
+        console.warn("龙虎榜加载失败（静默处理）：" + e.message);
+        if (list) list.innerHTML = '<div style="color:#666;padding:20px;text-align:center;">该日期暂无龙虎榜数据</div>';
+        lhbData.today = [];
+        lhbData.three_day = [];
+        lhbData.summary = {};
+        renderLhbSummary();
     }
 }
 

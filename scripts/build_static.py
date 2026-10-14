@@ -120,11 +120,14 @@ def build_late(date):
     result = {}
     try:
         lhb = get_lhb_rich_data(date)
-        if lhb and lhb.get("today_stocks"):
+        if lhb:
             result["today_stocks_lhb"] = lhb.get("today_stocks", [])
             result["three_day_stocks_lhb"] = lhb.get("three_day_stocks", [])
             result["lhb_summary"] = lhb.get("summary", {})
-            print(f"  ✅ 龙虎榜: {len(result['today_stocks_lhb'])} 只")
+            # ⭐ 单独保存 lhb_${date}.json（前端 loadLhbPanel 用）
+            save_json(os.path.join(DATA, f"lhb_{date}.json"),
+                      {"code": 0, "data": lhb})
+            print(f"  ✅ 龙虎榜: {len(result['today_stocks_lhb'])} 只, 已保存 lhb_{date}.json")
     except Exception as e:
         print(f"  ⚠️ 龙虎榜失败: {e}")
 
