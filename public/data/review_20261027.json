@@ -274,7 +274,7 @@
       },
       {
         "code": "118077",
-        "name": "N莱特转",
+        "name": "莱特转债",
         "pct_chg": 39.945,
         "net_buy": 2239140.0,
         "buy_amount": 24760160.0,
@@ -968,7 +968,7 @@
     "lhb_summary": {
       "total_stocks": 78,
       "total_lhb": 88,
-      "total_net_buy": 728263835.1600001,
+      "total_net_buy": 747102980.1600001,
       "institution_count": 49,
       "top3": [
         "大洋电机",
@@ -2128,6 +2128,6 @@
       }
     },
     "_build_stage": "late",
-    "_build_time": "2026-10-27 23:59:42"
+    "_build_time": "2026-10-28 00:48:39"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "code": 0,
+  "data": {
+    "date": "20261028",
+    "summary": {
+      "total_stocks": 0,
+      "total_lhb": 0,
+      "total_net_buy": 0,
+      "institution_count": 0,
+      "top3": [],
+      "today": {
+        "total_stocks": 0,
+        "total_net_buy": 0
+      },
+      "three_day": {
+        "total_stocks": 0,
+        "total_net_buy": 0
+      }
+    },
+    "today_stocks": [],
+    "three_day_stocks": []
+  }
+}
